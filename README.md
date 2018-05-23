@@ -1,2 +1,37 @@
 # Hands-On-Machine-Learning-with-CSharp
-Hands-On Machine Learning with C#, published by Packt
+This is the code repository for [Hands-On Machine Learning with C#](https://www.packtpub.com/big-data-and-business-intelligence/hands-machine-learning-c?utm_source=github&utm_medium=repository&utm_campaign=9781788994941), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the book from start to finish.
+
+## About the Book
+The necessity for machine learning is everywhere, and most production enterprise applications are written in C# using tools such as Visual Studio, SQL Server, and Microsoft Azur2e. Hands-On Machine Learning with C# uniquely blends together an understanding of various machine learning concepts, techniques of machine learning, and various available machine learning tools through which users can add intelligent features.These tools include image and motion detection, Bayes intuition, and deep learning, to C# .NET applications.
+
+Using this book, you will learn to implement supervised and unsupervised learning algorithms and will be better equipped to create excellent predictive models. In addition, you will learn both supervised and unsupervised forms of regression, mainly logistic and linear regression, in depth. Next, you will use the nuML machine learning framework to learn how to create a simple decision tree. In the concluding chapters, you will use the Accord.Net machine learning framework to learn sequence recognition of handwritten numbers using dynamic time warping. We will also cover advanced concepts such as artificial neural networks, autoencoders, and reinforcement learning.
+
+By the end of this book, you will have developed a machine learning mindset and will be able to leverage C# tools, techniques, and packages to build smart, predictive, and real-world business applications.
+
+## Instructions and Navigations
+All of the code is organized into folders. For example, Chapter02.
+
+
+
+The code will look like the following:
+```
+package main 
+ 
+import ( 
+    "fmt" 
+) 
+ 
+func main() { 
+    fmt.Println("This is a sample Go program!") 
+} 
+```
+
+
+
+## Related Products
+* [Beginning Modern C# and .NET Development](https://www.packtpub.com/application-development/beginning-modern-c-and-net-development-elearning-video?utm_source=github&utm_medium=repository&utm_campaign=9781789137705)
+
+* [Go Standard Library Cookbook](https://www.packtpub.com/application-development/go-standard-library-cookbook?utm_source=github&utm_medium=repository&utm_campaign=9781788475273)
+
+* [Isomorphic Go](https://www.packtpub.com/web-development/isomorphic-go?utm_source=github&utm_medium=repository&utm_campaign=9781788394185)
+
