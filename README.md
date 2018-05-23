@@ -15,15 +15,11 @@ All of the code is organized into folders. For example, Chapter02.
 
 The code will look like the following:
 ```
-package main 
- 
-import ( 
-    "fmt" 
-) 
- 
-func main() { 
-    fmt.Println("This is a sample Go program!") 
-} 
+// build the truth tables
+UberDriver?.Table?.AddLine(0.85, true);
+WitnessSawUberDriver?.Table?.AddLine(0.80, true, true);
+WitnessSawUberDriver?.Table?.AddLine(0.20, true, false);
+network.Validate();
 ```
 
 
