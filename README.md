@@ -31,7 +31,7 @@ func main() {
 ## Related Products
 * [Beginning Modern C# and .NET Development](https://www.packtpub.com/application-development/beginning-modern-c-and-net-development-elearning-video?utm_source=github&utm_medium=repository&utm_campaign=9781789137705)
 
-* [Go Standard Library Cookbook](https://www.packtpub.com/application-development/go-standard-library-cookbook?utm_source=github&utm_medium=repository&utm_campaign=9781788475273)
+* [C# Data Structures and Algorithms](https://www.packtpub.com/application-development/c-data-structures-and-algorithms-0?utm_source=github&utm_medium=repository&utm_campaign=9781788292481)
 
-* [Isomorphic Go](https://www.packtpub.com/web-development/isomorphic-go?utm_source=github&utm_medium=repository&utm_campaign=9781788394185)
+* [C# and .NET Core Test Driven Development](https://www.packtpub.com/application-development/c-and-net-core-test-driven-development?utm_source=github&utm_medium=repository&utm_campaign=9781788292481)
 
