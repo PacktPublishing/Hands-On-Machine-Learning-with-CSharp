@@ -1,0 +1,7 @@
+C:\Development\AI\machinelearning\AForge.NET-master\Sources\TowersOfHanoi\bin\Debug\TowersOfHanoi.exe.config
+C:\Development\AI\machinelearning\AForge.NET-master\Sources\TowersOfHanoi\bin\Debug\TowersOfHanoi.exe
+C:\Development\AI\machinelearning\AForge.NET-master\Sources\TowersOfHanoi\bin\Debug\TowersOfHanoi.pdb
+C:\Development\AI\machinelearning\AForge.NET-master\Sources\TowersOfHanoi\obj\Debug\TowersOfHanoi.csproj.CoreCompileInputs.cache
+C:\Development\AI\machinelearning\AForge.NET-master\Sources\TowersOfHanoi\obj\Debug\TowersOfHanoi.exe
+C:\Development\AI\machinelearning\AForge.NET-master\Sources\TowersOfHanoi\obj\Debug\TowersOfHanoi.pdb
+C:\Development\AI\machinelearning\AForge.NET-master\Sources\TowersOfHanoi\obj\Debug\TowersOfHanoi.csprojResolveAssemblyReference.cache
