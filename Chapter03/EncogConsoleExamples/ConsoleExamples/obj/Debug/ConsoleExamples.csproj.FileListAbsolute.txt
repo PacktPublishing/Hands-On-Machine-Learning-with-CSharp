@@ -1,0 +1,11 @@
+C:\Development\AI\machinelearning\encog-dotnet-core-master\ConsoleExamples\bin\Debug\ConsoleExamples.exe.config
+C:\Development\AI\machinelearning\encog-dotnet-core-master\ConsoleExamples\bin\Debug\ConsoleExamples.exe
+C:\Development\AI\machinelearning\encog-dotnet-core-master\ConsoleExamples\bin\Debug\ConsoleExamples.pdb
+C:\Development\AI\machinelearning\encog-dotnet-core-master\ConsoleExamples\bin\Debug\encog-core-cs.dll
+C:\Development\AI\machinelearning\encog-dotnet-core-master\ConsoleExamples\bin\Debug\encog-core-cs.pdb
+C:\Development\AI\machinelearning\encog-dotnet-core-master\ConsoleExamples\bin\Debug\encog-core-cs.xml
+C:\Development\AI\machinelearning\encog-dotnet-core-master\ConsoleExamples\obj\Debug\ConsoleExamples.csprojResolveAssemblyReference.cache
+C:\Development\AI\machinelearning\encog-dotnet-core-master\ConsoleExamples\obj\Debug\ConsoleExamples.csproj.CoreCompileInputs.cache
+C:\Development\AI\machinelearning\encog-dotnet-core-master\ConsoleExamples\obj\Debug\ConsoleExamples.csproj.CopyComplete
+C:\Development\AI\machinelearning\encog-dotnet-core-master\ConsoleExamples\obj\Debug\ConsoleExamples.exe
+C:\Development\AI\machinelearning\encog-dotnet-core-master\ConsoleExamples\obj\Debug\ConsoleExamples.pdb
