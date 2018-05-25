@@ -1,0 +1,19 @@
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Math\Pose Coordinates (POSIT)\bin\x86\Debug\Accord.dll.config
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Math\Pose Coordinates (POSIT)\bin\x86\Debug\Pose Estimation.exe.config
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Math\Pose Coordinates (POSIT)\bin\x86\Debug\Pose Estimation.exe
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Math\Pose Coordinates (POSIT)\bin\x86\Debug\Pose Estimation.pdb
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Math\Pose Coordinates (POSIT)\bin\x86\Debug\Accord.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Math\Pose Coordinates (POSIT)\bin\x86\Debug\Accord.Math.Core.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Math\Pose Coordinates (POSIT)\bin\x86\Debug\Accord.Math.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Math\Pose Coordinates (POSIT)\bin\x86\Debug\Accord.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Math\Pose Coordinates (POSIT)\bin\x86\Debug\Accord.Math.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Math\Pose Coordinates (POSIT)\bin\x86\Debug\Accord.Math.Core.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Math\Pose Coordinates (POSIT)\obj\x86\Debug\SampleApp.MainForm.resources
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Math\Pose Coordinates (POSIT)\obj\x86\Debug\SampleApp.MatrixControl.resources
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Math\Pose Coordinates (POSIT)\obj\x86\Debug\SampleApp.Properties.Resources.resources
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Math\Pose Coordinates (POSIT)\obj\x86\Debug\SampleApp.WorldRendererControl.resources
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Math\Pose Coordinates (POSIT)\obj\x86\Debug\Pose Coordinates (POSIT).csproj.GenerateResource.cache
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Math\Pose Coordinates (POSIT)\obj\x86\Debug\Pose Coordinates (POSIT).csproj.CoreCompileInputs.cache
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Math\Pose Coordinates (POSIT)\obj\x86\Debug\Pose Coordinates (POSIT).csproj.CopyComplete
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Math\Pose Coordinates (POSIT)\obj\x86\Debug\Pose Estimation.exe
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Math\Pose Coordinates (POSIT)\obj\x86\Debug\Pose Estimation.pdb

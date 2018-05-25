@@ -1,0 +1,55 @@
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Perceptron\bin\x86\Debug\Accord.dll.config
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Perceptron\bin\x86\Debug\Sample data (delta rule)\and.csv
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Perceptron\bin\x86\Debug\Sample data (delta rule)\cube.csv
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Perceptron\bin\x86\Debug\Sample data (delta rule)\or.csv
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Perceptron\bin\x86\Debug\Sample data (delta rule)\sample1.csv
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Perceptron\bin\x86\Debug\Sample data (delta rule)\sample2.csv
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Perceptron\bin\x86\Debug\Sample data (one layer)\sample1.csv
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Perceptron\bin\x86\Debug\Sample data (one layer)\sample2.csv
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Perceptron\bin\x86\Debug\Sample data (perceptron)\and.csv
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Perceptron\bin\x86\Debug\Sample data (perceptron)\cube.csv
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Perceptron\bin\x86\Debug\Sample data (perceptron)\or.csv
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Perceptron\bin\x86\Debug\Perceptron.exe.config
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Perceptron\bin\x86\Debug\Perceptron.exe
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Perceptron\bin\x86\Debug\Perceptron.pdb
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Perceptron\bin\x86\Debug\Accord.Controls.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Perceptron\bin\x86\Debug\Accord.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Perceptron\bin\x86\Debug\Accord.Genetic.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Perceptron\bin\x86\Debug\Accord.MachineLearning.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Perceptron\bin\x86\Debug\Accord.Math.Core.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Perceptron\bin\x86\Debug\Accord.Math.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Perceptron\bin\x86\Debug\Accord.Neuro.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Perceptron\bin\x86\Debug\Accord.Statistics.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Perceptron\bin\x86\Debug\ZedGraph.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Perceptron\bin\x86\Debug\Accord.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Perceptron\bin\x86\Debug\Accord.Controls.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Perceptron\bin\x86\Debug\Accord.Genetic.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Perceptron\bin\x86\Debug\Accord.MachineLearning.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Perceptron\bin\x86\Debug\Accord.Math.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Perceptron\bin\x86\Debug\Accord.Math.Core.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Perceptron\bin\x86\Debug\Accord.Neuro.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Perceptron\bin\x86\Debug\Accord.Statistics.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Perceptron\bin\x86\Debug\ZedGraph.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Perceptron\bin\x86\Debug\de\ZedGraph.resources.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Perceptron\bin\x86\Debug\es\ZedGraph.resources.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Perceptron\bin\x86\Debug\fr\ZedGraph.resources.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Perceptron\bin\x86\Debug\hu\ZedGraph.resources.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Perceptron\bin\x86\Debug\it\ZedGraph.resources.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Perceptron\bin\x86\Debug\ja\ZedGraph.resources.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Perceptron\bin\x86\Debug\pt\ZedGraph.resources.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Perceptron\bin\x86\Debug\ru\ZedGraph.resources.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Perceptron\bin\x86\Debug\sk\ZedGraph.resources.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Perceptron\bin\x86\Debug\sv\ZedGraph.resources.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Perceptron\bin\x86\Debug\tr\ZedGraph.resources.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Perceptron\bin\x86\Debug\zh-cn\ZedGraph.resources.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Perceptron\bin\x86\Debug\zh-tw\ZedGraph.resources.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Perceptron\obj\x86\Debug\Perceptron.csprojResolveAssemblyReference.cache
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Perceptron\obj\x86\Debug\SampleApp.DeltaRuleForm.resources
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Perceptron\obj\x86\Debug\SampleApp.OneLayerPerceptronForm.resources
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Perceptron\obj\x86\Debug\SampleApp.PerceptronForm.resources
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Perceptron\obj\x86\Debug\SampleApp.MainForm.resources
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Perceptron\obj\x86\Debug\Perceptron.csproj.GenerateResource.cache
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Perceptron\obj\x86\Debug\Perceptron.csproj.CoreCompileInputs.cache
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Perceptron\obj\x86\Debug\Perceptron.csproj.CopyComplete
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Perceptron\obj\x86\Debug\Perceptron.exe
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Perceptron\obj\x86\Debug\Perceptron.pdb
