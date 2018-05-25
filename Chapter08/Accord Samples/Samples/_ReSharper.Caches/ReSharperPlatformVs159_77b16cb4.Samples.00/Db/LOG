@@ -1,0 +1,70 @@
+2018/04/17-07:41:09.565 33e4 Recovering log #795
+2018/04/17-07:41:09.566 33e4 Level-0 table #819: started
+2018/04/17-07:41:09.749 33e4 Level-0 table #819: 675095 bytes OK
+2018/04/17-07:41:09.931 33e4 Delete type=0 #795
+2018/04/17-07:41:09.932 33e4 Delete type=3 #755
+2018/04/17-07:41:57.394 6c10 Moved #819 to level-1 675095 bytes OK: files[ 0 1 51 14 0 0 0 ]
+2018/04/17-07:43:49.661 6c10 Compacting 1@1 + 2@2 files
+2018/04/17-07:43:49.829 6c10 Generated table #821: 1264 keys, 2105335 bytes
+2018/04/17-07:43:49.920 6c10 Generated table #822: 443 keys, 792780 bytes
+2018/04/17-07:43:49.920 6c10 Compacted 1@1 + 2@2 files => 2898115 bytes
+2018/04/17-07:43:49.982 6c10 Delete type=2 #816
+2018/04/17-07:43:49.982 6c10 Delete type=2 #817
+2018/04/17-07:43:49.983 6c10 Delete type=2 #819
+2018/04/17-07:43:49.983 6c10 compacted to: files[ 0 0 51 14 0 0 0 ]
+2018/04/17-07:44:45.429 6c10 Level-0 table #824: started
+2018/04/17-07:44:45.707 6c10 Level-0 table #824: 4207730 bytes OK
+2018/04/17-07:44:45.736 6c10 Delete type=0 #820
+2018/04/17-07:44:46.135 6c10 Compacting 1@0 + 0@1 files
+2018/04/17-07:44:46.194 6c10 Generated table #825: 678 keys, 169479 bytes
+2018/04/17-07:44:46.229 6c10 Generated table #826: 357 keys, 198350 bytes
+2018/04/17-07:44:46.458 6c10 Generated table #827: 4418 keys, 2104324 bytes
+2018/04/17-07:44:46.517 6c10 Generated table #828: 380 keys, 901822 bytes
+2018/04/17-07:44:46.517 6c10 Compacted 1@0 + 0@1 files => 3373975 bytes
+2018/04/17-07:44:46.567 6c10 Delete type=2 #824
+2018/04/17-07:44:46.568 6c10 compacted to: files[ 0 4 51 14 0 0 0 ]
+2018/04/17-07:44:47.164 6c10 Moved #825 to level-2 169479 bytes OK: files[ 0 3 52 14 0 0 0 ]
+2018/04/17-07:44:48.529 6c10 Compacting 1@2 + 2@3 files
+2018/04/17-07:44:48.806 6c10 Generated table #829: 2643 keys, 2145116 bytes
+2018/04/17-07:44:49.047 6c10 Generated table #830: 1589 keys, 2075979 bytes
+2018/04/17-07:44:49.047 6c10 Compacted 1@2 + 2@3 files => 4221095 bytes
+2018/04/17-07:44:49.061 6c10 Delete type=2 #800
+2018/04/17-07:44:49.061 6c10 Delete type=2 #801
+2018/04/17-07:44:49.062 6c10 Delete type=2 #825
+2018/04/17-07:44:49.062 6c10 compacted to: files[ 0 3 51 14 0 0 0 ]
+2018/04/17-07:44:57.598 6c10 Compacting 1@1 + 10@2 files
+2018/04/17-07:44:57.862 6c10 Generated table #831: 1338 keys, 2145815 bytes
+2018/04/17-07:44:58.125 6c10 Generated table #832: 252 keys, 2107701 bytes
+2018/04/17-07:44:58.415 6c10 Generated table #833: 227 keys, 2137010 bytes
+2018/04/17-07:44:58.543 6c10 Generated table #834: 80 keys, 2256062 bytes
+2018/04/17-07:44:58.635 6c10 Generated table #835: 58 keys, 2248732 bytes
+2018/04/17-07:44:58.737 6c10 Generated table #836: 93 keys, 2109083 bytes
+2018/04/17-07:44:58.836 6c10 Generated table #837: 79 keys, 2099049 bytes
+2018/04/17-07:44:58.957 6c10 Generated table #838: 139 keys, 2160371 bytes
+2018/04/17-07:44:59.095 6c10 Generated table #839: 119 keys, 2116756 bytes
+2018/04/17-07:44:59.238 6c10 Generated table #840: 96 keys, 1780714 bytes
+2018/04/17-07:44:59.238 6c10 Compacted 1@1 + 10@2 files => 21161293 bytes
+2018/04/17-07:44:59.252 6c10 Delete type=2 #802
+2018/04/17-07:44:59.253 6c10 Delete type=2 #803
+2018/04/17-07:44:59.254 6c10 Delete type=2 #804
+2018/04/17-07:44:59.255 6c10 Delete type=2 #805
+2018/04/17-07:44:59.255 6c10 Delete type=2 #806
+2018/04/17-07:44:59.256 6c10 Delete type=2 #807
+2018/04/17-07:44:59.257 6c10 Delete type=2 #808
+2018/04/17-07:44:59.257 6c10 Delete type=2 #809
+2018/04/17-07:44:59.258 6c10 Delete type=2 #810
+2018/04/17-07:44:59.259 6c10 Delete type=2 #811
+2018/04/17-07:44:59.259 6c10 Delete type=2 #826
+2018/04/17-07:44:59.260 6c10 compacted to: files[ 0 2 51 14 0 0 0 ]
+2018/04/17-07:45:16.823 6c10 Compacting 1@1 + 4@2 files
+2018/04/17-07:45:16.972 6c10 Generated table #841: 177 keys, 2158603 bytes
+2018/04/17-07:45:17.223 6c10 Generated table #842: 12991 keys, 2111742 bytes
+2018/04/17-07:45:17.497 6c10 Generated table #843: 4389 keys, 2113242 bytes
+2018/04/17-07:45:17.698 6c10 Generated table #844: 1159 keys, 1909495 bytes
+2018/04/17-07:45:17.698 6c10 Compacted 1@1 + 4@2 files => 8293082 bytes
+2018/04/17-07:45:17.712 6c10 Delete type=2 #813
+2018/04/17-07:45:17.712 6c10 Delete type=2 #814
+2018/04/17-07:45:17.713 6c10 Delete type=2 #815
+2018/04/17-07:45:17.714 6c10 Delete type=2 #821
+2018/04/17-07:45:17.714 6c10 Delete type=2 #827
+2018/04/17-07:45:17.715 6c10 compacted to: files[ 0 1 51 14 0 0 0 ]

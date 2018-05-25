@@ -1,0 +1,38 @@
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Handwriting (SVMs)\bin\x86\Debug\Accord.dll.config
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Handwriting (SVMs)\bin\x86\Debug\Handwriting (SVMs).exe.config
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Handwriting (SVMs)\bin\x86\Debug\Handwriting (SVMs).exe
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Handwriting (SVMs)\bin\x86\Debug\Handwriting (SVMs).pdb
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Handwriting (SVMs)\bin\x86\Debug\Accord.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Handwriting (SVMs)\bin\x86\Debug\Accord.MachineLearning.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Handwriting (SVMs)\bin\x86\Debug\Accord.Math.Core.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Handwriting (SVMs)\bin\x86\Debug\Accord.Math.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Handwriting (SVMs)\bin\x86\Debug\Accord.Statistics.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Handwriting (SVMs)\bin\x86\Debug\ZedGraph.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Handwriting (SVMs)\bin\x86\Debug\Accord.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Handwriting (SVMs)\bin\x86\Debug\Accord.MachineLearning.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Handwriting (SVMs)\bin\x86\Debug\Accord.Math.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Handwriting (SVMs)\bin\x86\Debug\Accord.Math.Core.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Handwriting (SVMs)\bin\x86\Debug\Accord.Statistics.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Handwriting (SVMs)\bin\x86\Debug\ZedGraph.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Handwriting (SVMs)\bin\x86\Debug\de\ZedGraph.resources.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Handwriting (SVMs)\bin\x86\Debug\es\ZedGraph.resources.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Handwriting (SVMs)\bin\x86\Debug\fr\ZedGraph.resources.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Handwriting (SVMs)\bin\x86\Debug\hu\ZedGraph.resources.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Handwriting (SVMs)\bin\x86\Debug\it\ZedGraph.resources.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Handwriting (SVMs)\bin\x86\Debug\ja\ZedGraph.resources.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Handwriting (SVMs)\bin\x86\Debug\pt\ZedGraph.resources.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Handwriting (SVMs)\bin\x86\Debug\ru\ZedGraph.resources.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Handwriting (SVMs)\bin\x86\Debug\sk\ZedGraph.resources.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Handwriting (SVMs)\bin\x86\Debug\sv\ZedGraph.resources.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Handwriting (SVMs)\bin\x86\Debug\tr\ZedGraph.resources.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Handwriting (SVMs)\bin\x86\Debug\zh-cn\ZedGraph.resources.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Handwriting (SVMs)\bin\x86\Debug\zh-tw\ZedGraph.resources.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Handwriting (SVMs)\obj\x86\Debug\Handwriting (SVM).csprojResolveAssemblyReference.cache
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Handwriting (SVMs)\obj\x86\Debug\SampleApp.Canvas.resources
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Handwriting (SVMs)\obj\x86\Debug\SampleApp.MainForm.resources
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Handwriting (SVMs)\obj\x86\Debug\SampleApp.Properties.Resources.resources
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Handwriting (SVMs)\obj\x86\Debug\Handwriting (SVM).csproj.GenerateResource.cache
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Handwriting (SVMs)\obj\x86\Debug\Handwriting (SVM).csproj.CoreCompileInputs.cache
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Handwriting (SVMs)\obj\x86\Debug\Handwriting (SVM).csproj.CopyComplete
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Handwriting (SVMs)\obj\x86\Debug\Handwriting (SVMs).exe
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Handwriting (SVMs)\obj\x86\Debug\Handwriting (SVMs).pdb

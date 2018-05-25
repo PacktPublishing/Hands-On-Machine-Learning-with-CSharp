@@ -1,0 +1,25 @@
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Clustering (SOM)\bin\x86\Debug\Accord.dll.config
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Clustering (SOM)\bin\x86\Debug\Color.exe.config
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Clustering (SOM)\bin\x86\Debug\Color.exe
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Clustering (SOM)\bin\x86\Debug\Color.pdb
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Clustering (SOM)\bin\x86\Debug\Accord.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Clustering (SOM)\bin\x86\Debug\Accord.Genetic.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Clustering (SOM)\bin\x86\Debug\Accord.Imaging.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Clustering (SOM)\bin\x86\Debug\Accord.Math.Core.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Clustering (SOM)\bin\x86\Debug\Accord.Math.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Clustering (SOM)\bin\x86\Debug\Accord.Neuro.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Clustering (SOM)\bin\x86\Debug\Accord.Statistics.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Clustering (SOM)\bin\x86\Debug\Accord.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Clustering (SOM)\bin\x86\Debug\Accord.Genetic.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Clustering (SOM)\bin\x86\Debug\Accord.Imaging.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Clustering (SOM)\bin\x86\Debug\Accord.Math.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Clustering (SOM)\bin\x86\Debug\Accord.Math.Core.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Clustering (SOM)\bin\x86\Debug\Accord.Neuro.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Clustering (SOM)\bin\x86\Debug\Accord.Statistics.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Clustering (SOM)\obj\x86\Debug\Clustering (SOM).csprojResolveAssemblyReference.cache
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Clustering (SOM)\obj\x86\Debug\SampleApp.MainForm.resources
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Clustering (SOM)\obj\x86\Debug\Clustering (SOM).csproj.GenerateResource.cache
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Clustering (SOM)\obj\x86\Debug\Clustering (SOM).csproj.CoreCompileInputs.cache
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Clustering (SOM)\obj\x86\Debug\Clustering (SOM).csproj.CopyComplete
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Clustering (SOM)\obj\x86\Debug\Color.exe
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Neuro\Clustering (SOM)\obj\x86\Debug\Color.pdb
