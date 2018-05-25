@@ -1,0 +1,18 @@
+2018/04/05-14:56:10.843 1674 Recovering log #92
+2018/04/05-14:56:10.847 1674 Level-0 table #101: started
+2018/04/05-14:56:11.231 1674 Level-0 table #101: 1341171 bytes OK
+2018/04/05-14:56:11.275 1674 Delete type=0 #92
+2018/04/05-14:56:11.276 1674 Delete type=3 #90
+2018/04/05-14:56:34.912 6cac Compacting 1@0 + 2@1 files
+2018/04/05-14:56:34.968 6cac Generated table #103: 28 keys, 7338 bytes
+2018/04/05-14:56:35.250 6cac Generated table #104: 178 keys, 2102896 bytes
+2018/04/05-14:56:35.539 6cac Generated table #105: 2225 keys, 1317235 bytes
+2018/04/05-14:56:35.539 6cac Compacted 1@0 + 2@1 files => 3427469 bytes
+2018/04/05-14:56:35.554 6cac Delete type=2 #95
+2018/04/05-14:56:35.554 6cac Delete type=2 #96
+2018/04/05-14:56:35.555 6cac Delete type=2 #101
+2018/04/05-14:56:35.573 6cac compacted to: files[ 0 3 20 0 0 0 0 ]
+2018/04/05-14:57:20.824 6cac Compacting 1@1 + 1@2 files
+2018/04/05-14:57:21.169 6cac Generated table #106: 5303 keys, 2153883 bytes
+2018/04/05-14:57:21.169 6cac Compacted 1@1 + 1@2 files => 2153883 bytes
+2018/04/05-14:57:21.182 6cac compacted to: files[ 0 2 20 0 0 0 0 ]
