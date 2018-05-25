@@ -1,0 +1,38 @@
+2018/05/10-11:07:07.303 391c Recovering log #836
+2018/05/10-11:07:07.323 391c Level-0 table #848: started
+2018/05/10-11:07:07.399 391c Level-0 table #848: 176567 bytes OK
+2018/05/10-11:07:07.458 391c Delete type=0 #836
+2018/05/10-11:07:07.459 391c Delete type=3 #834
+2018/05/10-11:07:08.045 2a44 Compacting 1@0 + 2@1 files
+2018/05/10-11:07:08.092 2a44 Generated table #850: 667 keys, 150400 bytes
+2018/05/10-11:07:08.651 2a44 Generated table #851: 2738 keys, 2174156 bytes
+2018/05/10-11:07:08.684 2a44 Generated table #852: 515 keys, 29281 bytes
+2018/05/10-11:07:08.684 2a44 Compacted 1@0 + 2@1 files => 2353837 bytes
+2018/05/10-11:07:08.720 2a44 Delete type=2 #837
+2018/05/10-11:07:08.720 2a44 Delete type=2 #838
+2018/05/10-11:07:08.721 2a44 Delete type=2 #848
+2018/05/10-11:07:08.722 2a44 compacted to: files[ 0 3 46 0 0 0 0 ]
+2018/05/10-11:07:09.089 2a44 Compacting 1@1 + 1@2 files
+2018/05/10-11:07:09.472 2a44 Generated table #853: 5525 keys, 2133119 bytes
+2018/05/10-11:07:09.472 2a44 Compacted 1@1 + 1@2 files => 2133119 bytes
+2018/05/10-11:07:09.486 2a44 Delete type=2 #812
+2018/05/10-11:07:09.487 2a44 Delete type=2 #850
+2018/05/10-11:07:09.487 2a44 compacted to: files[ 0 2 46 0 0 0 0 ]
+2018/05/10-11:07:20.848 2a44 Compacting 1@1 + 7@2 files
+2018/05/10-11:07:21.130 2a44 Generated table #854: 1294 keys, 2118558 bytes
+2018/05/10-11:07:21.259 2a44 Generated table #855: 56 keys, 2847362 bytes
+2018/05/10-11:07:21.501 2a44 Generated table #856: 149 keys, 2100713 bytes
+2018/05/10-11:07:21.684 2a44 Generated table #857: 110 keys, 2108379 bytes
+2018/05/10-11:07:21.913 2a44 Generated table #858: 117 keys, 2111113 bytes
+2018/05/10-11:07:22.642 2a44 Generated table #859: 5686 keys, 2108662 bytes
+2018/05/10-11:07:22.924 2a44 Generated table #860: 283 keys, 1098969 bytes
+2018/05/10-11:07:22.924 2a44 Compacted 1@1 + 7@2 files => 14493756 bytes
+2018/05/10-11:07:22.979 2a44 Delete type=2 #840
+2018/05/10-11:07:22.979 2a44 Delete type=2 #841
+2018/05/10-11:07:22.980 2a44 Delete type=2 #842
+2018/05/10-11:07:22.981 2a44 Delete type=2 #843
+2018/05/10-11:07:22.982 2a44 Delete type=2 #844
+2018/05/10-11:07:22.983 2a44 Delete type=2 #845
+2018/05/10-11:07:22.984 2a44 Delete type=2 #846
+2018/05/10-11:07:22.985 2a44 Delete type=2 #852
+2018/05/10-11:07:22.985 2a44 compacted to: files[ 0 1 46 0 0 0 0 ]
