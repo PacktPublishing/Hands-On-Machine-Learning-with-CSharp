@@ -1,0 +1,27 @@
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Gestures (SVMs)\bin\x86\Debug\Resources\sample-mouse.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Gestures (SVMs)\bin\x86\Debug\Resources\sample-numbers.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Gestures (SVMs)\bin\x86\Debug\Accord.dll.config
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Gestures (SVMs)\bin\x86\Debug\Gestures (SVM-DTW).exe.config
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Gestures (SVMs)\bin\x86\Debug\Gestures (SVM-DTW).exe
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Gestures (SVMs)\bin\x86\Debug\Gestures (SVM-DTW).pdb
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Gestures (SVMs)\bin\x86\Debug\Accord.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Gestures (SVMs)\bin\x86\Debug\Accord.MachineLearning.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Gestures (SVMs)\bin\x86\Debug\Accord.Math.Core.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Gestures (SVMs)\bin\x86\Debug\Accord.Math.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Gestures (SVMs)\bin\x86\Debug\Accord.Statistics.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Gestures (SVMs)\bin\x86\Debug\ZedGraph.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Gestures (SVMs)\bin\x86\Debug\Accord.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Gestures (SVMs)\bin\x86\Debug\Accord.MachineLearning.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Gestures (SVMs)\bin\x86\Debug\Accord.Math.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Gestures (SVMs)\bin\x86\Debug\Accord.Math.Core.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Gestures (SVMs)\bin\x86\Debug\Accord.Statistics.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Gestures (SVMs)\bin\x86\Debug\ZedGraph.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Gestures (SVMs)\obj\x86\Debug\Gestures (SVM-DTW).csprojResolveAssemblyReference.cache
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Gestures (SVMs)\obj\x86\Debug\SampleApp.Canvas.resources
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Gestures (SVMs)\obj\x86\Debug\SampleApp.MainForm.resources
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Gestures (SVMs)\obj\x86\Debug\SampleApp.Properties.Resources.resources
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Gestures (SVMs)\obj\x86\Debug\Gestures (SVM-DTW).csproj.GenerateResource.cache
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Gestures (SVMs)\obj\x86\Debug\Gestures (SVM-DTW).csproj.CoreCompileInputs.cache
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Gestures (SVMs)\obj\x86\Debug\Gestures (SVM-DTW).csproj.CopyComplete
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Gestures (SVMs)\obj\x86\Debug\Gestures (SVM-DTW).exe
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Gestures (SVMs)\obj\x86\Debug\Gestures (SVM-DTW).pdb

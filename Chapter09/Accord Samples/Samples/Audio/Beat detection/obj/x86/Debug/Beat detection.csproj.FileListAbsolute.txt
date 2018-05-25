@@ -1,0 +1,31 @@
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Audio\Beat detection\bin\x86\Debug\Accord.dll.config
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Audio\Beat detection\bin\x86\Debug\Beat detection.exe
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Audio\Beat detection\bin\x86\Debug\Beat detection.pdb
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Audio\Beat detection\bin\x86\Debug\Accord.Audio.DirectSound.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Audio\Beat detection\bin\x86\Debug\Accord.Audio.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Audio\Beat detection\bin\x86\Debug\Accord.Audition.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Audio\Beat detection\bin\x86\Debug\Accord.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Audio\Beat detection\bin\x86\Debug\Accord.MachineLearning.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Audio\Beat detection\bin\x86\Debug\Accord.Math.Core.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Audio\Beat detection\bin\x86\Debug\Accord.Math.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Audio\Beat detection\bin\x86\Debug\Accord.Statistics.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Audio\Beat detection\bin\x86\Debug\SharpDX.DirectSound.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Audio\Beat detection\bin\x86\Debug\SharpDX.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Audio\Beat detection\bin\x86\Debug\Accord.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Audio\Beat detection\bin\x86\Debug\Accord.Audio.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Audio\Beat detection\bin\x86\Debug\Accord.Audio.DirectSound.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Audio\Beat detection\bin\x86\Debug\Accord.Audition.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Audio\Beat detection\bin\x86\Debug\Accord.MachineLearning.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Audio\Beat detection\bin\x86\Debug\Accord.Math.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Audio\Beat detection\bin\x86\Debug\Accord.Math.Core.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Audio\Beat detection\bin\x86\Debug\Accord.Statistics.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Audio\Beat detection\bin\x86\Debug\SharpDX.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Audio\Beat detection\bin\x86\Debug\SharpDX.DirectSound.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Audio\Beat detection\obj\x86\Debug\Beat detection.csprojResolveAssemblyReference.cache
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Audio\Beat detection\obj\x86\Debug\SampleApp.AboutBox.resources
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Audio\Beat detection\obj\x86\Debug\SampleApp.MainForm.resources
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Audio\Beat detection\obj\x86\Debug\Beat detection.csproj.GenerateResource.cache
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Audio\Beat detection\obj\x86\Debug\Beat detection.csproj.CoreCompileInputs.cache
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Audio\Beat detection\obj\x86\Debug\Beat detection.csproj.CopyComplete
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Audio\Beat detection\obj\x86\Debug\Beat detection.exe
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Audio\Beat detection\obj\x86\Debug\Beat detection.pdb

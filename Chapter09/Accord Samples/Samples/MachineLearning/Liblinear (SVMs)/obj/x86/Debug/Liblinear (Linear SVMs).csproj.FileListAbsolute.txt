@@ -1,0 +1,25 @@
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Liblinear (SVMs)\bin\x86\Debug\Accord.dll.config
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Liblinear (SVMs)\bin\x86\Debug\Resources\a9a
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Liblinear (SVMs)\bin\x86\Debug\Resources\a9a.test
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Liblinear (SVMs)\bin\x86\Debug\Resources\a9a.train
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Liblinear (SVMs)\bin\x86\Debug\linear.exe.config
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Liblinear (SVMs)\bin\x86\Debug\linear.exe
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Liblinear (SVMs)\bin\x86\Debug\linear.pdb
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Liblinear (SVMs)\bin\x86\Debug\Accord.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Liblinear (SVMs)\bin\x86\Debug\Accord.IO.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Liblinear (SVMs)\bin\x86\Debug\Accord.MachineLearning.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Liblinear (SVMs)\bin\x86\Debug\Accord.Math.Core.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Liblinear (SVMs)\bin\x86\Debug\Accord.Math.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Liblinear (SVMs)\bin\x86\Debug\Accord.Statistics.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Liblinear (SVMs)\bin\x86\Debug\ICSharpCode.SharpZipLib.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Liblinear (SVMs)\bin\x86\Debug\Accord.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Liblinear (SVMs)\bin\x86\Debug\Accord.IO.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Liblinear (SVMs)\bin\x86\Debug\Accord.MachineLearning.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Liblinear (SVMs)\bin\x86\Debug\Accord.Math.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Liblinear (SVMs)\bin\x86\Debug\Accord.Math.Core.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Liblinear (SVMs)\bin\x86\Debug\Accord.Statistics.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Liblinear (SVMs)\obj\x86\Debug\Liblinear (Linear SVMs).csprojResolveAssemblyReference.cache
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Liblinear (SVMs)\obj\x86\Debug\Liblinear (Linear SVMs).csproj.CoreCompileInputs.cache
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Liblinear (SVMs)\obj\x86\Debug\Liblinear (Linear SVMs).csproj.CopyComplete
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Liblinear (SVMs)\obj\x86\Debug\linear.exe
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Liblinear (SVMs)\obj\x86\Debug\linear.pdb

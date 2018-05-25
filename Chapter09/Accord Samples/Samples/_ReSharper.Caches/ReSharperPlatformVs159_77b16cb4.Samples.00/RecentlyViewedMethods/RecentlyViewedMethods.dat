@@ -1,0 +1,32 @@
+﻿<RecentlyViewedMethods>
+  <RecentlyViewedMethods>
+    <RecentMethod id="f30290f0-c96b-45da-bbbe-abfc431c2b15%28Gotoworkfor_Decision%29-557019%5B.NETFramework%2CVersion%3Dv4.6.1%5D/M%3AGotoworkfor_Decision.Program.Main%28System.String%5B%5D%29" />
+    <RecentMethod id="03cccd6c-ca56-4cae-a0a5-1c9660d9424b%28Face%20tracking%20%28Camshift%29%29-11583F15%5B.NETFramework%2CVersion%3Dv4.6%5D/M%3ASampleApp.MainForm.openJPEGURLToolStripMenuItem_Click%28System.Object%2CSystem.EventArgs%29" />
+    <RecentMethod id="03cccd6c-ca56-4cae-a0a5-1c9660d9424b%28Face%20tracking%20%28Camshift%29%29-11583F15%5B.NETFramework%2CVersion%3Dv4.6%5D/M%3ASampleApp.MainForm.%23ctor" />
+    <RecentMethod id="03cccd6c-ca56-4cae-a0a5-1c9660d9424b%28Face%20tracking%20%28Camshift%29%29-11583F15%5B.NETFramework%2CVersion%3Dv4.6%5D/M%3ASampleApp.MainForm.exitToolStripMenuItem_Click%28System.Object%2CSystem.EventArgs%29" />
+    <RecentMethod id="59e2469c-197f-4a4c-9d52-aa58ea49927e%28Clustering%20%28SOM%29%29-6DBAA39C%5B.NETFramework%2CVersion%3Dv4.6%5D/M%3ASampleApp.MainForm.UpdateMap" />
+    <RecentMethod id="b4892057-cae6-41f4-a75d-88e61331a2d0%28Animat%20%28Sarsa%2C%20QLearning%29%29-247B6D2E%5B.NETFramework%2CVersion%3Dv4.6%5D/M%3ASampleApp.MainForm.startLearningButton_Click%28System.Object%2CSystem.EventArgs%29" />
+    <RecentMethod id="07337787-ad77-4061-a0a0-c8d83af3b977%28Deep%20Learning%29-49390B1E%5B.NETFramework%2CVersion%3Dv4.5.2%5D/M%3ASampleApp.ViewModel.LearnViewModel.learnLayerUnsupervised" />
+    <RecentMethod id="dec346fd-c496-4b3e-a0e9-60ae011e3c49%28Travelling%20Salesman%20%28GP%29%29-2CF7CE70%5B.NETFramework%2CVersion%3Dv4.6%5D/M%3ASampleApp.MainForm.GenerateMap" />
+    <RecentMethod id="dec346fd-c496-4b3e-a0e9-60ae011e3c49%28Travelling%20Salesman%20%28GP%29%29-2CF7CE70%5B.NETFramework%2CVersion%3Dv4.6%5D/F%3ASampleApp.MainForm.mapControl" />
+    <RecentMethod id="dec346fd-c496-4b3e-a0e9-60ae011e3c49%28Travelling%20Salesman%20%28GP%29%29-2CF7CE70%5B.NETFramework%2CVersion%3Dv4.6%5D/M%3ASampleApp.TSPChromosome.Crossover%28Accord.Genetic.IChromosome%29" />
+    <RecentMethod id="dec346fd-c496-4b3e-a0e9-60ae011e3c49%28Travelling%20Salesman%20%28GP%29%29-2CF7CE70%5B.NETFramework%2CVersion%3Dv4.6%5D/M%3ASampleApp.MainForm.SearchSolution" />
+    <RecentMethod id="dec346fd-c496-4b3e-a0e9-60ae011e3c49%28Travelling%20Salesman%20%28GP%29%29-2CF7CE70%5B.NETFramework%2CVersion%3Dv4.6%5D/M%3ASampleApp.MainForm.generateMapButton_Click%28System.Object%2CSystem.EventArgs%29" />
+    <RecentMethod id="dec346fd-c496-4b3e-a0e9-60ae011e3c49%28Travelling%20Salesman%20%28GP%29%29-2CF7CE70%5B.NETFramework%2CVersion%3Dv4.6%5D/M%3ASampleApp.TSPChromosome.CreateChildUsingCrossover%28System.UInt16%5B%5D%2CSystem.UInt16%5B%5D%2CSystem.UInt16%5B%5D%29" />
+    <RecentMethod id="dec346fd-c496-4b3e-a0e9-60ae011e3c49%28Travelling%20Salesman%20%28GP%29%29-2CF7CE70%5B.NETFramework%2CVersion%3Dv4.6%5D/M%3ASampleApp.TSPFitnessFunction.Evaluate%28Accord.Genetic.IChromosome%29" />
+    <RecentMethod id="dec346fd-c496-4b3e-a0e9-60ae011e3c49%28Travelling%20Salesman%20%28GP%29%29-2CF7CE70%5B.NETFramework%2CVersion%3Dv4.6%5D/M%3ASampleApp.TSPFitnessFunction.PathLength%28Accord.Genetic.IChromosome%29" />
+    <RecentMethod id="f30290f0-c96b-45da-bbbe-abfc431c2b15%28Gotoworkfor_Decision%29-557019%5B.NETFramework%2CVersion%3Dv4.6.1%5D/M%3AGotoworkfor_Decision.Program.Main%28System.String%5B%5D%29" />
+    <RecentMethod id="6fa77b7f-e933-4b25-ac4c-99e343b35ac8%28Travelling%20Salesman%20%28SOM%29%29-F7E0C06A%5B.NETFramework%2CVersion%3Dv4.6.2%5D/M%3ASampleApp.MainForm.SearchSolution" />
+    <RecentMethod id="9800a224-0bf0-4d5d-a03c-aa7a4842d3b8%28Motion%20detection%29-F663569C%5B.NETFramework%2CVersion%3Dv4.6%5D/M%3ASampleApp.MainForm.openVideoFileusingDirectShowToolStripMenuItem_Click%28System.Object%2CSystem.EventArgs%29" />
+    <RecentMethod id="b4892057-cae6-41f4-a75d-88e61331a2d0%28Animat%20%28Sarsa%2C%20QLearning%29%29-247B6D2E%5B.NETFramework%2CVersion%3Dv4.6%5D/M%3ASampleApp.MainForm.SarsaThread" />
+    <RecentMethod id="b4892057-cae6-41f4-a75d-88e61331a2d0%28Animat%20%28Sarsa%2C%20QLearning%29%29-247B6D2E%5B.NETFramework%2CVersion%3Dv4.6%5D/M%3ASampleApp.MainForm.QLearningThread" />
+    <RecentMethod id="b4892057-cae6-41f4-a75d-88e61331a2d0%28Animat%20%28Sarsa%2C%20QLearning%29%29-247B6D2E%5B.NETFramework%2CVersion%3Dv4.6%5D/M%3ASampleApp.MainForm.ShowSolutionThread" />
+    <RecentMethod id="59e2469c-197f-4a4c-9d52-aa58ea49927e%28Clustering%20%28SOM%29%29-6DBAA39C%5B.NETFramework%2CVersion%3Dv4.6%5D/M%3ASampleApp.MainForm.RandomizeNetwork" />
+    <RecentMethod id="59e2469c-197f-4a4c-9d52-aa58ea49927e%28Clustering%20%28SOM%29%29-6DBAA39C%5B.NETFramework%2CVersion%3Dv4.6%5D/M%3ASampleApp.MainForm.SearchSolution" />
+    <RecentMethod id="03cccd6c-ca56-4cae-a0a5-1c9660d9424b%28Face%20tracking%20%28Camshift%29%29-11583F15%5B.NETFramework%2CVersion%3Dv4.6%5D/M%3ASampleApp.MainForm.videoSourcePlayer_NewFrame%28System.Object%2CAccord.Video.NewFrameEventArgs%29" />
+    <RecentMethod id="03cccd6c-ca56-4cae-a0a5-1c9660d9424b%28Face%20tracking%20%28Camshift%29%29-11583F15%5B.NETFramework%2CVersion%3Dv4.6%5D/M%3ASampleApp.MainForm.hSLToolStripMenuItem_Click%28System.Object%2CSystem.EventArgs%29" />
+    <RecentMethod id="03cccd6c-ca56-4cae-a0a5-1c9660d9424b%28Face%20tracking%20%28Camshift%29%29-11583F15%5B.NETFramework%2CVersion%3Dv4.6%5D/M%3ASampleApp.MainForm.selectResolution%28Accord.Video.DirectShow.VideoCaptureDevice%29" />
+    <RecentMethod id="03cccd6c-ca56-4cae-a0a5-1c9660d9424b%28Face%20tracking%20%28Camshift%29%29-11583F15%5B.NETFramework%2CVersion%3Dv4.6%5D/M%3ASampleApp.MainForm.localVideoCaptureDeviceToolStripMenuItem_Click%28System.Object%2CSystem.EventArgs%29" />
+    <RecentMethod id="03cccd6c-ca56-4cae-a0a5-1c9660d9424b%28Face%20tracking%20%28Camshift%29%29-11583F15%5B.NETFramework%2CVersion%3Dv4.6%5D/M%3ASampleApp.MainForm.InitializeComponent" />
+  </RecentlyViewedMethods>
+</RecentlyViewedMethods>

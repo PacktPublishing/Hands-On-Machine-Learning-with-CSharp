@@ -1,0 +1,28 @@
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Animat\bin\x86\Debug\Accord.dll.config
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Animat\bin\x86\Debug\Data files\sample1.map
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Animat\bin\x86\Debug\Data files\sample2.map
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Animat\bin\x86\Debug\Data files\test1.map
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Animat\bin\x86\Debug\Data files\test2.map
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Animat\bin\x86\Debug\Data files\test3.map
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Animat\bin\x86\Debug\Animat.exe.config
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Animat\bin\x86\Debug\Animat.exe
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Animat\bin\x86\Debug\Animat.pdb
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Animat\bin\x86\Debug\Accord.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Animat\bin\x86\Debug\Accord.MachineLearning.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Animat\bin\x86\Debug\Accord.Math.Core.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Animat\bin\x86\Debug\Accord.Math.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Animat\bin\x86\Debug\Accord.Statistics.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Animat\bin\x86\Debug\Accord.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Animat\bin\x86\Debug\Accord.MachineLearning.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Animat\bin\x86\Debug\Accord.Math.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Animat\bin\x86\Debug\Accord.Math.Core.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Animat\bin\x86\Debug\Accord.Statistics.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Animat\obj\x86\Debug\Animat (Sarsa, QLearning).csprojResolveAssemblyReference.cache
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Animat\obj\x86\Debug\SampleApp.CellWorld.resources
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Animat\obj\x86\Debug\SampleApp.MainForm.resources
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Animat\obj\x86\Debug\SampleApp.Properties.Resources.resources
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Animat\obj\x86\Debug\Animat (Sarsa, QLearning).csproj.GenerateResource.cache
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Animat\obj\x86\Debug\Animat (Sarsa, QLearning).csproj.CoreCompileInputs.cache
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Animat\obj\x86\Debug\Animat (Sarsa, QLearning).csproj.CopyComplete
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Animat\obj\x86\Debug\Animat.exe
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\MachineLearning\Animat\obj\x86\Debug\Animat.pdb
