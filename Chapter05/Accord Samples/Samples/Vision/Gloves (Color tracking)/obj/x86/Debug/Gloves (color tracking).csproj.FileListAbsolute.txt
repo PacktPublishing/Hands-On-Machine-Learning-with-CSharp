@@ -1,0 +1,41 @@
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Vision\Gloves (Color tracking)\bin\x86\Debug\Accord.dll.config
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Vision\Gloves (Color tracking)\bin\x86\Debug\Gloves (Color tracking).exe.config
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Vision\Gloves (Color tracking)\bin\x86\Debug\Gloves (Color tracking).exe
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Vision\Gloves (Color tracking)\bin\x86\Debug\Gloves (Color tracking).pdb
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Vision\Gloves (Color tracking)\bin\x86\Debug\Accord.Controls.Imaging.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Vision\Gloves (Color tracking)\bin\x86\Debug\Accord.Controls.Vision.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Vision\Gloves (Color tracking)\bin\x86\Debug\Accord.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Vision\Gloves (Color tracking)\bin\x86\Debug\Accord.Imaging.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Vision\Gloves (Color tracking)\bin\x86\Debug\Accord.MachineLearning.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Vision\Gloves (Color tracking)\bin\x86\Debug\Accord.Math.Core.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Vision\Gloves (Color tracking)\bin\x86\Debug\Accord.Math.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Vision\Gloves (Color tracking)\bin\x86\Debug\Accord.Statistics.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Vision\Gloves (Color tracking)\bin\x86\Debug\Accord.Video.DirectShow.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Vision\Gloves (Color tracking)\bin\x86\Debug\Accord.Video.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Vision\Gloves (Color tracking)\bin\x86\Debug\Accord.Video.VFW.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Vision\Gloves (Color tracking)\bin\x86\Debug\Accord.Vision.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Vision\Gloves (Color tracking)\bin\x86\Debug\Accord.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Vision\Gloves (Color tracking)\bin\x86\Debug\Accord.Controls.Imaging.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Vision\Gloves (Color tracking)\bin\x86\Debug\Accord.Controls.Vision.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Vision\Gloves (Color tracking)\bin\x86\Debug\Accord.Imaging.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Vision\Gloves (Color tracking)\bin\x86\Debug\Accord.MachineLearning.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Vision\Gloves (Color tracking)\bin\x86\Debug\Accord.Math.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Vision\Gloves (Color tracking)\bin\x86\Debug\Accord.Math.Core.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Vision\Gloves (Color tracking)\bin\x86\Debug\Accord.Statistics.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Vision\Gloves (Color tracking)\bin\x86\Debug\Accord.Video.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Vision\Gloves (Color tracking)\bin\x86\Debug\Accord.Video.DirectShow.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Vision\Gloves (Color tracking)\bin\x86\Debug\Accord.Video.VFW.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Vision\Gloves (Color tracking)\bin\x86\Debug\Accord.Vision.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Vision\Gloves (Color tracking)\obj\x86\Debug\Gloves (color tracking).csprojResolveAssemblyReference.cache
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Vision\Gloves (Color tracking)\obj\x86\Debug\SampleApp.AboutBox.resources
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Vision\Gloves (Color tracking)\obj\x86\Debug\IPLab.FilterPreview.resources
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Vision\Gloves (Color tracking)\obj\x86\Debug\SampleApp.HSLFilteringForm.resources
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Vision\Gloves (Color tracking)\obj\x86\Debug\SampleApp.MainForm.resources
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Vision\Gloves (Color tracking)\obj\x86\Debug\SampleApp.Properties.Resources.resources
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Vision\Gloves (Color tracking)\obj\x86\Debug\SampleApp.URLForm.resources
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Vision\Gloves (Color tracking)\obj\x86\Debug\SampleApp.VideoCaptureDeviceForm.resources
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Vision\Gloves (Color tracking)\obj\x86\Debug\Gloves (color tracking).csproj.GenerateResource.cache
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Vision\Gloves (Color tracking)\obj\x86\Debug\Gloves (color tracking).csproj.CoreCompileInputs.cache
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Vision\Gloves (Color tracking)\obj\x86\Debug\Gloves (color tracking).csproj.CopyComplete
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Vision\Gloves (Color tracking)\obj\x86\Debug\Gloves (Color tracking).exe
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Vision\Gloves (Color tracking)\obj\x86\Debug\Gloves (Color tracking).pdb

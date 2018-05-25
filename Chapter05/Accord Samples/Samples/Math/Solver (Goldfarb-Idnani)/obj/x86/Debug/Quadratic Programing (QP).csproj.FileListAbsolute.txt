@@ -1,0 +1,18 @@
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Math\Solver (Goldfarb-Idnani)\bin\x86\Debug\Accord.dll.config
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Math\Solver (Goldfarb-Idnani)\bin\x86\Debug\Solver.exe.config
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Math\Solver (Goldfarb-Idnani)\bin\x86\Debug\Solver.exe
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Math\Solver (Goldfarb-Idnani)\bin\x86\Debug\Solver.pdb
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Math\Solver (Goldfarb-Idnani)\bin\x86\Debug\Accord.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Math\Solver (Goldfarb-Idnani)\bin\x86\Debug\Accord.Math.Core.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Math\Solver (Goldfarb-Idnani)\bin\x86\Debug\Accord.Math.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Math\Solver (Goldfarb-Idnani)\bin\x86\Debug\Accord.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Math\Solver (Goldfarb-Idnani)\bin\x86\Debug\Accord.Math.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Math\Solver (Goldfarb-Idnani)\bin\x86\Debug\Accord.Math.Core.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Math\Solver (Goldfarb-Idnani)\obj\x86\Debug\Quadratic Programing (QP).csprojResolveAssemblyReference.cache
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Math\Solver (Goldfarb-Idnani)\obj\x86\Debug\SampleApp.MainForm.resources
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Math\Solver (Goldfarb-Idnani)\obj\x86\Debug\SampleApp.Properties.Resources.resources
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Math\Solver (Goldfarb-Idnani)\obj\x86\Debug\Quadratic Programing (QP).csproj.GenerateResource.cache
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Math\Solver (Goldfarb-Idnani)\obj\x86\Debug\Quadratic Programing (QP).csproj.CoreCompileInputs.cache
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Math\Solver (Goldfarb-Idnani)\obj\x86\Debug\Quadratic Programing (QP).csproj.CopyComplete
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Math\Solver (Goldfarb-Idnani)\obj\x86\Debug\Solver.exe
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Math\Solver (Goldfarb-Idnani)\obj\x86\Debug\Solver.pdb

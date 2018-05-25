@@ -1,0 +1,15 @@
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Math\Matrices\bin\x86\Debug\Accord.dll.config
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Math\Matrices\bin\x86\Debug\Matrices.exe.config
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Math\Matrices\bin\x86\Debug\Matrices.exe
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Math\Matrices\bin\x86\Debug\Matrices.pdb
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Math\Matrices\bin\x86\Debug\Accord.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Math\Matrices\bin\x86\Debug\Accord.Math.Core.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Math\Matrices\bin\x86\Debug\Accord.Math.dll
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Math\Matrices\bin\x86\Debug\Accord.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Math\Matrices\bin\x86\Debug\Accord.Math.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Math\Matrices\bin\x86\Debug\Accord.Math.Core.xml
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Math\Matrices\obj\x86\Debug\Matrices.csprojResolveAssemblyReference.cache
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Math\Matrices\obj\x86\Debug\Matrices.csproj.CoreCompileInputs.cache
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Math\Matrices\obj\x86\Debug\Matrices.csproj.CopyComplete
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Math\Matrices\obj\x86\Debug\Matrices.exe
+C:\Development\AI\machinelearning\Accord.Net\framework-development\Samples\Math\Matrices\obj\x86\Debug\Matrices.pdb

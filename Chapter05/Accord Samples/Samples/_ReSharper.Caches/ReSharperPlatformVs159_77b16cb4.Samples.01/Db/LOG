@@ -1,0 +1,633 @@
+2018/03/23-08:01:34.082 3dd0 Delete type=3 #1
+2018/03/23-08:01:47.097 64d4 Level-0 table #5: started
+2018/03/23-08:01:47.850 64d4 Level-0 table #5: 4034459 bytes OK
+2018/03/23-08:01:48.007 64d4 Delete type=0 #3
+2018/03/23-08:01:48.385 64d4 Level-0 table #7: started
+2018/03/23-08:01:48.870 64d4 Level-0 table #7: 4200429 bytes OK
+2018/03/23-08:01:48.965 64d4 Delete type=0 #4
+2018/03/23-08:01:49.723 64d4 Level-0 table #9: started
+2018/03/23-08:01:50.286 64d4 Level-0 table #9: 4311830 bytes OK
+2018/03/23-08:01:50.380 64d4 Delete type=0 #6
+2018/03/23-08:01:50.669 64d4 Level-0 table #11: started
+2018/03/23-08:01:51.216 64d4 Level-0 table #11: 3947659 bytes OK
+2018/03/23-08:01:51.299 64d4 Delete type=0 #8
+2018/03/23-08:01:52.110 64d4 Level-0 table #13: started
+2018/03/23-08:01:52.609 64d4 Level-0 table #13: 4198666 bytes OK
+2018/03/23-08:01:52.695 64d4 Delete type=0 #10
+2018/03/23-08:01:53.813 64d4 Level-0 table #15: started
+2018/03/23-08:01:54.276 64d4 Level-0 table #15: 3874148 bytes OK
+2018/03/23-08:01:54.333 64d4 Delete type=0 #12
+2018/03/23-08:01:54.334 64d4 Compacting 4@0 + 1@1 files
+2018/03/23-08:01:54.819 64d4 Generated table #16: 4887 keys, 2163820 bytes
+2018/03/23-08:01:55.167 64d4 Generated table #17: 4827 keys, 2161121 bytes
+2018/03/23-08:01:55.607 64d4 Generated table #18: 4434 keys, 2163392 bytes
+2018/03/23-08:01:55.935 64d4 Generated table #19: 3117 keys, 2183176 bytes
+2018/03/23-08:01:56.349 64d4 Generated table #20: 2734 keys, 2174259 bytes
+2018/03/23-08:01:56.678 64d4 Generated table #21: 3543 keys, 2166086 bytes
+2018/03/23-08:01:57.013 64d4 Generated table #22: 3056 keys, 2166827 bytes
+2018/03/23-08:01:57.511 64d4 Generated table #23: 3284 keys, 2159412 bytes
+2018/03/23-08:01:57.828 64d4 Generated table #24: 2902 keys, 2165324 bytes
+2018/03/23-08:01:57.946 64d4 Generated table #25: 737 keys, 769400 bytes
+2018/03/23-08:01:57.946 64d4 Compacted 4@0 + 1@1 files => 20272817 bytes
+2018/03/23-08:01:58.398 64d4 Delete type=2 #7
+2018/03/23-08:01:58.399 64d4 Delete type=2 #9
+2018/03/23-08:01:58.400 64d4 Delete type=2 #11
+2018/03/23-08:01:58.401 64d4 Delete type=2 #13
+2018/03/23-08:01:58.403 64d4 Delete type=2 #15
+2018/03/23-08:01:58.404 64d4 compacted to: files[ 0 10 1 0 0 0 0 ]
+2018/03/23-08:01:58.404 64d4 Level-0 table #27: started
+2018/03/23-08:01:58.877 64d4 Level-0 table #27: 4153407 bytes OK
+2018/03/23-08:01:58.933 64d4 Delete type=0 #14
+2018/03/23-08:01:58.934 64d4 Expanding@1 1+1 to 10+1
+2018/03/23-08:01:58.934 64d4 Compacting 10@1 + 1@2 files
+2018/03/23-08:01:59.256 64d4 Level-0 table #30: started
+2018/03/23-08:01:59.702 64d4 Level-0 table #30: 3920154 bytes OK
+2018/03/23-08:01:59.755 64d4 Delete type=0 #26
+2018/03/23-08:02:00.164 64d4 Generated table #29: 5976 keys, 2163187 bytes
+2018/03/23-08:02:00.596 64d4 Generated table #31: 4879 keys, 2162035 bytes
+2018/03/23-08:02:00.936 64d4 Generated table #32: 4675 keys, 2164130 bytes
+2018/03/23-08:02:01.267 64d4 Generated table #33: 4473 keys, 2167784 bytes
+2018/03/23-08:02:01.546 64d4 Generated table #34: 3896 keys, 2166580 bytes
+2018/03/23-08:02:01.820 64d4 Generated table #35: 2565 keys, 2175943 bytes
+2018/03/23-08:02:02.546 64d4 Generated table #36: 2738 keys, 2174827 bytes
+2018/03/23-08:02:02.546 64d4 Level-0 table #38: started
+2018/03/23-08:02:03.108 64d4 Level-0 table #38: 4100576 bytes OK
+2018/03/23-08:02:03.220 64d4 Delete type=0 #28
+2018/03/23-08:02:03.640 64d4 Generated table #39: 3556 keys, 2164260 bytes
+2018/03/23-08:02:03.978 64d4 Generated table #40: 3178 keys, 2165655 bytes
+2018/03/23-08:02:04.333 64d4 Generated table #41: 2994 keys, 2156855 bytes
+2018/03/23-08:02:04.831 64d4 Generated table #42: 2635 keys, 2169391 bytes
+2018/03/23-08:02:05.119 64d4 Level-0 table #45: started
+2018/03/23-08:02:05.575 64d4 Level-0 table #45: 3700339 bytes OK
+2018/03/23-08:02:05.630 64d4 Delete type=0 #37
+2018/03/23-08:02:06.074 64d4 Generated table #44: 770 keys, 456190 bytes
+2018/03/23-08:02:06.169 64d4 Compacted 10@1 + 1@2 files => 24286837 bytes
+2018/03/23-08:02:06.306 64d4 Delete type=2 #5
+2018/03/23-08:02:06.307 64d4 Delete type=2 #16
+2018/03/23-08:02:06.308 64d4 Delete type=2 #17
+2018/03/23-08:02:06.308 64d4 Delete type=2 #18
+2018/03/23-08:02:06.309 64d4 Delete type=2 #19
+2018/03/23-08:02:06.310 64d4 Delete type=2 #20
+2018/03/23-08:02:06.310 64d4 Delete type=2 #21
+2018/03/23-08:02:06.311 64d4 Delete type=2 #22
+2018/03/23-08:02:06.311 64d4 Delete type=2 #23
+2018/03/23-08:02:06.312 64d4 Delete type=2 #24
+2018/03/23-08:02:06.312 64d4 Delete type=2 #25
+2018/03/23-08:02:06.313 64d4 compacted to: files[ 4 0 12 0 0 0 0 ]
+2018/03/23-08:02:06.313 64d4 Level-0 table #47: started
+2018/03/23-08:02:06.881 64d4 Level-0 table #47: 4758022 bytes OK
+2018/03/23-08:02:06.951 64d4 Delete type=0 #43
+2018/03/23-08:02:06.952 64d4 Compacting 5@0 + 0@1 files
+2018/03/23-08:02:07.343 64d4 Generated table #48: 5631 keys, 2150818 bytes
+2018/03/23-08:02:07.656 64d4 Generated table #49: 4372 keys, 2167176 bytes
+2018/03/23-08:02:08.030 64d4 Generated table #50: 3592 keys, 1978478 bytes
+2018/03/23-08:02:08.421 64d4 Generated table #51: 3157 keys, 2169207 bytes
+2018/03/23-08:02:08.719 64d4 Generated table #52: 3515 keys, 2162904 bytes
+2018/03/23-08:02:09.050 64d4 Generated table #53: 2668 keys, 2167831 bytes
+2018/03/23-08:02:09.413 64d4 Generated table #54: 2700 keys, 2170424 bytes
+2018/03/23-08:02:09.910 64d4 Generated table #55: 3008 keys, 2188888 bytes
+2018/03/23-08:02:10.104 64d4 Level-0 table #58: started
+2018/03/23-08:02:10.578 64d4 Level-0 table #58: 3866238 bytes OK
+2018/03/23-08:02:10.633 64d4 Delete type=0 #46
+2018/03/23-08:02:10.993 64d4 Generated table #57: 2467 keys, 2196010 bytes
+2018/03/23-08:02:11.141 64d4 Level-0 table #61: started
+2018/03/23-08:02:11.583 64d4 Level-0 table #61: 4098747 bytes OK
+2018/03/23-08:02:11.597 64d4 Delete type=0 #56
+2018/03/23-08:02:11.847 64d4 Generated table #60: 890 keys, 1236684 bytes
+2018/03/23-08:02:12.102 64d4 Compacted 5@0 + 0@1 files => 20588420 bytes
+2018/03/23-08:02:12.165 64d4 Delete type=2 #27
+2018/03/23-08:02:12.167 64d4 Delete type=2 #30
+2018/03/23-08:02:12.168 64d4 Delete type=2 #38
+2018/03/23-08:02:12.169 64d4 Delete type=2 #45
+2018/03/23-08:02:12.171 64d4 Delete type=2 #47
+2018/03/23-08:02:12.172 64d4 compacted to: files[ 2 10 12 0 0 0 0 ]
+2018/03/23-08:02:12.172 64d4 Level-0 table #63: started
+2018/03/23-08:02:12.728 64d4 Level-0 table #63: 4371177 bytes OK
+2018/03/23-08:02:12.767 64d4 Delete type=0 #59
+2018/03/23-08:02:12.768 64d4 Expanding@1 1+1 to 7+1
+2018/03/23-08:02:12.768 64d4 Compacting 7@1 + 1@2 files
+2018/03/23-08:02:13.070 64d4 Generated table #64: 2965 keys, 2172083 bytes
+2018/03/23-08:02:13.486 64d4 Generated table #65: 3405 keys, 2162408 bytes
+2018/03/23-08:02:13.856 64d4 Generated table #66: 3076 keys, 2166489 bytes
+2018/03/23-08:02:14.306 64d4 Generated table #67: 2620 keys, 2171799 bytes
+2018/03/23-08:02:14.721 64d4 Generated table #68: 3075 keys, 2180281 bytes
+2018/03/23-08:02:15.104 64d4 Generated table #69: 2376 keys, 2202262 bytes
+2018/03/23-08:02:15.469 64d4 Generated table #70: 1658 keys, 1687005 bytes
+2018/03/23-08:02:15.469 64d4 Compacted 7@1 + 1@2 files => 14742327 bytes
+2018/03/23-08:02:15.593 64d4 Delete type=2 #44
+2018/03/23-08:02:15.593 64d4 Delete type=2 #51
+2018/03/23-08:02:15.594 64d4 Delete type=2 #52
+2018/03/23-08:02:15.594 64d4 Delete type=2 #53
+2018/03/23-08:02:15.595 64d4 Delete type=2 #54
+2018/03/23-08:02:15.596 64d4 Delete type=2 #55
+2018/03/23-08:02:15.596 64d4 Delete type=2 #57
+2018/03/23-08:02:15.597 64d4 Delete type=2 #60
+2018/03/23-08:02:15.597 64d4 compacted to: files[ 3 3 18 0 0 0 0 ]
+2018/03/23-08:02:16.103 64d4 Level-0 table #72: started
+2018/03/23-08:02:16.628 64d4 Level-0 table #72: 3925423 bytes OK
+2018/03/23-08:02:16.687 64d4 Delete type=0 #62
+2018/03/23-08:02:16.688 64d4 Compacting 4@0 + 3@1 files
+2018/03/23-08:02:17.014 64d4 Level-0 table #75: started
+2018/03/23-08:02:17.465 64d4 Level-0 table #75: 4060424 bytes OK
+2018/03/23-08:02:17.527 64d4 Delete type=0 #71
+2018/03/23-08:02:18.158 64d4 Generated table #74: 5718 keys, 2150204 bytes
+2018/03/23-08:02:18.158 64d4 Level-0 table #77: started
+2018/03/23-08:02:18.641 64d4 Level-0 table #77: 3767658 bytes OK
+2018/03/23-08:02:18.706 64d4 Delete type=0 #73
+2018/03/23-08:02:19.019 64d4 Level-0 table #80: started
+2018/03/23-08:02:19.509 64d4 Level-0 table #80: 4070502 bytes OK
+2018/03/23-08:02:19.593 64d4 Delete type=0 #76
+2018/03/23-08:02:19.999 64d4 Generated table #79: 4090 keys, 2165189 bytes
+2018/03/23-08:02:20.243 64d4 Level-0 table #83: started
+2018/03/23-08:02:20.673 64d4 Level-0 table #83: 4095990 bytes OK
+2018/03/23-08:02:20.743 64d4 Delete type=0 #78
+2018/03/23-08:02:20.992 64d4 Generated table #82: 4750 keys, 2160926 bytes
+2018/03/23-08:02:21.248 64d4 Generated table #84: 3356 keys, 2180199 bytes
+2018/03/23-08:02:21.482 64d4 Generated table #85: 4806 keys, 2162803 bytes
+2018/03/23-08:02:21.599 64d4 Generated table #86: 137 keys, 32563 bytes
+2018/03/23-08:02:21.978 64d4 Generated table #87: 2991 keys, 2177257 bytes
+2018/03/23-08:02:22.111 64d4 Level-0 table #90: started
+2018/03/23-08:02:22.423 64d4 Level-0 table #90: 3718223 bytes OK
+2018/03/23-08:02:22.449 64d4 Delete type=0 #81
+2018/03/23-08:02:22.906 64d4 Generated table #89: 2292 keys, 2189223 bytes
+2018/03/23-08:02:22.906 64d4 Level-0 table #92: started
+2018/03/23-08:02:23.286 64d4 Level-0 table #92: 4088832 bytes OK
+2018/03/23-08:02:23.301 64d4 Delete type=0 #88
+2018/03/23-08:02:23.727 64d4 Generated table #93: 2495 keys, 2182431 bytes
+2018/03/23-08:02:23.841 64d4 Level-0 table #96: started
+2018/03/23-08:02:24.179 64d4 Level-0 table #96: 3992110 bytes OK
+2018/03/23-08:02:24.193 64d4 Delete type=0 #91
+2018/03/23-08:02:24.505 64d4 Generated table #95: 2439 keys, 2204288 bytes
+2018/03/23-08:02:24.806 64d4 Generated table #97: 2662 keys, 2199560 bytes
+2018/03/23-08:02:24.899 64d4 Generated table #98: 842 keys, 709323 bytes
+2018/03/23-08:02:24.899 64d4 Compacted 4@0 + 3@1 files => 22513966 bytes
+2018/03/23-08:02:24.979 64d4 Delete type=2 #48
+2018/03/23-08:02:24.979 64d4 Delete type=2 #49
+2018/03/23-08:02:24.980 64d4 Delete type=2 #50
+2018/03/23-08:02:24.981 64d4 Delete type=2 #58
+2018/03/23-08:02:24.982 64d4 Delete type=2 #61
+2018/03/23-08:02:24.983 64d4 Delete type=2 #63
+2018/03/23-08:02:24.984 64d4 Delete type=2 #72
+2018/03/23-08:02:24.985 64d4 compacted to: files[ 7 12 18 0 0 0 0 ]
+2018/03/23-08:02:24.986 64d4 Expanding@1 1+4 to 6+4
+2018/03/23-08:02:24.986 64d4 Compacting 6@1 + 4@2 files
+2018/03/23-08:02:25.371 64d4 Generated table #99: 6053 keys, 2167640 bytes
+2018/03/23-08:02:25.624 64d4 Generated table #100: 4844 keys, 2162646 bytes
+2018/03/23-08:02:25.885 64d4 Generated table #101: 4733 keys, 2166652 bytes
+2018/03/23-08:02:26.177 64d4 Generated table #102: 4696 keys, 2160263 bytes
+2018/03/23-08:02:26.543 64d4 Generated table #103: 5415 keys, 2150200 bytes
+2018/03/23-08:02:26.860 64d4 Generated table #104: 4079 keys, 2163207 bytes
+2018/03/23-08:02:27.237 64d4 Generated table #105: 4737 keys, 2162391 bytes
+2018/03/23-08:02:27.691 64d4 Generated table #106: 3362 keys, 2181309 bytes
+2018/03/23-08:02:28.012 64d4 Generated table #107: 4927 keys, 2163800 bytes
+2018/03/23-08:02:28.092 64d4 Generated table #108: 10 keys, 19130 bytes
+2018/03/23-08:02:28.092 64d4 Compacted 6@1 + 4@2 files => 19497238 bytes
+2018/03/23-08:02:28.108 64d4 Delete type=2 #29
+2018/03/23-08:02:28.108 64d4 Delete type=2 #31
+2018/03/23-08:02:28.109 64d4 Delete type=2 #32
+2018/03/23-08:02:28.110 64d4 Delete type=2 #33
+2018/03/23-08:02:28.112 64d4 Delete type=2 #74
+2018/03/23-08:02:28.113 64d4 Delete type=2 #79
+2018/03/23-08:02:28.113 64d4 Delete type=2 #82
+2018/03/23-08:02:28.114 64d4 Delete type=2 #84
+2018/03/23-08:02:28.115 64d4 Delete type=2 #85
+2018/03/23-08:02:28.116 64d4 Delete type=2 #86
+2018/03/23-08:02:28.116 64d4 compacted to: files[ 7 6 24 0 0 0 0 ]
+2018/03/23-08:02:28.116 64d4 Compacting 7@0 + 6@1 files
+2018/03/23-08:02:28.418 64d4 Generated table #109: 4258 keys, 2173793 bytes
+2018/03/23-08:02:28.651 64d4 Generated table #110: 4901 keys, 2168685 bytes
+2018/03/23-08:02:29.103 64d4 Generated table #111: 3912 keys, 2171919 bytes
+2018/03/23-08:02:29.159 64d4 Generated table #112: 278 keys, 340559 bytes
+2018/03/23-08:02:29.506 64d4 Generated table #113: 2874 keys, 2194925 bytes
+2018/03/23-08:02:29.771 64d4 Generated table #114: 3041 keys, 2180425 bytes
+2018/03/23-08:02:30.029 64d4 Generated table #115: 2040 keys, 2187846 bytes
+2018/03/23-08:02:30.350 64d4 Generated table #116: 1950 keys, 2191269 bytes
+2018/03/23-08:02:30.634 64d4 Generated table #117: 2448 keys, 1934766 bytes
+2018/03/23-08:02:30.906 64d4 Generated table #118: 2420 keys, 2191787 bytes
+2018/03/23-08:02:31.196 64d4 Generated table #119: 2697 keys, 2181428 bytes
+2018/03/23-08:02:31.437 64d4 Generated table #120: 2173 keys, 2219543 bytes
+2018/03/23-08:02:31.751 64d4 Generated table #121: 2704 keys, 2184120 bytes
+2018/03/23-08:02:32.023 64d4 Generated table #122: 3903 keys, 2167590 bytes
+2018/03/23-08:02:32.367 64d4 Generated table #123: 2281 keys, 2192002 bytes
+2018/03/23-08:02:32.653 64d4 Generated table #124: 4020 keys, 2175871 bytes
+2018/03/23-08:02:32.899 64d4 Generated table #125: 3012 keys, 2160859 bytes
+2018/03/23-08:02:33.051 64d4 Generated table #126: 2140 keys, 2187563 bytes
+2018/03/23-08:02:33.287 64d4 Generated table #127: 3029 keys, 2151226 bytes
+2018/03/23-08:02:33.287 64d4 Compacted 7@0 + 6@1 files => 39356176 bytes
+2018/03/23-08:02:33.319 64d4 Delete type=2 #75
+2018/03/23-08:02:33.320 64d4 Delete type=2 #77
+2018/03/23-08:02:33.321 64d4 Delete type=2 #80
+2018/03/23-08:02:33.323 64d4 Delete type=2 #83
+2018/03/23-08:02:33.324 64d4 Delete type=2 #87
+2018/03/23-08:02:33.325 64d4 Delete type=2 #89
+2018/03/23-08:02:33.325 64d4 Delete type=2 #90
+2018/03/23-08:02:33.326 64d4 Delete type=2 #92
+2018/03/23-08:02:33.327 64d4 Delete type=2 #93
+2018/03/23-08:02:33.328 64d4 Delete type=2 #95
+2018/03/23-08:02:33.328 64d4 Delete type=2 #96
+2018/03/23-08:02:33.330 64d4 Delete type=2 #97
+2018/03/23-08:02:33.331 64d4 Delete type=2 #98
+2018/03/23-08:02:33.331 64d4 compacted to: files[ 0 19 24 0 0 0 0 ]
+2018/03/23-08:02:33.331 64d4 Compacting 1@1 + 1@2 files
+2018/03/23-08:02:33.661 64d4 Generated table #128: 4807 keys, 2166508 bytes
+2018/03/23-08:02:34.038 64d4 Generated table #129: 4032 keys, 2169760 bytes
+2018/03/23-08:02:34.038 64d4 Compacted 1@1 + 1@2 files => 4336268 bytes
+2018/03/23-08:02:34.091 64d4 Delete type=2 #107
+2018/03/23-08:02:34.092 64d4 Delete type=2 #111
+2018/03/23-08:02:34.092 64d4 compacted to: files[ 0 18 25 0 0 0 0 ]
+2018/03/23-08:02:34.092 64d4 Compacting 1@1 + 1@2 files
+2018/03/23-08:02:34.420 64d4 Generated table #130: 4036 keys, 2173053 bytes
+2018/03/23-08:02:34.489 64d4 Generated table #131: 274 keys, 337189 bytes
+2018/03/23-08:02:34.489 64d4 Compacted 1@1 + 1@2 files => 2510242 bytes
+2018/03/23-08:02:34.562 64d4 Delete type=2 #112
+2018/03/23-08:02:34.562 64d4 Delete type=2 #129
+2018/03/23-08:02:34.563 64d4 compacted to: files[ 0 17 26 0 0 0 0 ]
+2018/03/23-08:02:34.563 64d4 Compacting 1@1 + 1@2 files
+2018/03/23-08:02:34.904 64d4 Generated table #132: 2100 keys, 2186146 bytes
+2018/03/23-08:02:35.183 64d4 Generated table #133: 3339 keys, 2185086 bytes
+2018/03/23-08:02:35.183 64d4 Compacted 1@1 + 1@2 files => 4371232 bytes
+2018/03/23-08:02:35.217 64d4 Delete type=2 #35
+2018/03/23-08:02:35.219 64d4 Delete type=2 #113
+2018/03/23-08:02:35.220 64d4 compacted to: files[ 0 16 27 0 0 0 0 ]
+2018/03/23-08:02:35.220 64d4 Compacting 1@1 + 1@2 files
+2018/03/23-08:02:35.516 64d4 Generated table #134: 3234 keys, 2189869 bytes
+2018/03/23-08:02:35.783 64d4 Generated table #135: 3146 keys, 2175772 bytes
+2018/03/23-08:02:35.783 64d4 Compacted 1@1 + 1@2 files => 4365641 bytes
+2018/03/23-08:02:35.821 64d4 Delete type=2 #114
+2018/03/23-08:02:35.822 64d4 Delete type=2 #133
+2018/03/23-08:02:35.822 64d4 compacted to: files[ 0 15 28 0 0 0 0 ]
+2018/03/23-08:02:35.823 64d4 Compacting 1@1 + 1@2 files
+2018/03/23-08:02:36.149 64d4 Generated table #136: 2893 keys, 2181000 bytes
+2018/03/23-08:02:36.455 64d4 Generated table #137: 2293 keys, 2182638 bytes
+2018/03/23-08:02:36.455 64d4 Compacted 1@1 + 1@2 files => 4363638 bytes
+2018/03/23-08:02:36.515 64d4 Delete type=2 #115
+2018/03/23-08:02:36.516 64d4 Delete type=2 #135
+2018/03/23-08:02:36.517 64d4 compacted to: files[ 0 14 29 0 0 0 0 ]
+2018/03/23-08:02:36.517 64d4 Expanding@1 1+10 to 2+10
+2018/03/23-08:02:36.517 64d4 Compacting 2@1 + 10@2 files
+2018/03/23-08:02:36.920 64d4 Generated table #138: 1879 keys, 2188307 bytes
+2018/03/23-08:02:37.201 64d4 Generated table #139: 2232 keys, 2180176 bytes
+2018/03/23-08:02:37.440 64d4 Generated table #140: 3084 keys, 2171295 bytes
+2018/03/23-08:02:37.740 64d4 Generated table #141: 3659 keys, 2161427 bytes
+2018/03/23-08:02:38.123 64d4 Generated table #142: 3275 keys, 2161667 bytes
+2018/03/23-08:02:38.444 64d4 Generated table #143: 2956 keys, 2164890 bytes
+2018/03/23-08:02:38.748 64d4 Generated table #144: 2758 keys, 2165690 bytes
+2018/03/23-08:02:39.003 64d4 Generated table #145: 2723 keys, 2172118 bytes
+2018/03/23-08:02:39.290 64d4 Generated table #146: 3307 keys, 2170993 bytes
+2018/03/23-08:02:39.585 64d4 Generated table #147: 2820 keys, 2169815 bytes
+2018/03/23-08:02:39.846 64d4 Generated table #148: 2929 keys, 2170766 bytes
+2018/03/23-08:02:40.136 64d4 Generated table #149: 2236 keys, 1937483 bytes
+2018/03/23-08:02:40.136 64d4 Compacted 2@1 + 10@2 files => 25814627 bytes
+2018/03/23-08:02:40.241 64d4 Delete type=2 #36
+2018/03/23-08:02:40.242 64d4 Delete type=2 #39
+2018/03/23-08:02:40.242 64d4 Delete type=2 #40
+2018/03/23-08:02:40.243 64d4 Delete type=2 #41
+2018/03/23-08:02:40.244 64d4 Delete type=2 #42
+2018/03/23-08:02:40.245 64d4 Delete type=2 #64
+2018/03/23-08:02:40.245 64d4 Delete type=2 #65
+2018/03/23-08:02:40.246 64d4 Delete type=2 #66
+2018/03/23-08:02:40.247 64d4 Delete type=2 #67
+2018/03/23-08:02:40.248 64d4 Delete type=2 #116
+2018/03/23-08:02:40.249 64d4 Delete type=2 #117
+2018/03/23-08:02:40.249 64d4 Delete type=2 #137
+2018/03/23-08:02:40.250 64d4 compacted to: files[ 0 12 31 0 0 0 0 ]
+2018/03/23-08:02:40.250 64d4 Expanding@1 1+3 to 10+3
+2018/03/23-08:02:40.250 64d4 Compacting 10@1 + 3@2 files
+2018/03/23-08:02:40.617 64d4 Generated table #150: 3076 keys, 2179512 bytes
+2018/03/23-08:02:40.875 64d4 Generated table #151: 1954 keys, 2205625 bytes
+2018/03/23-08:02:41.137 64d4 Generated table #152: 2958 keys, 2184065 bytes
+2018/03/23-08:02:41.360 64d4 Generated table #153: 1814 keys, 2180200 bytes
+2018/03/23-08:02:41.611 64d4 Generated table #154: 2793 keys, 2181098 bytes
+2018/03/23-08:02:41.925 64d4 Generated table #155: 2252 keys, 2214896 bytes
+2018/03/23-08:02:42.245 64d4 Generated table #156: 3186 keys, 2189752 bytes
+2018/03/23-08:02:42.683 64d4 Generated table #157: 3229 keys, 2170053 bytes
+2018/03/23-08:02:42.994 64d4 Generated table #158: 2497 keys, 2200075 bytes
+2018/03/23-08:02:43.221 64d4 Generated table #159: 4106 keys, 2161089 bytes
+2018/03/23-08:02:43.435 64d4 Generated table #160: 2663 keys, 2162407 bytes
+2018/03/23-08:02:43.699 64d4 Generated table #161: 2466 keys, 2181459 bytes
+2018/03/23-08:02:43.974 64d4 Generated table #162: 2494 keys, 1641962 bytes
+2018/03/23-08:02:43.974 64d4 Compacted 10@1 + 3@2 files => 27852193 bytes
+2018/03/23-08:02:44.013 64d4 Delete type=2 #68
+2018/03/23-08:02:44.014 64d4 Delete type=2 #69
+2018/03/23-08:02:44.015 64d4 Delete type=2 #70
+2018/03/23-08:02:44.016 64d4 Delete type=2 #118
+2018/03/23-08:02:44.017 64d4 Delete type=2 #119
+2018/03/23-08:02:44.018 64d4 Delete type=2 #120
+2018/03/23-08:02:44.019 64d4 Delete type=2 #121
+2018/03/23-08:02:44.020 64d4 Delete type=2 #122
+2018/03/23-08:02:44.020 64d4 Delete type=2 #123
+2018/03/23-08:02:44.021 64d4 Delete type=2 #124
+2018/03/23-08:02:44.021 64d4 Delete type=2 #125
+2018/03/23-08:02:44.022 64d4 Delete type=2 #126
+2018/03/23-08:02:44.023 64d4 Delete type=2 #127
+2018/03/23-08:02:44.023 64d4 compacted to: files[ 0 2 41 0 0 0 0 ]
+2018/03/23-08:02:46.108 64d4 Level-0 table #164: started
+2018/03/23-08:02:46.507 64d4 Level-0 table #164: 4193539 bytes OK
+2018/03/23-08:02:46.580 64d4 Delete type=0 #94
+2018/03/23-08:02:47.868 64d4 Compacting 1@0 + 2@1 files
+2018/03/23-08:02:48.086 64d4 Generated table #165: 1771 keys, 2114287 bytes
+2018/03/23-08:02:48.324 64d4 Generated table #166: 2060 keys, 2126112 bytes
+2018/03/23-08:02:48.564 64d4 Generated table #167: 3881 keys, 2175802 bytes
+2018/03/23-08:02:48.846 64d4 Generated table #168: 3850 keys, 1559023 bytes
+2018/03/23-08:02:48.898 64d4 Generated table #169: 8870 keys, 559860 bytes
+2018/03/23-08:02:48.898 64d4 Compacted 1@0 + 2@1 files => 8535084 bytes
+2018/03/23-08:02:48.935 64d4 Delete type=2 #109
+2018/03/23-08:02:48.936 64d4 Delete type=2 #110
+2018/03/23-08:02:48.936 64d4 Delete type=2 #164
+2018/03/23-08:02:48.937 64d4 compacted to: files[ 0 5 41 0 0 0 0 ]
+2018/03/23-08:02:49.304 64d4 Compacting 1@1 + 8@2 files
+2018/03/23-08:02:49.654 64d4 Generated table #170: 3844 keys, 2176731 bytes
+2018/03/23-08:02:50.129 64d4 Generated table #171: 4890 keys, 2164168 bytes
+2018/03/23-08:02:50.328 64d4 Level-0 table #174: started
+2018/03/23-08:02:50.637 64d4 Level-0 table #174: 3963384 bytes OK
+2018/03/23-08:02:50.651 64d4 Delete type=0 #163
+2018/03/23-08:02:50.936 64d4 Generated table #173: 4575 keys, 2167968 bytes
+2018/03/23-08:02:51.193 64d4 Generated table #175: 4768 keys, 2159965 bytes
+2018/03/23-08:02:51.502 64d4 Generated table #176: 5230 keys, 2152863 bytes
+2018/03/23-08:02:51.726 64d4 Generated table #177: 4431 keys, 2160006 bytes
+2018/03/23-08:02:52.018 64d4 Generated table #178: 4410 keys, 2169635 bytes
+2018/03/23-08:02:52.320 64d4 Generated table #179: 3347 keys, 2184062 bytes
+2018/03/23-08:02:52.645 64d4 Generated table #180: 5059 keys, 2152066 bytes
+2018/03/23-08:02:52.645 64d4 Compacted 1@1 + 8@2 files => 19487464 bytes
+2018/03/23-08:02:52.659 64d4 Delete type=2 #100
+2018/03/23-08:02:52.660 64d4 Delete type=2 #101
+2018/03/23-08:02:52.661 64d4 Delete type=2 #102
+2018/03/23-08:02:52.662 64d4 Delete type=2 #103
+2018/03/23-08:02:52.663 64d4 Delete type=2 #104
+2018/03/23-08:02:52.664 64d4 Delete type=2 #105
+2018/03/23-08:02:52.665 64d4 Delete type=2 #106
+2018/03/23-08:02:52.666 64d4 Delete type=2 #128
+2018/03/23-08:02:52.666 64d4 Delete type=2 #167
+2018/03/23-08:02:52.668 64d4 compacted to: files[ 1 4 42 0 0 0 0 ]
+2018/03/23-08:02:53.094 64d4 Expanding@1 1+2 to 2+2
+2018/03/23-08:02:53.094 64d4 Compacting 2@1 + 2@2 files
+2018/03/23-08:02:53.312 64d4 Generated table #181: 2340 keys, 2120216 bytes
+2018/03/23-08:02:53.588 64d4 Generated table #182: 2178 keys, 2124181 bytes
+2018/03/23-08:02:53.842 64d4 Generated table #183: 4823 keys, 2166223 bytes
+2018/03/23-08:02:54.168 64d4 Generated table #184: 3180 keys, 1901088 bytes
+2018/03/23-08:02:54.168 64d4 Compacted 2@1 + 2@2 files => 8311708 bytes
+2018/03/23-08:02:54.182 64d4 Delete type=2 #99
+2018/03/23-08:02:54.183 64d4 Delete type=2 #165
+2018/03/23-08:02:54.184 64d4 Delete type=2 #166
+2018/03/23-08:02:54.185 64d4 Delete type=2 #170
+2018/03/23-08:02:54.185 64d4 compacted to: files[ 1 2 44 0 0 0 0 ]
+2018/03/23-08:02:54.786 64d4 Level-0 table #186: started
+2018/03/23-08:02:54.999 64d4 Level-0 table #186: 4358523 bytes OK
+2018/03/23-08:02:55.013 64d4 Delete type=0 #172
+2018/03/23-08:03:02.255 64d4 Level-0 table #188: started
+2018/03/23-08:03:02.482 64d4 Level-0 table #188: 4205826 bytes OK
+2018/03/23-08:03:02.519 64d4 Delete type=0 #185
+2018/03/23-08:03:10.301 64d4 Level-0 table #190: started
+2018/03/23-08:03:10.519 64d4 Level-0 table #190: 4243906 bytes OK
+2018/03/23-08:03:10.555 64d4 Delete type=0 #187
+2018/03/23-08:03:10.556 64d4 Compacting 4@0 + 1@1 files
+2018/03/23-08:03:10.752 64d4 Generated table #191: 292 keys, 2115163 bytes
+2018/03/23-08:03:10.973 64d4 Generated table #192: 96 keys, 2246177 bytes
+2018/03/23-08:03:11.112 64d4 Generated table #193: 83 keys, 2129902 bytes
+2018/03/23-08:03:11.250 64d4 Generated table #194: 83 keys, 2105171 bytes
+2018/03/23-08:03:11.426 64d4 Generated table #195: 105 keys, 2101058 bytes
+2018/03/23-08:03:11.550 64d4 Generated table #196: 98 keys, 2122382 bytes
+2018/03/23-08:03:11.674 64d4 Generated table #197: 138 keys, 2136133 bytes
+2018/03/23-08:03:11.947 64d4 Generated table #198: 18759 keys, 2130168 bytes
+2018/03/23-08:03:12.030 64d4 Generated table #199: 135 keys, 101536 bytes
+2018/03/23-08:03:12.030 64d4 Compacted 4@0 + 1@1 files => 17187690 bytes
+2018/03/23-08:03:12.047 64d4 Delete type=2 #169
+2018/03/23-08:03:12.048 64d4 Delete type=2 #174
+2018/03/23-08:03:12.049 64d4 Delete type=2 #186
+2018/03/23-08:03:12.050 64d4 Delete type=2 #188
+2018/03/23-08:03:12.051 64d4 Delete type=2 #190
+2018/03/23-08:03:12.052 64d4 compacted to: files[ 0 10 44 0 0 0 0 ]
+2018/03/23-08:03:12.052 64d4 Compacting 1@1 + 1@2 files
+2018/03/23-08:03:12.438 64d4 Generated table #200: 5102 keys, 2162190 bytes
+2018/03/23-08:03:12.742 64d4 Generated table #201: 3807 keys, 1549821 bytes
+2018/03/23-08:03:12.742 64d4 Compacted 1@1 + 1@2 files => 3712011 bytes
+2018/03/23-08:03:12.776 64d4 Delete type=2 #168
+2018/03/23-08:03:12.777 64d4 Delete type=2 #180
+2018/03/23-08:03:12.778 64d4 compacted to: files[ 0 9 45 0 0 0 0 ]
+2018/03/23-08:03:12.778 64d4 Expanding@1 1+1 to 8+1
+2018/03/23-08:03:12.778 64d4 Compacting 8@1 + 1@2 files
+2018/03/23-08:03:13.066 64d4 Generated table #202: 2232 keys, 2166506 bytes
+2018/03/23-08:03:13.233 64d4 Generated table #203: 234 keys, 2183416 bytes
+2018/03/23-08:03:13.452 64d4 Generated table #204: 65 keys, 2230552 bytes
+2018/03/23-08:03:13.584 64d4 Generated table #205: 78 keys, 2111177 bytes
+2018/03/23-08:03:13.727 64d4 Generated table #206: 95 keys, 2130500 bytes
+2018/03/23-08:03:13.925 64d4 Generated table #207: 101 keys, 2243358 bytes
+2018/03/23-08:03:14.071 64d4 Generated table #208: 121 keys, 2103671 bytes
+2018/03/23-08:03:14.283 64d4 Generated table #209: 11420 keys, 2103984 bytes
+2018/03/23-08:03:14.490 64d4 Generated table #210: 3497 keys, 1398448 bytes
+2018/03/23-08:03:14.490 64d4 Compacted 8@1 + 1@2 files => 18671612 bytes
+2018/03/23-08:03:14.524 64d4 Delete type=2 #162
+2018/03/23-08:03:14.525 64d4 Delete type=2 #191
+2018/03/23-08:03:14.526 64d4 Delete type=2 #192
+2018/03/23-08:03:14.526 64d4 Delete type=2 #193
+2018/03/23-08:03:14.528 64d4 Delete type=2 #194
+2018/03/23-08:03:14.528 64d4 Delete type=2 #195
+2018/03/23-08:03:14.529 64d4 Delete type=2 #196
+2018/03/23-08:03:14.530 64d4 Delete type=2 #197
+2018/03/23-08:03:14.530 64d4 Delete type=2 #198
+2018/03/23-08:03:14.531 64d4 compacted to: files[ 0 1 53 0 0 0 0 ]
+2018/03/23-08:03:14.567 64d4 Moved #181 to level-3 2120216 bytes OK: files[ 0 1 52 1 0 0 0 ]
+2018/03/23-08:03:14.602 64d4 Moved #182 to level-3 2124181 bytes OK: files[ 0 1 51 2 0 0 0 ]
+2018/03/23-08:03:14.615 64d4 Moved #183 to level-3 2166223 bytes OK: files[ 0 1 50 3 0 0 0 ]
+2018/03/23-08:03:20.307 64d4 Level-0 table #212: started
+2018/03/23-08:03:20.602 64d4 Level-0 table #212: 4203925 bytes OK
+2018/03/23-08:03:20.617 64d4 Delete type=0 #189
+2018/03/23-08:03:30.012 64d4 Compacting 1@0 + 1@1 files
+2018/03/23-08:03:30.199 64d4 Generated table #213: 138 keys, 2109980 bytes
+2018/03/23-08:03:30.411 64d4 Generated table #214: 403 keys, 2101840 bytes
+2018/03/23-08:03:30.434 64d4 Generated table #215: 70 keys, 93660 bytes
+2018/03/23-08:03:30.434 64d4 Compacted 1@0 + 1@1 files => 4305480 bytes
+2018/03/23-08:03:30.455 64d4 Delete type=2 #199
+2018/03/23-08:03:30.456 64d4 Delete type=2 #212
+2018/03/23-08:03:30.457 64d4 compacted to: files[ 0 3 50 3 0 0 0 ]
+2018/03/23-08:03:36.347 64d4 Level-0 table #217: started
+2018/03/23-08:03:36.661 64d4 Level-0 table #217: 4334755 bytes OK
+2018/03/23-08:03:36.675 64d4 Delete type=0 #211
+2018/03/23-08:03:41.776 64d4 Compacting 1@0 + 3@1 files
+2018/03/23-08:03:42.158 64d4 Generated table #218: 177 keys, 2228626 bytes
+2018/03/23-08:03:42.483 64d4 Generated table #219: 94 keys, 2121532 bytes
+2018/03/23-08:03:42.720 64d4 Generated table #220: 99 keys, 2177948 bytes
+2018/03/23-08:03:42.867 64d4 Generated table #221: 775 keys, 2104117 bytes
+2018/03/23-08:03:42.883 64d4 Generated table #222: 8 keys, 7936 bytes
+2018/03/23-08:03:42.883 64d4 Compacted 1@0 + 3@1 files => 8640159 bytes
+2018/03/23-08:03:42.896 64d4 Delete type=2 #213
+2018/03/23-08:03:42.897 64d4 Delete type=2 #214
+2018/03/23-08:03:42.898 64d4 Delete type=2 #215
+2018/03/23-08:03:42.898 64d4 Delete type=2 #217
+2018/03/23-08:03:42.900 64d4 compacted to: files[ 0 5 50 3 0 0 0 ]
+2018/03/23-08:03:47.323 64d4 Compacting 1@1 + 3@2 files
+2018/03/23-08:03:47.625 64d4 Generated table #223: 118 keys, 2119110 bytes
+2018/03/23-08:03:47.850 64d4 Generated table #224: 153 keys, 2108857 bytes
+2018/03/23-08:03:48.103 64d4 Generated table #225: 14657 keys, 2116818 bytes
+2018/03/23-08:03:48.302 64d4 Generated table #226: 885 keys, 1365385 bytes
+2018/03/23-08:03:48.302 64d4 Compacted 1@1 + 3@2 files => 7710170 bytes
+2018/03/23-08:03:48.320 64d4 Delete type=2 #208
+2018/03/23-08:03:48.321 64d4 Delete type=2 #209
+2018/03/23-08:03:48.321 64d4 Delete type=2 #210
+2018/03/23-08:03:48.322 64d4 Delete type=2 #221
+2018/03/23-08:03:48.323 64d4 compacted to: files[ 0 4 51 3 0 0 0 ]
+2018/03/23-08:03:53.865 64d4 Level-0 table #228: started
+2018/03/23-08:03:54.254 64d4 Level-0 table #228: 4206826 bytes OK
+2018/03/23-08:03:54.278 64d4 Delete type=0 #216
+2018/03/23-08:04:00.852 64d4 Compacting 1@0 + 4@1 files
+2018/03/23-08:04:01.186 64d4 Generated table #229: 216 keys, 2123268 bytes
+2018/03/23-08:04:01.329 64d4 Generated table #230: 66 keys, 2184691 bytes
+2018/03/23-08:04:01.465 64d4 Generated table #231: 107 keys, 2106643 bytes
+2018/03/23-08:04:01.644 64d4 Generated table #232: 87 keys, 2168290 bytes
+2018/03/23-08:04:01.828 64d4 Generated table #233: 490 keys, 2105528 bytes
+2018/03/23-08:04:01.846 64d4 Generated table #234: 48 keys, 54110 bytes
+2018/03/23-08:04:01.846 64d4 Compacted 1@0 + 4@1 files => 10742530 bytes
+2018/03/23-08:04:01.861 64d4 Delete type=2 #218
+2018/03/23-08:04:01.862 64d4 Delete type=2 #219
+2018/03/23-08:04:01.863 64d4 Delete type=2 #220
+2018/03/23-08:04:01.864 64d4 Delete type=2 #222
+2018/03/23-08:04:01.864 64d4 Delete type=2 #228
+2018/03/23-08:04:01.865 64d4 compacted to: files[ 0 6 51 3 0 0 0 ]
+2018/03/23-08:04:01.865 64d4 Compacting 1@1 + 1@2 files
+2018/03/23-08:04:02.109 64d4 Generated table #235: 933 keys, 1419476 bytes
+2018/03/23-08:04:02.109 64d4 Compacted 1@1 + 1@2 files => 1419476 bytes
+2018/03/23-08:04:02.149 64d4 Delete type=2 #226
+2018/03/23-08:04:02.150 64d4 Delete type=2 #234
+2018/03/23-08:04:02.151 64d4 compacted to: files[ 0 5 51 3 0 0 0 ]
+2018/03/23-08:04:02.151 64d4 Compacting 1@1 + 3@2 files
+2018/03/23-08:04:02.458 64d4 Generated table #236: 2228 keys, 2184005 bytes
+2018/03/23-08:04:02.694 64d4 Generated table #237: 235 keys, 2105052 bytes
+2018/03/23-08:04:02.935 64d4 Generated table #238: 222 keys, 2184197 bytes
+2018/03/23-08:04:03.031 64d4 Generated table #239: 62 keys, 2230406 bytes
+2018/03/23-08:04:03.031 64d4 Compacted 1@1 + 3@2 files => 8703660 bytes
+2018/03/23-08:04:03.052 64d4 Delete type=2 #202
+2018/03/23-08:04:03.053 64d4 Delete type=2 #203
+2018/03/23-08:04:03.054 64d4 Delete type=2 #204
+2018/03/23-08:04:03.054 64d4 Delete type=2 #229
+2018/03/23-08:04:03.055 64d4 compacted to: files[ 0 4 52 3 0 0 0 ]
+2018/03/23-08:04:03.087 64d4 Moved #184 to level-3 1901088 bytes OK: files[ 0 4 51 4 0 0 0 ]
+2018/03/23-08:04:03.101 64d4 Moved #171 to level-3 2164168 bytes OK: files[ 0 4 50 5 0 0 0 ]
+2018/03/23-08:04:06.147 64d4 Compacting 1@1 + 5@2 files
+2018/03/23-08:04:06.296 64d4 Generated table #240: 105 keys, 2103754 bytes
+2018/03/23-08:04:06.514 64d4 Generated table #241: 110 keys, 2118418 bytes
+2018/03/23-08:04:06.753 64d4 Generated table #242: 132 keys, 2102392 bytes
+2018/03/23-08:04:06.964 64d4 Generated table #243: 407 keys, 2104807 bytes
+2018/03/23-08:04:07.254 64d4 Generated table #244: 14714 keys, 2119998 bytes
+2018/03/23-08:04:07.506 64d4 Generated table #245: 984 keys, 1563853 bytes
+2018/03/23-08:04:07.506 64d4 Compacted 1@1 + 5@2 files => 12113222 bytes
+2018/03/23-08:04:07.521 64d4 Delete type=2 #207
+2018/03/23-08:04:07.521 64d4 Delete type=2 #223
+2018/03/23-08:04:07.522 64d4 Delete type=2 #224
+2018/03/23-08:04:07.522 64d4 Delete type=2 #225
+2018/03/23-08:04:07.523 64d4 Delete type=2 #233
+2018/03/23-08:04:07.523 64d4 Delete type=2 #235
+2018/03/23-08:04:07.524 64d4 compacted to: files[ 0 3 51 5 0 0 0 ]
+2018/03/23-08:04:07.560 64d4 Moved #173 to level-3 2167968 bytes OK: files[ 0 3 50 6 0 0 0 ]
+2018/03/23-08:04:55.391 64d4 Level-0 table #247: started
+2018/03/23-08:04:55.703 64d4 Level-0 table #247: 4207230 bytes OK
+2018/03/23-08:04:55.717 64d4 Delete type=0 #227
+2018/03/23-08:04:59.406 64d4 Compacting 1@0 + 3@1 files
+2018/03/23-08:04:59.676 64d4 Generated table #248: 151 keys, 2102926 bytes
+2018/03/23-08:04:59.874 64d4 Generated table #249: 77 keys, 2228069 bytes
+2018/03/23-08:05:00.064 64d4 Generated table #250: 143 keys, 2114559 bytes
+2018/03/23-08:05:00.286 64d4 Generated table #251: 110 keys, 2108603 bytes
+2018/03/23-08:05:00.366 64d4 Generated table #252: 111 keys, 375500 bytes
+2018/03/23-08:05:00.629 64d4 Generated table #253: 992 keys, 1736808 bytes
+2018/03/23-08:05:00.629 64d4 Compacted 1@0 + 3@1 files => 10666465 bytes
+2018/03/23-08:05:00.643 64d4 Delete type=2 #230
+2018/03/23-08:05:00.644 64d4 Delete type=2 #231
+2018/03/23-08:05:00.645 64d4 Delete type=2 #232
+2018/03/23-08:05:00.645 64d4 Delete type=2 #247
+2018/03/23-08:05:00.647 64d4 compacted to: files[ 0 6 50 6 0 0 0 ]
+2018/03/23-08:05:00.648 64d4 Compacting 1@1 + 2@2 files
+2018/03/23-08:05:00.949 64d4 Generated table #254: 14681 keys, 2115689 bytes
+2018/03/23-08:05:01.183 64d4 Generated table #255: 1258 keys, 2108906 bytes
+2018/03/23-08:05:01.309 64d4 Generated table #256: 751 keys, 1196050 bytes
+2018/03/23-08:05:01.309 64d4 Compacted 1@1 + 2@2 files => 5420645 bytes
+2018/03/23-08:05:01.323 64d4 Delete type=2 #244
+2018/03/23-08:05:01.324 64d4 Delete type=2 #245
+2018/03/23-08:05:01.324 64d4 Delete type=2 #253
+2018/03/23-08:05:01.325 64d4 compacted to: files[ 0 5 51 6 0 0 0 ]
+2018/03/23-08:08:03.033 64d4 Compacting 1@1 + 4@2 files
+2018/03/23-08:08:03.360 64d4 Generated table #257: 2233 keys, 2180951 bytes
+2018/03/23-08:08:03.644 64d4 Generated table #258: 233 keys, 2122899 bytes
+2018/03/23-08:08:03.916 64d4 Generated table #259: 249 keys, 2104171 bytes
+2018/03/23-08:08:04.057 64d4 Generated table #260: 119 keys, 2103477 bytes
+2018/03/23-08:08:04.311 64d4 Generated table #261: 62 keys, 2101250 bytes
+2018/03/23-08:08:04.400 64d4 Generated table #262: 2 keys, 193982 bytes
+2018/03/23-08:08:04.401 64d4 Compacted 1@1 + 4@2 files => 10806730 bytes
+2018/03/23-08:08:04.426 64d4 Delete type=2 #236
+2018/03/23-08:08:04.427 64d4 Delete type=2 #237
+2018/03/23-08:08:04.428 64d4 Delete type=2 #238
+2018/03/23-08:08:04.429 64d4 Delete type=2 #239
+2018/03/23-08:08:04.430 64d4 Delete type=2 #248
+2018/03/23-08:08:04.430 64d4 compacted to: files[ 0 4 53 6 0 0 0 ]
+2018/03/23-08:08:04.457 64d4 Moved #175 to level-3 2159965 bytes OK: files[ 0 4 52 7 0 0 0 ]
+2018/03/23-08:08:42.165 64d4 Level-0 table #264: started
+2018/03/23-08:08:42.522 64d4 Level-0 table #264: 4076369 bytes OK
+2018/03/23-08:08:42.709 64d4 Delete type=0 #246
+2018/03/23-08:08:43.647 64d4 Compacting 1@0 + 4@1 files
+2018/03/23-08:08:43.708 64d4 Generated table #265: 666 keys, 191045 bytes
+2018/03/23-08:08:43.992 64d4 Generated table #266: 85 keys, 2100045 bytes
+2018/03/23-08:08:44.209 64d4 Generated table #267: 139 keys, 2197108 bytes
+2018/03/23-08:08:44.356 64d4 Generated table #268: 371 keys, 2236445 bytes
+2018/03/23-08:08:44.433 64d4 Generated table #269: 66 keys, 686092 bytes
+2018/03/23-08:08:44.724 64d4 Generated table #270: 3986 keys, 2114290 bytes
+2018/03/23-08:08:44.763 64d4 Generated table #271: 220 keys, 570582 bytes
+2018/03/23-08:08:44.763 64d4 Compacted 1@0 + 4@1 files => 10095607 bytes
+2018/03/23-08:08:44.793 64d4 Delete type=2 #249
+2018/03/23-08:08:44.794 64d4 Delete type=2 #250
+2018/03/23-08:08:44.795 64d4 Delete type=2 #251
+2018/03/23-08:08:44.795 64d4 Delete type=2 #252
+2018/03/23-08:08:44.796 64d4 Delete type=2 #264
+2018/03/23-08:08:44.797 64d4 compacted to: files[ 0 7 52 7 0 0 0 ]
+2018/03/23-08:08:46.387 64d4 Moved #265 to level-2 191045 bytes OK: files[ 0 6 53 7 0 0 0 ]
+2018/03/23-08:08:49.616 64d4 Compacting 1@2 + 2@3 files
+2018/03/23-08:08:49.840 64d4 Generated table #272: 2638 keys, 2129920 bytes
+2018/03/23-08:08:50.116 64d4 Generated table #273: 1706 keys, 2119731 bytes
+2018/03/23-08:08:50.170 64d4 Generated table #274: 595 keys, 179812 bytes
+2018/03/23-08:08:50.170 64d4 Compacted 1@2 + 2@3 files => 4429463 bytes
+2018/03/23-08:08:50.198 64d4 Delete type=2 #181
+2018/03/23-08:08:50.199 64d4 Delete type=2 #182
+2018/03/23-08:08:50.200 64d4 Delete type=2 #265
+2018/03/23-08:08:50.200 64d4 compacted to: files[ 0 6 52 8 0 0 0 ]
+2018/03/23-08:09:07.665 64d4 Compacting 1@1 + 7@2 files
+2018/03/23-08:09:08.069 64d4 Generated table #275: 2232 keys, 2161723 bytes
+2018/03/23-08:09:08.314 64d4 Generated table #276: 233 keys, 2102674 bytes
+2018/03/23-08:09:08.572 64d4 Generated table #277: 250 keys, 2111120 bytes
+2018/03/23-08:09:08.739 64d4 Generated table #278: 131 keys, 2179070 bytes
+2018/03/23-08:09:08.945 64d4 Generated table #279: 58 keys, 2347208 bytes
+2018/03/23-08:09:09.071 64d4 Generated table #280: 75 keys, 2105027 bytes
+2018/03/23-08:09:09.270 64d4 Generated table #281: 81 keys, 1997721 bytes
+2018/03/23-08:09:09.270 64d4 Compacted 1@1 + 7@2 files => 15004543 bytes
+2018/03/23-08:09:09.285 64d4 Delete type=2 #205
+2018/03/23-08:09:09.285 64d4 Delete type=2 #257
+2018/03/23-08:09:09.286 64d4 Delete type=2 #258
+2018/03/23-08:09:09.287 64d4 Delete type=2 #259
+2018/03/23-08:09:09.287 64d4 Delete type=2 #260
+2018/03/23-08:09:09.288 64d4 Delete type=2 #261
+2018/03/23-08:09:09.289 64d4 Delete type=2 #262
+2018/03/23-08:09:09.289 64d4 Delete type=2 #266
+2018/03/23-08:09:09.290 64d4 compacted to: files[ 0 5 52 8 0 0 0 ]
+2018/03/23-08:09:09.306 64d4 Moved #176 to level-3 2152863 bytes OK: files[ 0 5 51 9 0 0 0 ]
+2018/03/23-08:09:41.141 64d4 Compacting 1@1 + 3@2 files
+2018/03/23-08:09:41.380 64d4 Generated table #282: 98 keys, 2153733 bytes
+2018/03/23-08:09:41.479 64d4 Generated table #283: 119 keys, 2238648 bytes
+2018/03/23-08:09:41.669 64d4 Generated table #284: 163 keys, 2209950 bytes
+2018/03/23-08:09:41.699 64d4 Generated table #285: 32 keys, 381950 bytes
+2018/03/23-08:09:41.699 64d4 Compacted 1@1 + 3@2 files => 6984281 bytes
+2018/03/23-08:09:41.726 64d4 Delete type=2 #240
+2018/03/23-08:09:41.726 64d4 Delete type=2 #241
+2018/03/23-08:09:41.727 64d4 Delete type=2 #242
+2018/03/23-08:09:41.727 64d4 Delete type=2 #269
+2018/03/23-08:09:41.728 64d4 compacted to: files[ 0 4 52 9 0 0 0 ]
+2018/03/23-08:09:41.753 64d4 Moved #177 to level-3 2160006 bytes OK: files[ 0 4 51 10 0 0 0 ]
+2018/03/23-08:09:57.600 64d4 Expanding@1 1+4 to 2+4
+2018/03/23-08:09:57.600 64d4 Compacting 2@1 + 4@2 files
+2018/03/23-08:09:57.779 64d4 Generated table #286: 227 keys, 2102747 bytes
+2018/03/23-08:09:58.101 64d4 Generated table #287: 16430 keys, 2119435 bytes
+2018/03/23-08:09:58.346 64d4 Generated table #288: 1252 keys, 2128554 bytes
+2018/03/23-08:09:58.594 64d4 Generated table #289: 1077 keys, 1452687 bytes
+2018/03/23-08:09:58.594 64d4 Compacted 2@1 + 4@2 files => 7803423 bytes
+2018/03/23-08:09:58.615 64d4 Delete type=2 #243
+2018/03/23-08:09:58.615 64d4 Delete type=2 #254
+2018/03/23-08:09:58.616 64d4 Delete type=2 #255
+2018/03/23-08:09:58.617 64d4 Delete type=2 #256
+2018/03/23-08:09:58.618 64d4 Delete type=2 #270
+2018/03/23-08:09:58.618 64d4 Delete type=2 #271
+2018/03/23-08:09:58.619 64d4 compacted to: files[ 0 2 51 10 0 0 0 ]
