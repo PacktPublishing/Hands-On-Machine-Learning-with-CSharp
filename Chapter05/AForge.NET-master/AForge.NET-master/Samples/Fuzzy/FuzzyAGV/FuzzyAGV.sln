@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuzzyAGV", "FuzzyAGV.csproj", "{BCC446EF-0F10-4FBB-AB37-9A9E0B1CDBAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuzzySetSample", "..\Fuzzy Set Sample\FuzzySetSample.csproj", "{2C079A0D-8F90-4B4E-85AA-CAD45F7E0CAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pose Estimation", "..\..\Math\Pose Estimation 2\Pose Estimation.csproj", "{651EBEC1-045E-4A74-A9F6-7E8DD223DD7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classifier", "..\..\Neuro\Simple\Delta Rule Learning\Classifier.csproj", "{22245733-2B6B-4BA6-B10B-016061B21DF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Optimization1D", "..\..\Genetic\Optimization1D\Optimization1D.csproj", "{74E3C094-B60D-479C-85A9-12D9B21034F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCC446EF-0F10-4FBB-AB37-9A9E0B1CDBAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCC446EF-0F10-4FBB-AB37-9A9E0B1CDBAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCC446EF-0F10-4FBB-AB37-9A9E0B1CDBAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCC446EF-0F10-4FBB-AB37-9A9E0B1CDBAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C079A0D-8F90-4B4E-85AA-CAD45F7E0CAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C079A0D-8F90-4B4E-85AA-CAD45F7E0CAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C079A0D-8F90-4B4E-85AA-CAD45F7E0CAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C079A0D-8F90-4B4E-85AA-CAD45F7E0CAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{651EBEC1-045E-4A74-A9F6-7E8DD223DD7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{651EBEC1-045E-4A74-A9F6-7E8DD223DD7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{651EBEC1-045E-4A74-A9F6-7E8DD223DD7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{651EBEC1-045E-4A74-A9F6-7E8DD223DD7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22245733-2B6B-4BA6-B10B-016061B21DF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22245733-2B6B-4BA6-B10B-016061B21DF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22245733-2B6B-4BA6-B10B-016061B21DF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22245733-2B6B-4BA6-B10B-016061B21DF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74E3C094-B60D-479C-85A9-12D9B21034F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74E3C094-B60D-479C-85A9-12D9B21034F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74E3C094-B60D-479C-85A9-12D9B21034F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74E3C094-B60D-479C-85A9-12D9B21034F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB63407A-3FE3-4992-9454-5ED104247E6D}
+	EndGlobalSection
+EndGlobal
