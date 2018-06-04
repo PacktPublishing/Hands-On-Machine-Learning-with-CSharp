@@ -1,0 +1,11 @@
+C:\Development\AI\sharpneat-master\sharpneat-master\src\SharpNeatLib\bin\Debug\SharpNeatLib.dll
+C:\Development\AI\sharpneat-master\sharpneat-master\src\SharpNeatLib\bin\Debug\SharpNeatLib.pdb
+C:\Development\AI\sharpneat-master\sharpneat-master\src\SharpNeatLib\bin\Debug\log4net.dll
+C:\Development\AI\sharpneat-master\sharpneat-master\src\SharpNeatLib\bin\Debug\Redzen.dll
+C:\Development\AI\sharpneat-master\sharpneat-master\src\SharpNeatLib\bin\Debug\log4net.xml
+C:\Development\AI\sharpneat-master\sharpneat-master\src\SharpNeatLib\bin\Debug\Redzen.xml
+C:\Development\AI\sharpneat-master\sharpneat-master\src\SharpNeatLib\obj\Debug\SharpNeatLib.csprojResolveAssemblyReference.cache
+C:\Development\AI\sharpneat-master\sharpneat-master\src\SharpNeatLib\obj\Debug\SharpNeat.Properties.Resources.resources
+C:\Development\AI\sharpneat-master\sharpneat-master\src\SharpNeatLib\obj\Debug\SharpNeatLib.csproj.GenerateResource.Cache
+C:\Development\AI\sharpneat-master\sharpneat-master\src\SharpNeatLib\obj\Debug\SharpNeatLib.dll
+C:\Development\AI\sharpneat-master\sharpneat-master\src\SharpNeatLib\obj\Debug\SharpNeatLib.pdb

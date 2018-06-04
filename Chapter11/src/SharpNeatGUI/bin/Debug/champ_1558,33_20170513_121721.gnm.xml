@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <ActivationFunctions>
+    <Fn id="0" name="LogisticFunctionSteep" prob="0.8" />
+    <Fn id="1" name="RbfGaussian" prob="0.2" />
+  </ActivationFunctions>
+  <Networks>
+    <Network id="41833" birthGen="48" fitness="1558.3257696172539">
+      <Nodes>
+        <Node type="bias" id="0" fnId="0" />
+        <Node type="in" id="1" fnId="0" />
+        <Node type="in" id="2" fnId="0" />
+        <Node type="in" id="3" fnId="0" />
+        <Node type="in" id="4" fnId="0" />
+        <Node type="in" id="5" fnId="0" />
+        <Node type="in" id="6" fnId="0" />
+        <Node type="in" id="7" fnId="0" />
+        <Node type="in" id="8" fnId="0" />
+        <Node type="in" id="9" fnId="0" />
+        <Node type="in" id="10" fnId="0" />
+        <Node type="in" id="11" fnId="0" />
+        <Node type="out" id="12" fnId="1" aux="0.29827847847950995,0.71337506326454847" />
+      </Nodes>
+      <Connections>
+        <Con id="21" src="8" tgt="12" wght="0.040858056297182345" />
+        <Con id="36" src="11" tgt="12" wght="0.043733694584703761" />
+        <Con id="47" src="4" tgt="12" wght="0.045956215091132513" />
+        <Con id="56" src="2" tgt="12" wght="-0.018053188123006606" />
+      </Connections>
+    </Network>
+  </Networks>
+</Root>

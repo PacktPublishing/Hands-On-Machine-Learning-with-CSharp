@@ -1,0 +1,1576 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Redzen</name>
+    </assembly>
+    <members>
+        <member name="T:Redzen.Numerics.HistogramData">
+            <summary>
+            Histogram data. Frequency counts arranged into bins..
+            </summary>
+        </member>
+        <member name="M:Redzen.Numerics.HistogramData.#ctor(System.Double,System.Double,System.Double,System.Int32[])">
+            <summary>
+            Construct with the provided frequency distribution data.
+            </summary>
+            <param name="min">The minimum value in the data series the distribution represents.</param>
+            <param name="max">The maximum value in the data series the distribution represents.</param>
+            <param name="increment">The range of a single category bucket.</param>
+            <param name="frequencyArr">The array of category frequency counts.</param>
+        </member>
+        <member name="P:Redzen.Numerics.HistogramData.Min">
+            <summary>
+            The minimum value in the data series the distribution represents.
+            </summary>
+        </member>
+        <member name="P:Redzen.Numerics.HistogramData.Max">
+            <summary>
+            The maximum value in the data series the distribution represents.
+            </summary>
+        </member>
+        <member name="P:Redzen.Numerics.HistogramData.Increment">
+            <summary>
+            The range of a single category bucket.
+            </summary>
+        </member>
+        <member name="P:Redzen.Numerics.HistogramData.FrequencyArray">
+            <summary>
+            The array of category frequency counts.
+            </summary>
+        </member>
+        <member name="M:Redzen.Numerics.HistogramData.GetBucketIndex(System.Double)">
+            <summary>
+            Gets the index of the bucket that covers the specified x value. Throws an exception if x is 
+            outside the range of represented by the distribution buckets.
+            </summary>
+        </member>
+        <member name="T:Redzen.Numerics.IContinuousDistribution">
+            <summary>
+            Provides random samples from a continuous distribution.
+            </summary>
+        </member>
+        <member name="M:Redzen.Numerics.IContinuousDistribution.NextDouble">
+            <summary>
+            Get a random sample from the distribution.
+            </summary>
+        </member>
+        <member name="T:Redzen.Numerics.IRandomSource">
+            <summary>
+            A source of random values.
+            </summary>
+        </member>
+        <member name="M:Redzen.Numerics.IRandomSource.Reinitialise(System.Int32)">
+            <summary>
+            Reinitialises using an int value as a seed.
+            </summary>
+        </member>
+        <member name="M:Redzen.Numerics.IRandomSource.Next">
+            <summary>
+            Generates a random int over the range 0 to int.MaxValue-1.
+            MaxValue is not generated in order to remain functionally equivalent to System.Random.Next().
+            This does slightly eat into some of the performance gain over System.Random, but not much.
+            For better performance see:
+            
+            Call NextInt() for an int over the range 0 to int.MaxValue.
+            
+            Call NextUInt() and cast the result to an int to generate an int over the full Int32 value range
+            including negative values. 
+            </summary>
+        </member>
+        <member name="M:Redzen.Numerics.IRandomSource.Next(System.Int32)">
+            <summary>
+            Generates a random int over the range 0 to upperBound-1, and not including upperBound.
+            </summary>
+        </member>
+        <member name="M:Redzen.Numerics.IRandomSource.Next(System.Int32,System.Int32)">
+            <summary>
+            Generates a random int over the range lowerBound to upperBound-1, and not including upperBound.
+            upperBound must be >= lowerBound. lowerBound may be negative.
+            </summary>
+        </member>
+        <member name="M:Redzen.Numerics.IRandomSource.NextDouble">
+            <summary>
+            Generates a random double. Values returned are over the range [0, 1). That is, inclusive of 0.0 and exclusive of 1.0.
+            </summary>
+        </member>
+        <member name="M:Redzen.Numerics.IRandomSource.NextBytes(System.Byte[])">
+            <summary>
+            Fills the provided byte array with random bytes.
+            This method is functionally equivalent to System.Random.NextBytes(). 
+            </summary>
+        </member>
+        <member name="M:Redzen.Numerics.IRandomSource.NextFloat">
+            <summary>
+            Generates a random float. Values returned are over the range [0, 1). That is, inclusive of 0.0 and exclusive of 1.0.
+            </summary>
+        </member>
+        <member name="M:Redzen.Numerics.IRandomSource.NextUInt">
+            <summary>
+            Generates a uint. Values returned are over the full range of a uint, 
+            uint.MinValue to uint.MaxValue, inclusive.
+            
+            This is the fastest method for generating a single random number because the underlying
+            random number generator algorithm generates 32 random bits that can be cast directly to 
+            a uint.
+            </summary>
+        </member>
+        <member name="M:Redzen.Numerics.IRandomSource.NextInt">
+            <summary>
+            Generates a random int over the range 0 to int.MaxValue, inclusive. 
+            This method differs from Next() only in that the range is 0 to int.MaxValue
+            and not 0 to int.MaxValue-1.
+            
+            The slight difference in range means this method is slightly faster than Next()
+            but is not functionally equivalent to System.Random.Next().
+            </summary>
+        </member>
+        <member name="M:Redzen.Numerics.IRandomSource.NextDoubleNonZero">
+            <summary>
+            Generates a random double. Values returned are over the range (0, 1). That is, exclusive of both 0.0 and 1.0.
+            </summary>
+        </member>
+        <member name="M:Redzen.Numerics.IRandomSource.NextBool">
+            <summary>
+            Generates a single random bit.
+            This method's performance is improved by generating 32 bits in one operation and storing them
+            ready for future calls.
+            </summary>
+        </member>
+        <member name="M:Redzen.Numerics.IRandomSource.NextByte">
+            <summary>
+            Generates a signle random byte with range [0,255].
+            This method's performance is improved by generating 4 bytes in one operation and storing them
+            ready for future calls.
+            </summary>
+        </member>
+        <member name="T:Redzen.Numerics.NumericsUtils">
+            <summary>
+            General purpose numeric helper methods.
+            </summary>
+        </member>
+        <member name="M:Redzen.Numerics.NumericsUtils.ProbabilisticRound(System.Double,Redzen.Numerics.IRandomSource)">
+            <summary>
+            Rounds up or down to a whole number by using the fractional part of the input value
+            as the probability that the value will be rounded up.
+            
+            This is useful if we wish to round values and then sum them without generating a rounding bias.
+            For monetary rounding this problem is solved with rounding to e.g. the nearest even number which
+            then causes a bias towards even numbers.
+            
+            This solution is more appropriate for certain types of scientific values.
+            </summary>
+        </member>
+        <member name="M:Redzen.Numerics.NumericsUtils.CalculateMedian(System.Collections.Generic.IList{System.Double})">
+            <summary>
+            Calculates the median value in a list of sorted values.
+            </summary>
+        </member>
+        <member name="M:Redzen.Numerics.NumericsUtils.BuildHistogramData(System.Double[],System.Int32)">
+            <summary>
+            Calculate a frequency distribution for the provided array of values.
+            1) The minimum and maximum values are found.
+            2) The resulting value range is divided into equal sized sub-ranges (categoryCount).
+            3) The number of values that fall into each category is determined.
+            </summary>
+        </member>
+        <member name="T:Redzen.Numerics.DiscreteDistributionUtils">
+            <summary>
+            Static methods for roulette wheel selection from a set of choices with predefined probabilities.
+            </summary>
+        </member>
+        <member name="M:Redzen.Numerics.DiscreteDistributionUtils.SampleBinaryDistribution(System.Double,Redzen.Numerics.IRandomSource)">
+            <summary>
+            Sample from a binary distribution with the specified probability split between state false and true.
+            </summary>
+            <param name="probability">A probability between 0..1 that describes the probbaility of sampling boolean true.</param>
+            <param name="rng">Random number generator.</param>
+        </member>
+        <member name="M:Redzen.Numerics.DiscreteDistributionUtils.SampleUniformWithoutReplacement(System.Int32,System.Int32[],Redzen.Numerics.IRandomSource)">
+            <summary>
+            Take multiple samples from a set of possible outcomes with equal probability, i.e. a uniform discrete distribution,
+            with replacement, i.e. any given value will only occur once at most in the set of samples
+            </summary>
+            <param name="numberOfOutcomes">The number of possible outcomes per sample.</param>
+            <param name="sampleArr">An array to fill with samples.</param>
+            <param name="rng">A source of randomness.</param>
+        </member>
+        <member name="T:Redzen.Numerics.DiscreteDistribution">
+            <summary>
+            Represents a distribution over a discrete set of possible states.
+            Total probability over all states must add up to 1.0
+            
+            This class was previously called RouletteWheelLayout.
+            </summary>
+        </member>
+        <member name="M:Redzen.Numerics.DiscreteDistribution.#ctor(System.Double[])">
+            <summary>
+            Construct the layout with provided probabilities. The provided probabilites do not have to add 
+            up to 1.0 as we implicitly normalise them when using the layout.
+            </summary>
+        </member>
+        <member name="M:Redzen.Numerics.DiscreteDistribution.#ctor(System.Double[],System.Int32[])">
+            <summary>
+            Construct the layout with provided probabilities. The provided probabilites do not have to add 
+            up to 1.0 as we implicitly normalise them when using the layout.
+            </summary>
+        </member>
+        <member name="M:Redzen.Numerics.DiscreteDistribution.#ctor(Redzen.Numerics.DiscreteDistribution)">
+            <summary>
+            Copy constructor.
+            </summary>
+        </member>
+        <member name="P:Redzen.Numerics.DiscreteDistribution.Probabilities">
+            <summary>
+            Gets the array of probabilities.
+            </summary>
+        </member>
+        <member name="P:Redzen.Numerics.DiscreteDistribution.Labels">
+            <summary>
+            Gets the array of outcome labels.
+            </summary>
+        </member>
+        <member name="M:Redzen.Numerics.DiscreteDistribution.Sample(Redzen.Numerics.IRandomSource)">
+            <summary>
+            Sample from the provided discrete probability distribution.
+            </summary>
+            <param name="dist">The discrete distribution to sample from.</param>
+            <param name="rng">Random number generator.</param>
+        </member>
+        <member name="M:Redzen.Numerics.DiscreteDistribution.RemoveOutcome(System.Int32)">
+            <summary>
+            Remove the specified outcome from the set of probabilities and return as a new DiscreteDistribution object.
+            </summary>
+        </member>
+        <member name="T:Redzen.Numerics.XorShiftRandom">
+            <summary>
+            A fast random number generator for .NET
+            Colin Green, January 2005
+            
+            Note. A forked version of this class exists in Math.Net at time of writing (XorShift class).
+            
+            Key points:
+             1) Based on a simple and fast xor-shift pseudo random number generator (RNG) specified in: 
+             Marsaglia, George. (2003). Xorshift RNGs.
+             http://www.jstatsoft.org/v08/i14/paper
+             
+             This particular implementation of xorshift has a period of 2^128-1. See the above paper to see
+             how this can be easily extened if you need a longer period. At the time of writing I could find no 
+             information on the period of System.Random for comparison.
+            
+             2) Faster than System.Random. Up to 8x faster, depending on which methods are called.
+            
+             3) Direct replacement for System.Random. This class implements all of the methods that System.Random 
+             does plus some additional methods. The like named methods are functionally equivalent.
+             
+             4) Allows fast re-initialisation with a seed, unlike System.Random which accepts a seed at construction
+             time which then executes a relatively expensive initialisation routine. This provides a vast speed improvement
+             if you need to reset the pseudo-random number sequence many times, e.g. if you want to re-generate the same
+             sequence of random numbers many times. An alternative might be to cache random numbers in an array, but that 
+             approach is limited by memory capacity and the fact that you may also want a large number of different sequences 
+             cached. Each sequence can be represented by a single seed value (int) when using FastRandom.
+            </summary>
+        </member>
+        <member name="F:Redzen.Numerics.XorShiftRandom.__seedRng">
+            <summary>
+            A static RNG that is used to generate seed values when constructing new instances of FastRandom.
+            This overcomes the problem whereby multiple FastRandom instances are instantiated within the same
+            tick count and thus obtain the same seed, that approach can result in extreme biases occuring 
+            in some cases depending on how the RNG is used.
+            </summary>
+        </member>
+        <member name="M:Redzen.Numerics.XorShiftRandom.#ctor">
+            <summary>
+            Initialises a new instance using a seed generated from the class's static seed RNG.
+            </summary>
+        </member>
+        <member name="M:Redzen.Numerics.XorShiftRandom.#ctor(System.Int32)">
+            <summary>
+            Initialises a new instance using an int value as seed.
+            This constructor signature is provided to maintain compatibility with
+            System.Random
+            </summary>
+        </member>
+        <member name="M:Redzen.Numerics.XorShiftRandom.Reinitialise(System.Int32)">
+            <summary>
+            Reinitialises using an int value as a seed.
+            </summary>
+        </member>
+        <member name="M:Redzen.Numerics.XorShiftRandom.Next">
+            <summary>
+            Generates a random int over the range 0 to int.MaxValue-1.
+            MaxValue is not generated in order to remain functionally equivalent to System.Random.Next().
+            This does slightly eat into some of the performance gain over System.Random, but not much.
+            For better performance see:
+            
+            Call NextInt() for an int over the range 0 to int.MaxValue.
+            
+            Call NextUInt() and cast the result to an int to generate an int over the full Int32 value range
+            including negative values. 
+            </summary>
+        </member>
+        <member name="M:Redzen.Numerics.XorShiftRandom.Next(System.Int32)">
+            <summary>
+            Generates a random int over the range 0 to upperBound-1, and not including upperBound.
+            </summary>
+        </member>
+        <member name="M:Redzen.Numerics.XorShiftRandom.Next(System.Int32,System.Int32)">
+            <summary>
+            Generates a random int over the range lowerBound to upperBound-1, and not including upperBound.
+            upperBound must be >= lowerBound. lowerBound may be negative.
+            </summary>
+        </member>
+        <member name="M:Redzen.Numerics.XorShiftRandom.NextDouble">
+            <summary>
+            Generates a random double. Values returned are over the range [0, 1). That is, inclusive of 0.0 and exclusive of 1.0.
+            </summary>
+        </member>
+        <member name="M:Redzen.Numerics.XorShiftRandom.NextBytes(System.Byte[])">
+            <summary>
+            Fills the provided byte array with random bytes.
+            This method is functionally equivalent to System.Random.NextBytes(). 
+            </summary>
+        </member>
+        <member name="M:Redzen.Numerics.XorShiftRandom.NextFloat">
+            <summary>
+            Generates a random float. Values returned are over the range [0, 1). That is, inclusive of 0.0 and exclusive of 1.0.
+            </summary>
+        </member>
+        <member name="M:Redzen.Numerics.XorShiftRandom.NextUInt">
+            <summary>
+            Generates a uint. Values returned are over the full range of a uint, 
+            uint.MinValue to uint.MaxValue, inclusive.
+            
+            This is the fastest method for generating a single random number because the underlying
+            random number generator algorithm generates 32 random bits that can be cast directly to 
+            a uint.
+            </summary>
+        </member>
+        <member name="M:Redzen.Numerics.XorShiftRandom.NextInt">
+            <summary>
+            Generates a random int over the range 0 to int.MaxValue, inclusive. 
+            This method differs from Next() only in that the range is 0 to int.MaxValue
+            and not 0 to int.MaxValue-1.
+            
+            The slight difference in range means this method is slightly faster than Next()
+            but is not functionally equivalent to System.Random.Next().
+            </summary>
+        </member>
+        <member name="M:Redzen.Numerics.XorShiftRandom.NextDoubleNonZero">
+            <summary>
+            Generates a random double. Values returned are over the range (0, 1). That is, exclusive of both 0.0 and 1.0.
+            </summary>
+        </member>
+        <member name="M:Redzen.Numerics.XorShiftRandom.NextBool">
+            <summary>
+            Generates a single random bit.
+            This method's performance is improved by generating 32 bits in one operation and storing them
+            ready for future calls.
+            </summary>
+        </member>
+        <member name="M:Redzen.Numerics.XorShiftRandom.NextByte">
+            <summary>
+            Generates a signle random byte with range [0,255].
+            This method's performance is improved by generating 4 bytes in one operation and storing them
+            ready for future calls.
+            </summary>
+        </member>
+        <member name="T:Redzen.Numerics.BoxMullerGaussianSampler">
+            <summary>
+            Source of random values sample from a Gaussian distribution. Uses the polar form of the Box-Muller method.
+            http://en.wikipedia.org/wiki/Box_Muller_transform
+            </summary>
+        </member>
+        <member name="M:Redzen.Numerics.BoxMullerGaussianSampler.#ctor">
+            <summary>
+            Construct with a default RNG source.
+            </summary>
+        </member>
+        <member name="M:Redzen.Numerics.BoxMullerGaussianSampler.#ctor(System.Int32)">
+            <summary>
+            Construct with the specified RNG seed.
+            </summary>
+        </member>
+        <member name="M:Redzen.Numerics.BoxMullerGaussianSampler.#ctor(Redzen.Numerics.IRandomSource)">
+            <summary>
+            Construct with the provided RNG source.
+            </summary>
+        </member>
+        <member name="M:Redzen.Numerics.BoxMullerGaussianSampler.NextDouble">
+            <summary>
+            Get the next sample from the gaussian distribution.
+            </summary>
+        </member>
+        <member name="M:Redzen.Numerics.BoxMullerGaussianSampler.NextDouble(System.Double,System.Double)">
+            <summary>
+            Get the next sample value from the gaussian distribution.
+            </summary>
+            <param name="mean">Distribution mean.</param>
+            <param name="stdDev">Distribution standard deviation.</param>
+            <returns>A new random sample.</returns>
+        </member>
+        <member name="T:Redzen.Numerics.ZigguratGaussianSampler">
+             <summary>
+             A fast Gaussian distribution sampler for .Net
+             Colin Green, 11/09/2011
+            
+             An implementation of the Ziggurat algorithm for random sampling from a Gaussian 
+             distribution. See:
+              - Wikipedia:Ziggurat algorithm (http://en.wikipedia.org/wiki/Ziggurat_algorithm).
+              - The Ziggurat Method for Generating Random Variables, George Marsaglia and
+                Wai Wan Tsang (http://www.jstatsoft.org/v05/i08/paper).
+              - An Improved Ziggurat Method to Generate Normal Random Samples, Jurgen A Doornik 
+                (http://www.doornik.com/research/ziggurat.pdf)
+              
+             
+             Ziggurat Algorithm Overview
+             ============================
+             
+             Consider the right hand side of the Gaussian probability density function (for x >=0) as
+             described by y = f(x). This half of the distribution is covered by a series of stacked
+             horizontal rectangles, like so:
+             
+              _____
+             |     |                    R6  S6
+             |     |
+             |_____|_                   
+             |       |                  R5  S5
+             |_______|_                 
+             |         |                R4  S4
+             |_________|__       
+             |____________|__           R3  S3
+             |_______________|________  R2  S2
+             |________________________| R1  S1
+             |________________________| R0  S0
+                       (X)
+             
+             
+             The Basics
+             ----------
+             (1) 
+             Each rectangle is assigned a number (the R numbers shown above). 
+             
+             (2) 
+             The right hand edge of each rectangle is placed so that it just covers the distribution,
+             that is, the bottom right corner is on the curve, and therefore some of the area in the 
+             top right of the rectangle is outside of the distribution (points with y greater than 
+             f(x)), except for R0 (see next point). Therefore the rectangles taken together cover an
+             area slightly larger than the distribution curve.
+             
+             (3) 
+             R0 is a special case. The tail of the Gaussian effectively projects into x=Infinity
+             asymptotically approaching zero, thus we do not cover the tail with a rectangle. Instead
+             we define a cut-off point (x=3.442619855899 in this implementation). R0's right hand
+             edge is at the cut-off point with its top right corner on the distribution curve. The
+             tail is then defined as that part of the distribution with x > tailCutOff and is
+             combined with R0 to form segment S0. Note that the whole of R0 is within the
+             distribution, unlike the other rectangles.
+             
+             (4)
+             Segments. Each rectangle is also referred to as a segment with the exception of R0 which
+             is a special case as explained above. Essentially S[i] == R[i], except for 
+             S[0] == R[0] + tail.
+             
+             (5)
+             Each segment has identical area A, this also applies to the special segment S0, thus the
+             area of R0 is A minus the area represented by the tail. For all other segments the
+             segment area is the same as the rectangle area.
+             
+             (6)
+             R[i] has right hand edge x[i]. And from drawing the rectangles over the distribution
+             curve it is clear that the region of R[i] to the left of x[i+1] is entirely within the
+             distribution curve, whereas the region greater than x[i+1] is partially above the
+             distribution curve. 
+             
+             (7)
+             R[i] has top edge of y[i].
+             
+             
+             Operation
+             ---------
+             (1)
+             Randomly select a segment to sample from, call this S[i], this amounts to a low
+             resolution random y coordinate. Because the segments have equal area we can select from
+             them with equal probability. (Also see special notes, below).
+             
+             (2)
+             Segment 0 is a special case, if S0 is selected then generate a random area value w
+             between 0 and A. If w is less than or equal to the area of R0 then we are sampling a
+             point from within R0 (step 2A), otherwise we are sampling from the tail (step 2B).
+             
+             (2A)
+             Sampling from R0. R0 is entirely within the distribution curve and we have already
+             generated a random area value w. Convert w to an x value that we can return by dividing
+             w by the height of R0 (y[0]).
+             
+             (2B)
+             Sampling from the tail. To sample from the tail we fall back to a slow implementation
+             using logarithms, see: 
+             Generating a Variable from the Tail of the Normal Distribution, George Marsaglia (1963).
+             (http://www.tandfonline.com/doi/abs/10.1080/00401706.1964.10490150?journalCode=utch20)
+             The area represented by the tail is relatively small and therefore this execution
+             pathway is avoided for a significant proportion of samples generated.
+            
+             (3)
+             Sampling from all other rectangles/segments other then R0/S0. 
+             Randomly select x from within R[i]. If x is less than x[i+1] then x is within the curve,
+             return x.
+                
+             If x is greater than or equal to x[i+1] then generate a random y variable from within
+             R[i] (this amounts to producing a high resolution y coordinate, a refinement of the low
+             resolution y coord we effectively produced by selecting a rectangle/segment).
+                
+             If y is below f(x) then return x, otherwise we disregard the sample point and return to
+             step 1. We specifically do *not* re-attempt to sample from R[i] until a valid point is
+             found (see special notes 1).
+             
+             (4)
+             Finally, all of the above describes sampling from the positive half of the distribution
+             (x greater than or equal to zero) hence to obtain a symetrical distribution we need one
+             more random bit to decide whether to flip the sign of the returned x.
+             
+             
+             Special notes
+             -------------
+             (Note 1) 
+             Segments have equal area and are thus selected with equal probability. However, the area
+             under the distribution curve covered by each segment/rectangle differs where rectangles
+             overlap the edge of the distribution curve. Thus it has been suggested that to avoid
+             sampling bias that the segments should be selected with a probability that reflects the
+             area of the distribution curve they cover not their total area, this is an incorrect
+             approach for the algorithm as described above and implemented in this class. To explain
+             why consider an extreme case. 
+             
+             Say that rectangle R1 covers an area entirely within the distribution curve, now consider
+             R2 that covers an area only 10% within the curve. Both rectangles are chosen with equal
+             probability, thus the argument is that R2 will be 10x overrepresented (will generate
+             sample points as often as R1 despite covering a much smaller proportion of the area under
+             the distribution curve). In reality sample points within R2 will be rejected 90% of the
+             time and we disregard the attempt to sample from R2 and go back to step 1 (select a
+             segment to sample from).
+             
+             If instead we re-attempted sampling from R2 until a valid point was found then R2 would 
+             indeed become over-represented, hence we do not do this and the algorithm therefore does
+             not exhibit any such bias.
+             
+             (Note 2)
+             George Marsaglia's original implementation used a single random number (32bit unsigned
+             integer) for both selecting the segment and producing the x coordinate with the chosen
+             segment. The segment index was taken from the the least significant bits (so the least
+             significant 7 bits if using 128 segments). This effectively created a perculair type of
+             bias in which all x coords produced within a given segment would have an identical least
+             significant 7 bits, albeit prior to casting to a floating point value. The bias is perhaps
+             small especially in comparison to the performance gain (one less call to the RNG). This 
+             implementation avoids this bias by not re-using random bits in such a way. For more info 
+             see:
+             An Improved Ziggurat Method to Generate Normal Random Samples, Jurgen A Doornik 
+             (http://www.doornik.com/research/ziggurat.pdf)
+             
+             
+             Optimizations
+             -------------
+             (Optimization 1) 
+             On selecting a segment/rectangle we generate a random x value within the range of the
+             rectangle (or the range of the area of S0), this requires multiplying a random number with
+             range [0,1] to the requried x range before performing the first test for x being within the
+             'certain' left-hand side of the rectangle. We avoid this multiplication and indeed
+             conversion of a random integer into a float with range [0,1], thus allowing the first 
+             comparison to be performed using integer arithmetic.
+             
+             Instead of using the x coord of RN+1 to test whether a randomly generated point within RN
+             is within the 'certain' left hand side part of the distribution, we precalculate the
+             probability of a random x coord being within the safe part for each rectangle. Furthermore
+             we store this probability as a UInt with range [0, 0xffffffff] thus allowing direct
+             comparison with randomly generated UInts from the RNG, this allows the comparison to be
+             performed using integer arithmetic. If the test succeeds then we continue to convert the
+             random value into an appropriate x sample value.
+              
+             (Optimization 2)
+             Simple collapsing of calculations into precomputed values where possible. This affects 
+             readability, but hopefully the above explanations will help understand the code if necessary.
+             
+             (Optimization 3)
+             The gaussian probability density function (PDF) contains terms for distribution mean and 
+             standard deviation. We remove all excess terms and denormalise the function to obtain a 
+             simpler equation with the same shape. This simplified equation is no longer a PDF as the
+             total area under the curve is no loner 1.0 (a key property of PDFs), however as it has the
+             same overall shape it remains suitable for sampling from a Gaussian using rejection methods
+             such as the Ziggurat algorithm (it's the shape of the curve that matters, not the absolute
+             area under the curve).
+             </summary>
+        </member>
+        <member name="F:Redzen.Numerics.ZigguratGaussianSampler.__blockCount">
+            <summary>
+            Number of blocks.
+            </summary>
+        </member>
+        <member name="F:Redzen.Numerics.ZigguratGaussianSampler.__R">
+            <summary>
+            Right hand x coord of the base rectangle, thus also the left hand x coord of the tail 
+            (pre-determined/computed for 128 blocks).
+            </summary>
+        </member>
+        <member name="F:Redzen.Numerics.ZigguratGaussianSampler.__A">
+            <summary>
+            Area of each rectangle (pre-determined/computed for 128 blocks).
+            </summary>
+        </member>
+        <member name="F:Redzen.Numerics.ZigguratGaussianSampler.__UIntToU">
+            <summary>
+            Scale factor for converting a UInt with range [0,0xffffffff] to a double with range [0,1].
+            </summary>
+        </member>
+        <member name="M:Redzen.Numerics.ZigguratGaussianSampler.#ctor">
+            <summary>
+            Construct with a default RNG source.
+            </summary>
+        </member>
+        <member name="M:Redzen.Numerics.ZigguratGaussianSampler.#ctor(System.Int32)">
+            <summary>
+            Construct with the specified RNG seed..
+            </summary>
+        </member>
+        <member name="M:Redzen.Numerics.ZigguratGaussianSampler.#ctor(Redzen.Numerics.IRandomSource)">
+            <summary>
+            Construct with the provided RNG source.
+            </summary>
+            <param name="rng">Random source.</param>
+        </member>
+        <member name="M:Redzen.Numerics.ZigguratGaussianSampler.NextDouble">
+            <summary>
+            Get the next sample value from the gaussian distribution.
+            </summary>
+        </member>
+        <member name="M:Redzen.Numerics.ZigguratGaussianSampler.NextDouble(System.Double,System.Double)">
+            <summary>
+            Get the next sample value from the gaussian distribution.
+            </summary>
+            <param name="mean">Distribution mean.</param>
+            <param name="stdDev">Distribution standard deviation.</param>
+            <returns>A new random sample.</returns>
+        </member>
+        <member name="M:Redzen.Numerics.ZigguratGaussianSampler.SampleTail">
+            <summary>
+            Sample from the distribution tail (defined as having x >= __R).
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Redzen.Numerics.ZigguratGaussianSampler.GaussianPdfDenorm(System.Double)">
+            <summary>
+            Gaussian probability density function, denormailised, that is, y = e^-(x^2/2).
+            </summary>
+        </member>
+        <member name="M:Redzen.Numerics.ZigguratGaussianSampler.GaussianPdfDenormInv(System.Double)">
+            <summary>
+            Inverse function of GaussianPdfDenorm(x)
+            </summary>
+        </member>
+        <member name="T:Redzen.SearchUtils">
+            <summary>
+            Helper methods related to binary search.
+            </summary>
+        </member>
+        <member name="M:Redzen.SearchUtils.BinarySearch``2(System.Collections.Generic.IList{``0},``1,System.Func{``0,``1,System.Int32})">
+            <summary>
+            Searches an entire one-dimensional sorted list for a specific item, using the provided comparison function.
+            </summary>
+            <typeparam name="T">The list item type.</typeparam>
+            <typeparam name="V">The type of value being searched on.</typeparam>
+            <param name="list">The list of items to search.</param>
+            <param name="value">The value being search for.</param>
+            <param name="compareFn">Comparison function. For comparing list items based on the return value of this function rather than the items themselves.</param>
+            <returns>The zero-based index of item in the list, if item is found; otherwise, a negative number that is the bitwise complement of the index of the next 
+            element that is larger than item or, if there is no larger element, the bitwise complement of list.Count.</returns>
+        </member>
+        <member name="M:Redzen.SearchUtils.BinarySearch``2(System.Collections.Generic.IList{``0},System.Int32,System.Int32,``1,System.Func{``0,``1,System.Int32})">
+            <summary>
+            Searches a sub-range of a one-dimensional sorted list for a specific item, using the provided comparison function.
+            </summary>
+            <typeparam name="T">The list item type.</typeparam>
+            <typeparam name="V">The type of value being searched on.</typeparam>
+            <param name="list">The list of items to search.</param>
+            <param name="index">The starting index of the range to search.</param>
+            <param name="length">The length of the range to search.</param>
+            <param name="value">The value being search for.</param>
+            <param name="compareFn">Comparison function. For comparing list items based on the return value of this function rather than the items themselves.</param>
+            <returns>The zero-based index of item in the list, if item is found; otherwise, a negative number that is the bitwise complement of the index of the next 
+            element that is larger than item or, if there is no larger element, the bitwise complement of list.Count.</returns>
+        </member>
+        <member name="T:Redzen.Sorting.ParallelSort">
+            <summary>
+            Parallel quicksort algorithm.
+            </summary>
+        </member>
+        <member name="M:Redzen.Sorting.ParallelSort.QuicksortSequential``1(``0[])">
+            <summary>
+            Sequential quicksort.
+            </summary>
+        </member>
+        <member name="M:Redzen.Sorting.ParallelSort.QuicksortParallel``1(``0[])">
+            <summary>
+            Parallel quicksort
+            </summary>
+        </member>
+        <member name="T:Redzen.Sorting.SortUtils">
+            <summary>
+            Helper methods related to sorting.
+            </summary>
+        </member>
+        <member name="M:Redzen.Sorting.SortUtils.IsSorted(System.Collections.Generic.IList{System.Double})">
+            <summary>
+            Indicates if a list of doubles is sorted into ascending order.
+            </summary>
+        </member>
+        <member name="M:Redzen.Sorting.SortUtils.Shuffle``1(System.Collections.Generic.IList{``0},Redzen.Numerics.IRandomSource)">
+            <summary>
+            Randomly shuffles items within a list.
+            </summary>
+            <param name="list">The list to shuffle.</param>
+            <param name="rng">Random number generator.</param>
+        </member>
+        <member name="M:Redzen.Sorting.SortUtils.Shuffle``1(System.Collections.Generic.IList{``0},Redzen.Numerics.IRandomSource,System.Int32,System.Int32)">
+            <summary>
+            Randomly shuffles a sub-span of items within a list.
+            </summary>
+            <param name="list">The list to shuffle.</param>
+            <param name="rng">Random number generator.</param>
+            <param name="startIdx">The index of the first item in the segment.</param>
+            <param name="endIdx">The index of the last item in the segment, i.e. endIdx is inclusive; the item at endIdx will participate in the shuffle.</param>
+        </member>
+        <member name="M:Redzen.Sorting.SortUtils.SortUnstable``1(System.Collections.Generic.List{``0},System.Collections.Generic.IComparer{``0},Redzen.Numerics.IRandomSource)">
+            <summary>
+            Sort the items in the provided list. In addition we ensure that items that have are defined as equal by the IComparer
+            are arranged randomly.
+            </summary>
+            <typeparam name="T">The type of elements in the list.</typeparam>
+            <param name="list">The list of items to sort.</param>
+            <param name="comparer">The IComparer[T] implementation to use when comparing elements.</param>
+            <param name="rng">Random number generator.</param>
+        </member>
+        <member name="T:Redzen.Structures.CircularBuffer`1">
+            <summary>
+            This is a generic circular buffer of items of type T. 
+            
+            A circular buffer must be assigned a capacity at construction time. 
+            Items can be enqueued indefintely, but when the buffer's capacity is reached the oldest values
+            in it are overwritten, thus the buffer is best thought of as a circular array or buffer.
+            </summary>
+        </member>
+        <member name="F:Redzen.Structures.CircularBuffer`1._buff">
+            <summary>
+            Internal array that stores the circular buffer's values.
+            </summary>
+        </member>
+        <member name="F:Redzen.Structures.CircularBuffer`1._headIdx">
+            <summary>
+            The index of the previously enqueued item. -1 if buffer is empty.
+            </summary>
+        </member>
+        <member name="F:Redzen.Structures.CircularBuffer`1._tailIdx">
+            <summary>
+            The index of the next item to be dequeued. -1 if buffer is empty.
+            </summary>
+        </member>
+        <member name="M:Redzen.Structures.CircularBuffer`1.#ctor(System.Int32)">
+            <summary>
+            Constructs a circular buffer with the specified capacity.
+            </summary>
+        </member>
+        <member name="P:Redzen.Structures.CircularBuffer`1.Length">
+            <summary>
+            Gets the number of items in the buffer. Returns the buffer's capacity
+            if it is full.
+            </summary>
+        </member>
+        <member name="P:Redzen.Structures.CircularBuffer`1.Item(System.Int32)">
+            <summary>
+            Gets or sets an item at the specified index. The setter can only be used to replace an existing item, it
+            cannot insert a new item at an arbitrary index.
+            </summary>
+        </member>
+        <member name="M:Redzen.Structures.CircularBuffer`1.Clear">
+            <summary>
+            Clear the buffer.
+            </summary>
+        </member>
+        <member name="M:Redzen.Structures.CircularBuffer`1.Enqueue(`0)">
+            <summary>
+            Enqueue a new item. This overwrites the oldest item in the buffer if the buffer
+            has reached capacity.
+            </summary>
+        </member>
+        <member name="M:Redzen.Structures.CircularBuffer`1.Dequeue">
+            <summary>
+            Remove the oldest item from the back end of the buffer and return it.
+            </summary>
+        </member>
+        <member name="M:Redzen.Structures.CircularBuffer`1.Pop">
+            <summary>
+            Pop the most recently added item from the front end of the buffer and return it.
+            </summary>
+        </member>
+        <member name="T:Redzen.Structures.Compact.CompactIntegerList">
+            <summary>
+            A compact list of sequential integer values. 
+            
+            Each integer is represented by a single bit in a bitmap. The bitmap is broken into a series of 
+            bitmap chunks, each of which has a base value which is the integer value represented by the first bit
+            in the chunk.
+            
+            This class is useful when caching the results of a search over a list. The search results can be represented
+            as a list on indexes into the list, the resulting integer list can then be compactly stored using an instance of this 
+            class.
+            
+            E.g. 50,000 results would normally require 50,000 * 4 = 200,000 bytes.
+            This class requires 50000/8 = 6,250 bytes for a contiguous list of values, and increasing memory requirements 
+            for non-contiguous lists.
+            </summary>
+        </member>
+        <member name="F:Redzen.Structures.Compact.CompactIntegerList.EmptyList">
+            <summary>
+            A pre-existing object that represents an empty list.
+            </summary>
+        </member>
+        <member name="F:Redzen.Structures.Compact.CompactIntegerList._count">
+            <summary>
+            The number of integers in the list. Calculating this requires a walk of the bitmap chunks, thus we 
+            just store the value directly.
+            </summary>
+        </member>
+        <member name="M:Redzen.Structures.Compact.CompactIntegerList.#ctor(System.Collections.Generic.List{System.Int32})">
+            <summary>
+            Construct a CompactIntegerList from the provided list of integers.
+            </summary>
+            <param name="intList">A collection of integers to populate with.</param>
+        </member>
+        <member name="M:Redzen.Structures.Compact.CompactIntegerList.BuildChunks(System.Collections.Generic.List{System.Int32},System.Int32)">
+            <summary>
+            Builds the bitmap chunks given the integer list to compact and the bitmap chunk size
+            (number of bits in each chunk).
+            </summary>
+            <param name="intList">A collection of integers to populate with.</param>
+            <param name="chunkSize">The chunk size.</param>
+            <returns>A <see cref="T:BitmapChunk[]"/> containing the <paramref name="intList"/>.</returns>
+        </member>
+        <member name="M:Redzen.Structures.Compact.CompactIntegerList.BitmapChunk.#ctor(System.Int32,System.Int32)">
+            <summary>
+            Constructs with the specified integer base value for the chunk and the number 
+            of bits allocated in _bitmap.
+            </summary>
+            <param name="baseValue">The base value for the chunk.</param>
+            <param name="chunkSizeInBits">The chunk size in bits.</param>
+        </member>
+        <member name="P:Redzen.Structures.Compact.CompactIntegerList.Count">
+            <summary>
+            Returns the number of integers in the list.
+            </summary>
+        </member>
+        <member name="M:Redzen.Structures.Compact.CompactIntegerList.GetEnumerator">
+            <summary>
+            Gets an enumerator over the compacted integer list.
+            </summary>
+            <returns>An <see cref="T:IEnumerator{int}"/> that can be used to iterate over the list.</returns>
+        </member>
+        <member name="M:Redzen.Structures.Compact.CompactIntegerList.GetReverseEnumerator">
+            <summary>
+            Gets a reverse enumerator over the compacted integer list.
+            </summary>
+            <returns>An <see cref="T:IEnumerator{int}"/> that can be used to iterate over the list.</returns>
+        </member>
+        <member name="M:Redzen.Structures.Compact.CompactIntegerList.System#Collections#IEnumerable#GetEnumerator">
+            <summary>
+            Gets an enumerator over the compacted integer list.
+            </summary>
+            <returns>An <see cref="T:System.Collections.IEnumerator"/> that can be used to iterate of the list.</returns>
+        </member>
+        <member name="T:Redzen.Structures.Compact.FixedPointDecimal">
+             <summary>
+             A fixed point decimal data type that has the following qualities:
+             
+             1) Uses a Int32 to hold the value (4 bytes versus the native decimal's 16 bytes).
+             2) Defines a fixed number of six digits after the decimal place. 
+             3) Allows a null value to be represented, requiring a single bit to allocated for this.
+             
+             The range of FixedPointDecimal is -1,073.741823 to 1,073.741823. This can therefore 
+             represent all possible values in the SQL data type decimal(9,6).
+            
+             The range takes into into account the null bit and the fixed four digits after the decimal
+             place.
+            
+             Fixed point maths also has the benefit of allowing for far simpler/faster comparison.
+             </summary>
+        </member>
+        <member name="F:Redzen.Structures.Compact.FixedPointDecimal.Null">
+            <summary>
+            Public static instance of a null FixedPointDecimal.
+            </summary>
+        </member>
+        <member name="F:Redzen.Structures.Compact.FixedPointDecimal._data">
+            <summary>
+            Bit 31; 'Has value' flag.
+            Bit 30; Sign bit (0 = positive)
+            Bits 29 to 0; Significand with range 0 to 2^30-1.
+            </summary>
+        </member>
+        <member name="M:Redzen.Structures.Compact.FixedPointDecimal.#ctor(System.Nullable{System.Decimal})">
+            <summary>
+            Construct FixedPointDecimal from the provided nullable decimal.
+            </summary>
+            <param name="val">The value to convert.</param>
+        </member>
+        <member name="P:Redzen.Structures.Compact.FixedPointDecimal.Value">
+            <summary>
+            Gets the value as a native decimal data type.
+            </summary>
+        </member>
+        <member name="P:Redzen.Structures.Compact.FixedPointDecimal.HasValue">
+            <summary>
+            Gets a boolean that indicates if the FixedPointDecimal contains a value.
+            </summary>
+        </member>
+        <member name="M:Redzen.Structures.Compact.FixedPointDecimal.GetHashCode">
+            <summary>
+            Gets the hash code for the object.
+            </summary>
+            <returns>A hash code for the current object.</returns>
+        </member>
+        <member name="M:Redzen.Structures.Compact.FixedPointDecimal.Equals(System.Object)">
+            <summary>
+            Determines whether the specified Object is equal to the current Object.
+            </summary>
+            <param name="value">The object to compare with the current object.</param>
+            <returns><c>true</c> if the specified object is equal to the current object; otherwise, <c>false</c>.</returns>
+        </member>
+        <member name="M:Redzen.Structures.Compact.FixedPointDecimal.op_Inequality(Redzen.Structures.Compact.FixedPointDecimal,Redzen.Structures.Compact.FixedPointDecimal)">
+            <summary>
+            Determines if two <see cref="T:Redzen.Structures.Compact.FixedPointDecimal"/> objects are not equal.
+            </summary>
+            <param name="d1">The first <see cref="T:Redzen.Structures.Compact.FixedPointDecimal"/> to compare.</param>
+            <param name="d2">The second <see cref="T:Redzen.Structures.Compact.FixedPointDecimal"/> to compare.</param>
+            <returns><c>true</c> if the objects are not equal, <c>false</c> otherwise.</returns>
+        </member>
+        <member name="M:Redzen.Structures.Compact.FixedPointDecimal.op_Equality(Redzen.Structures.Compact.FixedPointDecimal,Redzen.Structures.Compact.FixedPointDecimal)">
+            <summary>
+            Determines if two <see cref="T:Redzen.Structures.Compact.FixedPointDecimal"/> objects are equal.
+            </summary>
+            <param name="d1">The first <see cref="T:Redzen.Structures.Compact.FixedPointDecimal"/> to compare.</param>
+            <param name="d2">The second <see cref="T:Redzen.Structures.Compact.FixedPointDecimal"/> to compare.</param>
+            <returns><c>true</c> if the objects are equal, <c>false</c> otherwise.</returns>
+        </member>
+        <member name="M:Redzen.Structures.Compact.FixedPointDecimal.op_GreaterThan(Redzen.Structures.Compact.FixedPointDecimal,Redzen.Structures.Compact.FixedPointDecimal)">
+            <summary>
+            Determines if the value of one <see cref="T:Redzen.Structures.Compact.FixedPointDecimal"/> object is greater than the value of another.
+            </summary>
+            <param name="d1">The first <see cref="T:Redzen.Structures.Compact.FixedPointDecimal"/> to compare.</param>
+            <param name="d2">The second <see cref="T:Redzen.Structures.Compact.FixedPointDecimal"/> to compare.</param>
+            <returns><c>true</c> if the value of <paramref name="d1"/> is greater than the value of <paramref name="d2"/>, <c>false</c> otherwise.</returns>
+        </member>
+        <member name="M:Redzen.Structures.Compact.FixedPointDecimal.op_GreaterThanOrEqual(Redzen.Structures.Compact.FixedPointDecimal,Redzen.Structures.Compact.FixedPointDecimal)">
+            <summary>
+            Determines if the value of one <see cref="T:Redzen.Structures.Compact.FixedPointDecimal"/> object is greater than or equal to the value of another.
+            </summary>
+            <param name="d1">The first <see cref="T:Redzen.Structures.Compact.FixedPointDecimal"/> to compare.</param>
+            <param name="d2">The second <see cref="T:Redzen.Structures.Compact.FixedPointDecimal"/> to compare.</param>
+            <returns><c>true</c> if the value of <paramref name="d1"/> is greater than or equal to the value of <paramref name="d2"/>, <c>false</c> otherwise.</returns>
+        </member>
+        <member name="M:Redzen.Structures.Compact.FixedPointDecimal.op_LessThan(Redzen.Structures.Compact.FixedPointDecimal,Redzen.Structures.Compact.FixedPointDecimal)">
+            <summary>
+            Determines if the value of one <see cref="T:Redzen.Structures.Compact.FixedPointDecimal"/> object is less than the value of another.
+            </summary>
+            <param name="d1">The first <see cref="T:Redzen.Structures.Compact.FixedPointDecimal"/> to compare.</param>
+            <param name="d2">The second <see cref="T:Redzen.Structures.Compact.FixedPointDecimal"/> to compare.</param>
+            <returns><c>true</c> if the value of <paramref name="d1"/> is less than the value of <paramref name="d2"/>, <c>false</c> otherwise.</returns>
+        </member>
+        <member name="M:Redzen.Structures.Compact.FixedPointDecimal.op_LessThanOrEqual(Redzen.Structures.Compact.FixedPointDecimal,Redzen.Structures.Compact.FixedPointDecimal)">
+            <summary>
+            Determines if the value of one <see cref="T:Redzen.Structures.Compact.FixedPointDecimal"/> object is less than or equal to the value of another.
+            </summary>
+            <param name="d1">The first <see cref="T:Redzen.Structures.Compact.FixedPointDecimal"/> to compare.</param>
+            <param name="d2">The second <see cref="T:Redzen.Structures.Compact.FixedPointDecimal"/> to compare.</param>
+            <returns><c>true</c> if the value of <paramref name="d1"/> is less than or equal to the value of <paramref name="d2"/>, <c>false</c> otherwise.</returns>
+        </member>
+        <member name="M:Redzen.Structures.Compact.FixedPointDecimal.Create(System.Nullable{System.Decimal})">
+            <summary>
+            Static factory method to create a FixedDecimal.
+            </summary>
+            <param name="d">The value to create the object from.</param>
+            <returns>The newly created <see cref="T:Redzen.Structures.Compact.FixedPointDecimal"/> instance.</returns>
+        </member>
+        <member name="M:Redzen.Structures.Compact.FixedPointDecimal.TryParse(System.String,Redzen.Structures.Compact.FixedPointDecimal@)">
+            <summary>
+            Converts the string representation of a number to its FixedPointDecimal equivalent.
+            A return value indicates whether the conversion succeeded or failed.
+            </summary>
+            <param name="s">The value to parse.</param>
+            <param name="result">Upon success contains the <see cref="T:Redzen.Structures.Compact.FixedPointDecimal"/> equivalent of the value of <paramref name="s"/>.</param>
+            <returns><c>true</c> if <paramref name="s"/> could be parsed into a <see cref="T:Redzen.Structures.Compact.FixedPointDecimal"/> instance.</returns>
+        </member>
+        <member name="M:Redzen.Structures.Compact.FixedPointDecimal.TryParseTruncate(System.String,Redzen.Structures.Compact.FixedPointDecimal@)">
+            <summary>
+            Converts the string representation of a number to its FixedPointDecimal equivalent.
+            A return value indicates whether the conversion succeeded or failed.
+            Values outside the range of a FixedPointDecimal are truncated to the min or max values
+            for FixedPointDecimal as appropriate. Input values with more than four decimal places
+            have their precision truncated to to four decimal places.
+            </summary>
+            <param name="s">The value to parse.</param>
+            <param name="result">Upon success contains the <see cref="T:Redzen.Structures.Compact.FixedPointDecimal"/> equivalent of the value of <paramref name="s"/>.</param>
+            <returns><c>true</c> if <paramref name="s"/> could be parsed into a <see cref="T:Redzen.Structures.Compact.FixedPointDecimal"/> instance.</returns>
+        </member>
+        <member name="M:Redzen.Structures.Compact.FixedPointDecimal.Equals(Redzen.Structures.Compact.FixedPointDecimal,Redzen.Structures.Compact.FixedPointDecimal)">
+            <summary>
+            Determines whether the specified FixedPointDecimal is equal to the current FixedPointDecimal.
+            </summary>
+            <param name="d1">The first <see cref="T:Redzen.Structures.Compact.FixedPointDecimal"/> to compare.</param>
+            <param name="d2">The second <see cref="T:Redzen.Structures.Compact.FixedPointDecimal"/> to compare.</param>
+            <returns><c>true</c> if the objects are equal, <c>false</c> otherwise.</returns>
+        </member>
+        <member name="M:Redzen.Structures.Compact.FixedPointDecimal.Compare(Redzen.Structures.Compact.FixedPointDecimal,Redzen.Structures.Compact.FixedPointDecimal)">
+            <summary>
+            Compares two specified FixedPointDecimal values.
+            </summary>
+            <param name="d1">The first <see cref="T:Redzen.Structures.Compact.FixedPointDecimal"/> to compare.</param>
+            <param name="d2">The second <see cref="T:Redzen.Structures.Compact.FixedPointDecimal"/> to compare.</param>
+            <returns>A signed integer that indicates the relative values of <paramref name="d1"/> and <paramref name="d2"/>.</returns>
+        </member>
+        <member name="T:Redzen.Structures.DoubleCircularBufferWithStats">
+             <summary>
+             This is a circular buffer of double precision floating point numbers. 
+             
+             A circular buffer must be assigned a capacity at construction time. 
+             
+             Values can be enqueued indefintely, but when the buffer's capacity is reached the oldest values
+             in it are overwritten, thus the buffer is best thought of as a circular array or buffer.
+            
+             In addition to normal circular buffer behaviour this class has a 'total' variable that
+             maintains the sum total of all values currently in the buffer. Therefore when the buffer 
+             reaches capacity and new values overwrite old ones the total is reduced by the value being
+             overwritten and increased by the new value. This allows us to cheaply (in computational terms)
+             maintain a sum total and mean for all values in the buffer.
+             
+             Note that this class isn't made generic because of the lack of operator contraints required 
+             to maintain the sum total of contained items. At time of writing there were ways around this
+             limitation but they either had performance implications and/or resulted in ugly code.
+             </summary>
+        </member>
+        <member name="F:Redzen.Structures.DoubleCircularBufferWithStats._buff">
+            <summary>
+            Internal array that stores the circular buffer's values.
+            </summary>
+        </member>
+        <member name="F:Redzen.Structures.DoubleCircularBufferWithStats._total">
+            <summary>
+            The sum total of all valid values within the buffer. 
+            </summary>
+        </member>
+        <member name="F:Redzen.Structures.DoubleCircularBufferWithStats._headIdx">
+            <summary>
+            The index of the previously enqueued item. -1 if buffer is empty.
+            </summary>
+        </member>
+        <member name="F:Redzen.Structures.DoubleCircularBufferWithStats._tailIdx">
+            <summary>
+            The index of the next item to be dequeued. -1 if buffer is empty.
+            </summary>
+        </member>
+        <member name="M:Redzen.Structures.DoubleCircularBufferWithStats.#ctor(System.Int32)">
+            <summary>
+            Constructs a circular buffer with the specified capacity.
+            </summary>
+        </member>
+        <member name="P:Redzen.Structures.DoubleCircularBufferWithStats.Length">
+            <summary>
+            Gets the number of values in the buffer. Returns the buffer's capacity if it is full.
+            </summary>
+        </member>
+        <member name="P:Redzen.Structures.DoubleCircularBufferWithStats.Total">
+            <summary>
+            Gets the sum total of all values on in the buffer.
+            </summary>
+        </member>
+        <member name="P:Redzen.Structures.DoubleCircularBufferWithStats.Mean">
+            <summary>
+            Gets the arithmetic mean of all values in the buffer.
+            </summary>
+        </member>
+        <member name="M:Redzen.Structures.DoubleCircularBufferWithStats.Clear">
+            <summary>
+            Clear the buffer and reset the total.
+            </summary>
+        </member>
+        <member name="M:Redzen.Structures.DoubleCircularBufferWithStats.Enqueue(System.Double)">
+            <summary>
+            Enqueue a new value. This overwrites the oldest value in the buffer if the buffer
+            has reached capacity.
+            </summary>
+        </member>
+        <member name="M:Redzen.Structures.DoubleCircularBufferWithStats.Dequeue">
+            <summary>
+            Remove the oldest value from the back end of the buffer and return it.
+            </summary>
+        </member>
+        <member name="M:Redzen.Structures.DoubleCircularBufferWithStats.Pop">
+            <summary>
+            Pop the most recently added value from the front end of the buffer and return it.
+            </summary>
+        </member>
+        <member name="T:Redzen.Structures.KeyedCircularBuffer`2">
+            <summary>
+            A generic circular buffer of KeyValuePairs. The values are retrievable by their
+            key. Old key-value pairs are overwritten when the circular buffer runs out of
+            empty elements to place items into, as this happens the internal dictionary that 
+            maintains the lookup ability is also updated to reflect only the items in the 
+            circular buffer.
+            </summary>
+        </member>
+        <member name="M:Redzen.Structures.KeyedCircularBuffer`2.#ctor(System.Int32)">
+            <summary>
+            Constructs a circular buffer with the specified capacity.
+            </summary>
+        </member>
+        <member name="M:Redzen.Structures.KeyedCircularBuffer`2.Clear">
+            <summary>
+            Clear the buffer.
+            </summary>
+        </member>
+        <member name="M:Redzen.Structures.KeyedCircularBuffer`2.Enqueue(`0,`1)">
+            <summary>
+            Enqueue a new item. This overwrites the oldest item in the buffer if the buffer
+            has reached capacity.
+            </summary>
+        </member>
+        <member name="M:Redzen.Structures.KeyedCircularBuffer`2.Enqueue(System.Collections.Generic.KeyValuePair{`0,`1})">
+            <summary>
+            Enqueue a new item. This overwrites the oldest item in the buffer if the buffer
+            has reached capacity.
+            </summary>
+        </member>
+        <member name="M:Redzen.Structures.KeyedCircularBuffer`2.Dequeue">
+            <summary>
+            Remove the oldest item from the back end of the buffer and return it.
+            </summary>
+        </member>
+        <member name="M:Redzen.Structures.KeyedCircularBuffer`2.Pop">
+            <summary>
+            Pop the most recently added item from the front end of the buffer and return it.
+            </summary>
+        </member>
+        <member name="P:Redzen.Structures.KeyedCircularBuffer`2.Item(`0)">
+            <summary>
+            Gets the value associated with the specified key. If the specified key is not found,
+            a get operation throws a KeyNotFoundException.
+            </summary>
+        </member>
+        <member name="M:Redzen.Structures.KeyedCircularBuffer`2.ContainsKey(`0)">
+            <summary>
+            Determines whether the KeyedCircularBuffer contains the specified key.
+            </summary>
+        </member>
+        <member name="M:Redzen.Structures.KeyedCircularBuffer`2.TryGetValue(`0,`1@)">
+            <summary>
+            Gets the value associated with the specified key. 
+            </summary>
+        </member>
+        <member name="T:Redzen.IO.FileByteArray">
+            <summary>
+            A byte array backed by a file on disk.
+            
+            The byte array has fixed length and random accessible as per a normal byte array, but is backed by a 
+            file rather than memory.
+            </summary>
+        </member>
+        <member name="M:Redzen.IO.FileByteArray.#ctor(System.String)">
+            <summary>
+            Open an existing byte array file.
+            </summary>
+            <param name="filePath">The full path to the file.</param>
+        </member>
+        <member name="M:Redzen.IO.FileByteArray.#ctor(System.String,System.Int32)">
+            <summary>
+            Create a new byte array file with the specified length (in bytes).
+            </summary>
+            <param name="filePath">The full path to the file.</param>
+            <param name="length">The length of the byte array.</param>
+        </member>
+        <member name="P:Redzen.IO.FileByteArray.FilePath">
+            <summary>
+            Gets the full file path of the file that is backing the byte array.
+            </summary>
+        </member>
+        <member name="P:Redzen.IO.FileByteArray.Length">
+            <summary>
+            Gets the length of the array.
+            </summary>
+            <value>The length of the array.</value>
+        </member>
+        <member name="P:Redzen.IO.FileByteArray.Item(System.Int32)">
+            <summary>
+            Gets the byte at the specified index within the array.
+            </summary>
+            <param name="idx">The index of the byte to retrieve from the array.</param>
+            <returns>The byte at the specified index.</returns>
+        </member>
+        <member name="M:Redzen.IO.FileByteArray.Dispose">
+            <summary>
+            Dispose of the FileByteArray.
+            </summary>
+        </member>
+        <member name="T:Redzen.IO.MemoryBlockStream">
+            <summary>
+            A memory backed stream that stores byte data in blocks, this gives improved performance over System.IO.MemoryStream
+            in some circumstances.
+            
+            MemoryStream is backed by a single byte array, hence if the capacity is reached a new byte array must be instantiated 
+            and the existing data copied across. In contrast, MemoryBlockStream grows in blocks and therefore avoids copying and 
+            re-instantiating large byte arrays.
+            
+            Also note that by using a sufficiently small block size the blocks will avoid being placed onto the large object heap,
+             with various benefits, e.g. avoidance/mitigation of memory fragmentation.
+            </summary>
+        </member>
+        <member name="F:Redzen.IO.MemoryBlockStream._isOpen">
+            <summary>
+            Indicates if the stream is open.
+            </summary>
+        </member>
+        <member name="F:Redzen.IO.MemoryBlockStream._position">
+            <summary>
+            The read/write position within the stream; note that this can be moved back to write over existing data.
+            </summary>
+        </member>
+        <member name="F:Redzen.IO.MemoryBlockStream._length">
+            <summary>
+            Stream length. Indicates where the end of the stream is.
+            </summary>
+        </member>
+        <member name="M:Redzen.IO.MemoryBlockStream.#ctor">
+            <summary>
+            Construct with the default block size.
+            </summary>
+        </member>
+        <member name="M:Redzen.IO.MemoryBlockStream.#ctor(System.Int32)">
+            <summary>
+            Construct with the specified block size.
+            </summary>
+            <param name="blockSize">The block size to use.</param>
+        </member>
+        <member name="P:Redzen.IO.MemoryBlockStream.Capacity">
+            <summary>
+            Gets the MemoryBlockStream current capacity.
+            </summary>
+        </member>
+        <member name="P:Redzen.IO.MemoryBlockStream.CanRead">
+            <summary>
+            Gets a flag flag that indicates if the stream is readable (always true for MemoryBlockStream while the stream is open).
+            </summary>
+        </member>
+        <member name="P:Redzen.IO.MemoryBlockStream.CanSeek">
+            <summary>
+            Gets a flag flag that indicates if the stream is seekable (always true for MemoryBlockStream while the stream is open).
+            </summary>
+        </member>
+        <member name="P:Redzen.IO.MemoryBlockStream.CanWrite">
+            <summary>
+            Gets a flag flag that indicates if the stream is seekable (always true for MemoryBlockStream while the stream is open).
+            </summary>
+        </member>
+        <member name="P:Redzen.IO.MemoryBlockStream.Position">
+            <summary>
+            Gets or sets the current stream position.
+            </summary>
+        </member>
+        <member name="P:Redzen.IO.MemoryBlockStream.Length">
+            <summary>
+            Gets the current stream length.
+            </summary>
+        </member>
+        <member name="M:Redzen.IO.MemoryBlockStream.Read(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            Reads a block of bytes from the stream and writes the data to a buffer.
+            </summary>
+            <param name="buffer">The byte array to read bytes into.</param>
+            <param name="offset">The zero-based byte offset in buffer at which to begin storing data from the current stream.</param>
+            <param name="count">The maximum number of bytes to read. </param>
+            <returns>The total number of bytes written into the buffer. This can be less than the number of bytes requested if that number of
+            bytes are not currently available, or zero if there are no bytes to read.</returns>
+        </member>
+        <member name="M:Redzen.IO.MemoryBlockStream.ReadByte">
+            <summary>
+            Reads a byte from the stream.
+            </summary>
+            <returns>The byte cast to a Int32, or -1 if the end of the stream has been reached.</returns>
+        </member>
+        <member name="M:Redzen.IO.MemoryBlockStream.Write(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            Writes a block of bytes into the stream.
+            </summary>
+            <param name="buffer">The byte data to write into the stream</param>
+            <param name="offset">The zero-based byte offset in buffer from which to begin copying bytes to the current stream.</param>
+            <param name="count">The maximum number of bytes to write. </param>
+        </member>
+        <member name="M:Redzen.IO.MemoryBlockStream.WriteByte(System.Byte)">
+            <summary>
+            Writes a byte to the stream at the current position.
+            </summary>
+            <param name="value">The byte to write.</param>
+        </member>
+        <member name="M:Redzen.IO.MemoryBlockStream.Flush">
+            <summary>
+            Overrides Stream.Flush so that no action is performed.
+            </summary>
+        </member>
+        <member name="M:Redzen.IO.MemoryBlockStream.Seek(System.Int64,System.IO.SeekOrigin)">
+            <summary>
+            Sets the position within the stream to the specified value.
+            </summary>
+            <param name="offset">The new position within the stream. This is relative to the loc parameter, and can be positive or negative. </param>
+            <param name="origin">A value of type SeekOrigin, which acts as the seek reference point.</param>
+            <returns>The new position within the stream, calculated by combining the initial reference point and the offset.</returns>
+        </member>
+        <member name="M:Redzen.IO.MemoryBlockStream.SetLength(System.Int64)">
+            <summary>
+            Sets the length of the stream to the specified value.
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:Redzen.IO.MemoryBlockStream.ToArray">
+            <summary>
+            Writes the stream contents to a byte array, regardless of the Position property.
+            </summary>
+            <returns>A new byte array.</returns>
+        </member>
+        <member name="M:Redzen.IO.MemoryBlockStream.Trim">
+            <summary>
+            Remove excess blocks from the block list.
+            </summary>
+        </member>
+        <member name="M:Redzen.IO.MemoryBlockStream.ReadInner(System.Byte[],System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Read bytes from the memory stream into the provided buffer, starting at the specified block index and intra-block offset..
+            </summary>
+        </member>
+        <member name="M:Redzen.IO.MemoryBlockStream.WriteInner(System.Byte[],System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Write bytes into the memory stream, starting at the specified block index and intra-block offset.
+            </summary>
+        </member>
+        <member name="M:Redzen.IO.MemoryBlockStream.ZeroSpareCapacity">
+            <summary>
+            Ensure that any existing capacity after _length is zeroed.
+            </summary>
+        </member>
+        <member name="T:Redzen.IO.NonClosingStreamWrapper">
+            <summary>
+            Wraps a stream and prevents calls to Close() and Dispose() from being made on it.
+            This is useful for other classes that wrap a stream but have no option to leave
+            the wrapped stream open upon Dispose(), e.g. CryptoStream and BinaryWriter.
+            
+            Note. Later versions of the .NET framework have added a 'leaveOpen' option
+            to some classes. Check before using this class.
+            </summary>
+        </member>
+        <member name="M:Redzen.IO.NonClosingStreamWrapper.#ctor(System.IO.Stream)">
+            <summary>
+            Construct with the provided stream to be wrapped.
+            </summary>
+            <param name="stream">The stream to be wrapped.</param>
+        </member>
+        <member name="P:Redzen.IO.NonClosingStreamWrapper.InnerStream">
+            <summary>
+            Gets the wrapped stream.
+            </summary>
+        </member>
+        <member name="P:Redzen.IO.NonClosingStreamWrapper.CanRead">
+            <summary>
+            Indicates whether or not the underlying stream can be read from.
+            </summary>
+        </member>
+        <member name="P:Redzen.IO.NonClosingStreamWrapper.CanSeek">
+            <summary>
+            Indicates whether or not the underlying stream supports seeking.
+            </summary>
+        </member>
+        <member name="P:Redzen.IO.NonClosingStreamWrapper.CanWrite">
+            <summary>
+            Indicates whether or not the underlying stream can be written to.
+            </summary>
+        </member>
+        <member name="P:Redzen.IO.NonClosingStreamWrapper.Length">
+            <summary>
+            Returns the length of the underlying stream.
+            </summary>
+        </member>
+        <member name="P:Redzen.IO.NonClosingStreamWrapper.Position">
+            <summary>
+            Gets or sets the current position in the underlying stream.
+            </summary>
+        </member>
+        <member name="M:Redzen.IO.NonClosingStreamWrapper.BeginRead(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)">
+            <summary>
+            Begins an asynchronous read operation.
+            </summary>
+            <param name="buffer">The buffer to read the data into. </param>
+            <param name="offset">The byte offset in buffer at which to begin writing data read from the stream.</param>
+            <param name="count">The maximum number of bytes to read. </param>
+            <param name="callback">An optional asynchronous callback, to be called when the read is complete.</param>
+            <param name="state">A user-provided object that distinguishes this particular asynchronous read request from other requests.</param>
+            <returns> An IAsyncResult that represents the asynchronous read, which could still be pending.
+            </returns>
+        </member>
+        <member name="M:Redzen.IO.NonClosingStreamWrapper.BeginWrite(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)">
+            <summary>
+            Begins an asynchronous write operation.
+            </summary>
+            <param name="buffer">The buffer to write data from.</param>
+            <param name="offset">The byte offset in buffer from which to begin writing.</param>
+            <param name="count">The maximum number of bytes to write.</param>
+            <param name="callback">An optional asynchronous callback, to be called when the write is complete.</param>
+            <param name="state">A user-provided object that distinguishes this particular asynchronous write request from other requests.</param>
+            <returns>An IAsyncResult that represents the asynchronous write, which could still be pending.</returns>
+        </member>
+        <member name="M:Redzen.IO.NonClosingStreamWrapper.Close">
+            <summary>
+            This method is not proxied to the underlying stream; instead, the wrapper is marked as unusable for
+            other (non-close/Dispose) operations. The underlying stream is flushed if the wrapper wasn't closed
+            before this call.
+            </summary>
+        </member>
+        <member name="M:Redzen.IO.NonClosingStreamWrapper.CreateObjRef(System.Type)">
+            <summary>
+            Not implemented. Throws NotSupportedException.
+            </summary>
+            <param name="requestedType">The Type of the object that the new ObjRef will reference.</param>
+            <returns>Throws NotSupportedException.</returns>
+        </member>
+        <member name="M:Redzen.IO.NonClosingStreamWrapper.EndRead(System.IAsyncResult)">
+            <summary>
+            Waits for the pending asynchronous read to complete.
+            </summary>
+            <param name="asyncResult">The reference to the pending asynchronous request to finish.</param>
+            <returns>The number of bytes read from the stream, between zero (0) and the number of bytes you
+            requested. Streams only return zero (0) at the end of the stream, otherwise, they should block
+            until at least one byte is available.</returns>
+        </member>
+        <member name="M:Redzen.IO.NonClosingStreamWrapper.EndWrite(System.IAsyncResult)">
+            <summary>
+            Ends an asynchronous write operation.
+            </summary>
+            <param name="asyncResult">A reference to the outstanding asynchronous I/O request.</param>
+        </member>
+        <member name="M:Redzen.IO.NonClosingStreamWrapper.Flush">
+            <summary>
+            Flushes the underlying stream.
+            </summary>
+        </member>
+        <member name="M:Redzen.IO.NonClosingStreamWrapper.InitializeLifetimeService">
+            <summary>
+            Not implemented. Throws NotSupportedException.
+            </summary>
+            <returns>Throws NotSupportedException.</returns>
+        </member>
+        <member name="M:Redzen.IO.NonClosingStreamWrapper.Read(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            Reads a sequence of bytes from the underlying stream and advances the 
+            position within the stream by the number of bytes read.
+            </summary>
+            <param name="buffer">An array of bytes. When this method returns, the buffer contains 
+            the specified byte array with the values between offset and (offset + count- 1) replaced
+            by the bytes read from the underlying source.</param>
+            <param name="offset">The zero-based byte offset in buffer at which to begin storing the data 
+            read from the underlying stream.</param>
+            <param name="count">The maximum number of bytes to be read from the underlying stream.</param>
+            <returns>The total number of bytes read into the buffer. This can be less than the number of 
+            bytes requested if that many bytes are not currently available, or zero (0) if the end of the 
+            stream has been reached.</returns>
+        </member>
+        <member name="M:Redzen.IO.NonClosingStreamWrapper.ReadByte">
+            <summary>
+            Reads a byte from the stream and advances the position within the stream by one byte, or returns
+            -1 if at the end of the stream.</summary>
+            <returns>The unsigned byte cast to an Int32, or -1 if at the end of the stream.</returns>
+        </member>
+        <member name="M:Redzen.IO.NonClosingStreamWrapper.Seek(System.Int64,System.IO.SeekOrigin)">
+            <summary>
+            Sets the position within the current stream.
+            </summary>
+            <param name="offset">A byte offset relative to the origin parameter.</param>
+            <param name="origin">A value of type SeekOrigin indicating the reference point used to obtain the new position.</param>
+            <returns>The new position within the underlying stream.</returns>
+        </member>
+        <member name="M:Redzen.IO.NonClosingStreamWrapper.SetLength(System.Int64)">
+            <summary>
+            Sets the length of the underlying stream.
+            </summary>
+            <param name="value">The desired length of the underlying stream in bytes.</param>
+        </member>
+        <member name="M:Redzen.IO.NonClosingStreamWrapper.Write(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            Writes a sequence of bytes to the underlying stream and advances the current position within the stream 
+            by the number of bytes written.
+            </summary>
+            <param name="buffer">An array of bytes. This method copies count bytes from buffer to the underlying stream.</param>
+            <param name="offset">The zero-based byte offset in buffer at which to begin copying bytes to the underlying stream.</param>
+            <param name="count">The number of bytes to be written to the underlying stream.</param>
+        </member>
+        <member name="M:Redzen.IO.NonClosingStreamWrapper.WriteByte(System.Byte)">
+            <summary>
+            Writes a byte to the current position in the stream and advances the position within the stream by one byte.
+            </summary>
+            <param name="value">The byte to write to the stream.</param>
+        </member>
+        <member name="M:Redzen.IO.NonClosingStreamWrapper.CheckClosed">
+            <summary>
+            Throws an InvalidOperationException if the wrapper is closed.
+            </summary>
+        </member>
+        <member name="T:Redzen.IO.StreamHelper">
+            <summary>
+            General purpose helper methods for working with streams.
+            </summary>
+        </member>
+        <member name="M:Redzen.IO.StreamHelper.Copy(System.IO.Stream,System.IO.Stream)">
+            <summary>
+            Copy all bytes from an input stream into an output stream until the end of the input stream is reached.
+            </summary>
+            <param name="inputStream">The input stream to read bytes from.</param>
+            <param name="outputStream">The output stream to write bytes into.</param>
+            <remarks>Note. .NET 4 introduced CopyTo() methods to the stream base class that makes this method unnecessary.</remarks>
+        </member>
+        <member name="M:Redzen.IO.StreamHelper.Copy(System.IO.Stream,System.IO.Stream,System.Byte[])">
+            <summary>
+            Copy all bytes from an input stream into an output stream until the end of the input stream is reached.
+            </summary>
+            <param name="inputStream">The input stream to read bytes from.</param>
+            <param name="outputStream">The output stream to write bytes into.</param>
+            <param name="buffer">A pre-allocated byte buffer.</param>
+            <remarks>Note. .NET 4 introduced CopyTo() methods to the stream base class that makes this method unnecessary.</remarks>
+        </member>
+        <member name="M:Redzen.IO.StreamHelper.Read(System.IO.Stream,System.Byte[])">
+            <summary>
+            Reads data from a stream into a provided array. Reads up to the length of array and returns
+            the number of bytes read.
+            </summary>
+            <param name="stream">The stream to read data from.</param>
+            <param name="data">The array to read bytes into.</param>
+            <returns>Returns the number of bytes read into the data byte array.</returns>
+            <remarks>Unlike Stream.Read(), this method guarantees to read bytes until the end of stream is reached.</remarks>
+        </member>
+        <member name="M:Redzen.IO.StreamHelper.ReadFill(System.IO.Stream,System.Byte[])">
+            <summary>
+            Reads data from a stream into a provided array, filling the array. If the end of 
+            the stream is reached before the array is filled then an EndOfStreamException is thrown.
+            </summary>
+            <param name="stream">The stream to read data from.</param>
+            <param name="data">The array to read bytes into.</param>
+            <remarks>Unlike Stream.Read(), this method guarantees to fill the byte array if the stream has 
+            sufficient bytes.</remarks>
+        </member>
+        <member name="M:Redzen.IO.StreamHelper.ReadToByteArray(System.IO.Stream)">
+            <summary>
+            Read stream into byte array. Reads until the end of stream is reached and returns entire stream contents
+            as a new byte array.
+            </summary>
+            <param name="stream">The stream to read data from.</param>
+            <returns>Returns a new byte array containing the read data.</returns>
+        </member>
+    </members>
+</doc>

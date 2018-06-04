@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <ActivationFunctions>
+    <Fn id="0" name="LogisticFunctionSteep" prob="1" />
+  </ActivationFunctions>
+  <Networks>
+    <Network id="220091" birthGen="1831" fitness="280">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="out" id="7" />
+        <Node type="hid" id="666" />
+        <Node type="hid" id="712" />
+      </Nodes>
+      <Connections>
+        <Con id="19" src="2" tgt="7" wght="0.012321818759664893" />
+        <Con id="21" src="1" tgt="7" wght="3.8892300019591244" />
+        <Con id="25" src="3" tgt="7" wght="3.9788701561850859" />
+        <Con id="36" src="7" tgt="7" wght="-0.96839528438033984" />
+        <Con id="667" src="0" tgt="666" wght="-4.2343536425452406" />
+        <Con id="689" src="5" tgt="666" wght="0.0064846649533137684" />
+        <Con id="697" src="666" tgt="7" wght="-1.9649837422184646" />
+        <Con id="723" src="7" tgt="712" wght="4.36753256359341" />
+        <Con id="736" src="4" tgt="712" wght="-3.1486948392340124" />
+        <Con id="737" src="666" tgt="712" wght="-3.0640560365282" />
+      </Connections>
+    </Network>
+  </Networks>
+</Root>

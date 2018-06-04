@@ -1,0 +1,13 @@
+C:\Development\AI\sharpneat-master\sharpneat-master\src\SharpNeatViewLib\bin\Debug\SharpNeatViewLib.dll
+C:\Development\AI\sharpneat-master\sharpneat-master\src\SharpNeatViewLib\bin\Debug\SharpNeatViewLib.pdb
+C:\Development\AI\sharpneat-master\sharpneat-master\src\SharpNeatViewLib\bin\Debug\SharpNeatLib.dll
+C:\Development\AI\sharpneat-master\sharpneat-master\src\SharpNeatViewLib\bin\Debug\Redzen.dll
+C:\Development\AI\sharpneat-master\sharpneat-master\src\SharpNeatViewLib\bin\Debug\log4net.dll
+C:\Development\AI\sharpneat-master\sharpneat-master\src\SharpNeatViewLib\bin\Debug\SharpNeatLib.pdb
+C:\Development\AI\sharpneat-master\sharpneat-master\src\SharpNeatViewLib\bin\Debug\Redzen.xml
+C:\Development\AI\sharpneat-master\sharpneat-master\src\SharpNeatViewLib\bin\Debug\log4net.xml
+C:\Development\AI\sharpneat-master\sharpneat-master\src\SharpNeatViewLib\obj\Debug\SharpNeatViewLib.csprojResolveAssemblyReference.cache
+C:\Development\AI\sharpneat-master\sharpneat-master\src\SharpNeatViewLib\obj\Debug\SharpNeat.View.GraphControl.resources
+C:\Development\AI\sharpneat-master\sharpneat-master\src\SharpNeatViewLib\obj\Debug\SharpNeatViewLib.csproj.GenerateResource.Cache
+C:\Development\AI\sharpneat-master\sharpneat-master\src\SharpNeatViewLib\obj\Debug\SharpNeatViewLib.dll
+C:\Development\AI\sharpneat-master\sharpneat-master\src\SharpNeatViewLib\obj\Debug\SharpNeatViewLib.pdb

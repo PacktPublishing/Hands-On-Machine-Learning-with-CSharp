@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SystemInfoLibrary</name>
+    </assembly>
+    <members>
+        <member name="P:SystemInfoLibrary.Hardware.CPU.CPUInfo.Name">
+            <summary>
+            CPU name. (tm) and (r) are removed.
+            </summary>
+        </member>
+        <member name="P:SystemInfoLibrary.Hardware.CPU.CPUInfo.Brand">
+            <summary>
+            CPU vendor.
+            </summary>
+        </member>
+        <member name="P:SystemInfoLibrary.Hardware.CPU.CPUInfo.Architecture">
+            <summary>
+            Could be x86, x64, ARM.
+            </summary>
+        </member>
+        <member name="P:SystemInfoLibrary.Hardware.CPU.CPUInfo.Cores">
+            <summary>
+            Number of CPU cores.
+            </summary>
+        </member>
+        <member name="P:SystemInfoLibrary.Hardware.CPU.CPUInfo.Frequency">
+            <summary>
+            Current CPU frequency, average or of the first core.
+            </summary>
+        </member>
+        <member name="P:SystemInfoLibrary.Hardware.GPU.GPUInfo.Name">
+            <summary>
+            GPU name.
+            </summary>
+        </member>
+        <member name="P:SystemInfoLibrary.Hardware.GPU.GPUInfo.Brand">
+            <summary>
+            GPU vendor.
+            </summary>
+        </member>
+        <member name="P:SystemInfoLibrary.Hardware.GPU.GPUInfo.Resolution">
+            <summary>
+            Current resolution of the primary screen, in HxV format.
+            </summary>
+        </member>
+        <member name="P:SystemInfoLibrary.Hardware.GPU.GPUInfo.RefreshRate">
+            <summary>
+            Current GPU Refrash Rate, in Hz.
+            </summary>
+        </member>
+        <member name="P:SystemInfoLibrary.Hardware.GPU.GPUInfo.MemoryTotal">
+            <summary>
+            Amount of total VRAM memory, in KB.
+            </summary>
+        </member>
+        <member name="P:SystemInfoLibrary.Hardware.HardwareInfo.CPUs">
+            <summary>
+            Returns all available CPUs.
+            </summary>
+        </member>
+        <member name="P:SystemInfoLibrary.Hardware.HardwareInfo.GPUs">
+            <summary>
+            Returns all available GPUs.
+            </summary>
+        </member>
+        <member name="P:SystemInfoLibrary.Hardware.RAM.RAMInfo.Total">
+            <summary>
+            Amount of total RAM memory, in KB.
+            </summary>
+        </member>
+        <member name="P:SystemInfoLibrary.Hardware.RAM.RAMInfo.Free">
+            <summary>
+            Amount of total free RAM memory, in KB.
+            </summary>
+        </member>
+        <member name="P:SystemInfoLibrary.OperatingSystem.OperatingSystemInfo.Architecture">
+            <summary>
+            Could be 16-bit 32-bit, 64-bit, ARM.
+            </summary>
+        </member>
+        <member name="P:SystemInfoLibrary.OperatingSystem.OperatingSystemInfo.Name">
+            <summary>
+            Operating System name.
+            </summary>
+        </member>
+        <member name="P:SystemInfoLibrary.OperatingSystem.OperatingSystemInfo.LocaleID">
+            <summary>
+            Locale ID assigned by <a href="https://msdn.microsoft.com/en-us/goglobal/bb964664.aspx">Microsoft</a>, in DEC.
+            </summary>
+        </member>
+        <member name="P:SystemInfoLibrary.OperatingSystem.OperatingSystemInfo.FrameworkVersion">
+            <summary>
+            .NET Framework version.
+            </summary>
+        </member>
+        <member name="P:SystemInfoLibrary.OperatingSystem.OperatingSystemInfo.JavaVersion">
+            <summary>
+            Java version.
+            </summary>
+        </member>
+    </members>
+</doc>

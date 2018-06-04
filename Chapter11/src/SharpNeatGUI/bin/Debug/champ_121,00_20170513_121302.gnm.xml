@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <ActivationFunctions>
+    <Fn id="0" name="LogisticFunctionSteep" prob="1" />
+  </ActivationFunctions>
+  <Networks>
+    <Network id="5703" birthGen="13" fitness="121">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="out" id="7" />
+      </Nodes>
+      <Connections>
+        <Con id="14" src="6" tgt="7" wght="4.2337951253421666" />
+        <Con id="24" src="3" tgt="7" wght="-0.036032301094383004" />
+        <Con id="28" src="4" tgt="7" wght="1.8619814136327195" />
+      </Connections>
+    </Network>
+  </Networks>
+</Root>

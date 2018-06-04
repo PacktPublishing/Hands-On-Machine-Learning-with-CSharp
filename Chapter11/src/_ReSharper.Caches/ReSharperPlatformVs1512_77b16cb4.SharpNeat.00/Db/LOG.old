@@ -1,0 +1,57 @@
+2018/05/16-06:15:57.297 52bc Delete type=3 #1
+2018/05/16-06:16:05.458 65ac Level-0 table #5: started
+2018/05/16-06:16:06.416 65ac Level-0 table #5: 3829030 bytes OK
+2018/05/16-06:16:06.552 65ac Delete type=0 #3
+2018/05/16-06:16:07.015 65ac Level-0 table #7: started
+2018/05/16-06:16:08.156 65ac Level-0 table #7: 4051353 bytes OK
+2018/05/16-06:16:08.340 65ac Delete type=0 #4
+2018/05/16-06:16:08.870 65ac Level-0 table #9: started
+2018/05/16-06:16:09.692 65ac Level-0 table #9: 3950746 bytes OK
+2018/05/16-06:16:09.866 65ac Delete type=0 #6
+2018/05/16-06:16:10.145 65ac Level-0 table #11: started
+2018/05/16-06:16:11.063 65ac Level-0 table #11: 4256733 bytes OK
+2018/05/16-06:16:11.170 65ac Delete type=0 #8
+2018/05/16-06:16:11.444 65ac Level-0 table #13: started
+2018/05/16-06:16:12.413 65ac Level-0 table #13: 4128334 bytes OK
+2018/05/16-06:16:12.464 65ac Delete type=0 #10
+2018/05/16-06:16:13.030 65ac Level-0 table #15: started
+2018/05/16-06:16:13.849 65ac Level-0 table #15: 3927373 bytes OK
+2018/05/16-06:16:13.863 65ac Delete type=0 #12
+2018/05/16-06:16:13.864 65ac Compacting 4@0 + 1@1 files
+2018/05/16-06:16:14.140 65ac Level-0 table #18: started
+2018/05/16-06:16:14.750 65ac Level-0 table #18: 3827993 bytes OK
+2018/05/16-06:16:14.791 65ac Delete type=0 #14
+2018/05/16-06:16:15.454 65ac Generated table #17: 5012 keys, 2160510 bytes
+2018/05/16-06:16:15.454 65ac Level-0 table #20: started
+2018/05/16-06:16:16.098 65ac Level-0 table #20: 3816858 bytes OK
+2018/05/16-06:16:16.148 65ac Delete type=0 #16
+2018/05/16-06:16:16.749 65ac Generated table #21: 4292 keys, 2167912 bytes
+2018/05/16-06:16:16.749 65ac Level-0 table #23: started
+2018/05/16-06:16:17.385 65ac Level-0 table #23: 4184049 bytes OK
+2018/05/16-06:16:17.420 65ac Delete type=0 #19
+2018/05/16-06:16:18.249 65ac Generated table #24: 4355 keys, 2172592 bytes
+2018/05/16-06:16:18.249 65ac Level-0 table #26: started
+2018/05/16-06:16:18.907 65ac Level-0 table #26: 3995268 bytes OK
+2018/05/16-06:16:18.947 65ac Delete type=0 #22
+2018/05/16-06:16:19.509 65ac Generated table #27: 2739 keys, 2172361 bytes
+2018/05/16-06:16:20.036 65ac Generated table #28: 3549 keys, 2161758 bytes
+2018/05/16-06:16:20.238 65ac Level-0 table #31: started
+2018/05/16-06:16:21.027 65ac Level-0 table #31: 3993872 bytes OK
+2018/05/16-06:16:21.075 65ac Delete type=0 #25
+2018/05/16-06:16:21.456 65ac Generated table #30: 2569 keys, 2192921 bytes
+2018/05/16-06:16:21.914 65ac Generated table #32: 2753 keys, 2190901 bytes
+2018/05/16-06:16:22.368 65ac Generated table #33: 3081 keys, 2165743 bytes
+2018/05/16-06:16:22.821 65ac Generated table #34: 2539 keys, 2168159 bytes
+2018/05/16-06:16:22.984 65ac Generated table #35: 1094 keys, 723227 bytes
+2018/05/16-06:16:22.984 65ac Compacted 4@0 + 1@1 files => 20276084 bytes
+2018/05/16-06:16:23.015 65ac Delete type=2 #7
+2018/05/16-06:16:23.016 65ac Delete type=2 #9
+2018/05/16-06:16:23.017 65ac Delete type=2 #11
+2018/05/16-06:16:23.018 65ac Delete type=2 #13
+2018/05/16-06:16:23.019 65ac Delete type=2 #15
+2018/05/16-06:16:23.020 65ac compacted to: files[ 5 10 1 0 0 0 0 ]
+2018/05/16-06:16:23.020 65ac Expanding@1 1+1 to 10+1
+2018/05/16-06:16:23.020 65ac Compacting 10@1 + 1@2 files
+2018/05/16-06:16:23.438 65ac Generated table #36: 6208 keys, 2147637 bytes
+2018/05/16-06:16:23.438 65ac compacted to: files[ 5 10 1 0 0 0 0 ]
+2018/05/16-06:16:23.438 65ac Waiting after background compaction error: IO error: Deleting DB during compaction

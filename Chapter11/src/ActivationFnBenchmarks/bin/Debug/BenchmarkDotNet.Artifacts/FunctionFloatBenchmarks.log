@@ -1,0 +1,89 @@
+// ***** BenchmarkRunner: Start   *****
+// Found benchmarks:
+//   FunctionFloatBenchmarks.LogisticFunctionSteep1M: DefaultJob
+//   FunctionFloatBenchmarks.PolynomialApproximant1M: DefaultJob
+//   FunctionFloatBenchmarks.QuadraticSigmoid1M: DefaultJob
+//   FunctionFloatBenchmarks.SReLU1M: DefaultJob
+//   FunctionFloatBenchmarks.SReLUShifted1M: DefaultJob
+
+// Validating benchmarks:
+Assembly ActivationFnBenchmarks which defines benchmarks is non-optimized
+// **************************
+// Benchmark: FunctionFloatBenchmarks.LogisticFunctionSteep1M: DefaultJob
+// *** Generate *** 
+// Result = Success
+// BinariesDirectoryPath = C:\Development\AI\SharpNeat\sharpneat-master\sharpneat-master\src\ActivationFnBenchmarks\bin\Debug
+
+// *** Build ***
+BuildScript: C:\Development\AI\SharpNeat\sharpneat-master\sharpneat-master\src\ActivationFnBenchmarks\bin\Debug\BDN.Generated.bat
+// Result = Success
+
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: C:\Development\AI\SharpNeat\sharpneat-master\sharpneat-master\src\ActivationFnBenchmarks\bin\Debug\BDN.Generated.exe 
+
+// Benchmark Process Environment Information:
+// Runtime=Clr 4.0.30319.42000, 32bit LegacyJIT-v4.7.2633.0
+// GC=Concurrent Workstation
+// Job: DefaultJob
+
+Pilot  1: 16 op, 676221984.43 ns, 42.2639 ms/op
+
+IdleWarmup  1: 16 op, 7551.62 ns, 471.9763 ns/op
+IdleWarmup  2: 16 op, 4153.39 ns, 259.5870 ns/op
+IdleWarmup  3: 16 op, 377.58 ns, 23.5988 ns/op
+IdleWarmup  4: 16 op, 755.16 ns, 47.1976 ns/op
+IdleWarmup  5: 16 op, 377.58 ns, 23.5988 ns/op
+IdleWarmup  6: 16 op, 377.58 ns, 23.5988 ns/op
+IdleWarmup  7: 16 op, 377.58 ns, 23.5988 ns/op
+
+IdleTarget  1: 16 op, 377.58 ns, 23.5988 ns/op
+IdleTarget  2: 16 op, 755.16 ns, 47.1976 ns/op
+IdleTarget  3: 16 op, 755.16 ns, 47.1976 ns/op
+IdleTarget  4: 16 op, 3775.81 ns, 235.9882 ns/op
+IdleTarget  5: 16 op, 377.58 ns, 23.5988 ns/op
+IdleTarget  6: 16 op, 377.58 ns, 23.5988 ns/op
+IdleTarget  7: 16 op, 377.58 ns, 23.5988 ns/op
+IdleTarget  8: 16 op, 377.58 ns, 23.5988 ns/op
+IdleTarget  9: 16 op, 377.58 ns, 23.5988 ns/op
+IdleTarget 10: 16 op, 377.58 ns, 23.5988 ns/op
+IdleTarget 11: 16 op, 377.58 ns, 23.5988 ns/op
+IdleTarget 12: 16 op, 377.58 ns, 23.5988 ns/op
+IdleTarget 13: 16 op, 377.58 ns, 23.5988 ns/op
+IdleTarget 14: 16 op, 377.58 ns, 23.5988 ns/op
+IdleTarget 15: 16 op, 0.00 ns, 0.0000 ns/op
+
+MainWarmup  1: 16 op, 670300758.41 ns, 41.8938 ms/op
+MainWarmup  2: 16 op, 686890914.57 ns, 42.9307 ms/op
+MainWarmup  3: 16 op, 950154392.89 ns, 59.3846 ms/op
+MainWarmup  4: 16 op, 686909793.62 ns, 42.9319 ms/op
+MainWarmup  5: 16 op, 969822212.19 ns, 60.6139 ms/op
+MainWarmup  6: 16 op, 871185204.26 ns, 54.4491 ms/op
+
+MainTarget  1: 16 op, 645406084.64 ns, 40.3379 ms/op
+MainTarget  2: 16 op, 779052407.49 ns, 48.6908 ms/op
+MainTarget  3: 16 op, 675185902.03 ns, 42.1991 ms/op
+MainTarget  4: 16 op, 640244929.28 ns, 40.0153 ms/op
+MainTarget  5: 16 op, 865685736.27 ns, 54.1054 ms/op
+MainTarget  6: 16 op, 646248467.96 ns, 40.3905 ms/op
+MainTarget  7: 16 op, 673417689.97 ns, 42.0886 ms/op
+MainTarget  8: 16 op, 706264220.65 ns, 44.1415 ms/op
+MainTarget  9: 16 op, 661411367.76 ns, 41.3382 ms/op
+MainTarget 10: 16 op, 666336534.97 ns, 41.6460 ms/op
+MainTarget 11: 16 op, 883125449.79 ns, 55.1953 ms/op
+MainTarget 12: 16 op, 713082956.82 ns, 44.5677 ms/op
+MainTarget 13: 16 op, 835117152.07 ns, 52.1948 ms/op
+MainTarget 14: 16 op, 692796282.19 ns, 43.2998 ms/op
+MainTarget 15: 16 op, 650025788.79 ns, 40.6266 ms/op
+MainTarget 16: 16 op, 847408925.56 ns, 52.9631 ms/op
+MainTarget 17: 16 op, 951710404.40 ns, 59.4819 ms/op
+MainTarget 18: 16 op, 671406693.30 ns, 41.9629 ms/op
+MainTarget 19: 16 op, 782727026.27 ns, 48.9204 ms/op
+MainTarget 20: 16 op, 864147093.49 ns, 54.0092 ms/op
+MainTarget 21: 16 op, 658228359.51 ns, 41.1393 ms/op
+MainTarget 22: 16 op, 643045447.92 ns, 40.1903 ms/op
+MainTarget 23: 16 op, 729173950.83 ns, 45.5734 ms/op
+MainTarget 24: 16 op, 753061615.94 ns, 47.0664 ms/op
+MainTarget 25: 16 op, 701490841.02 ns, 43.8432 ms/op
+MainTarget 26: 16 op, 669216345.63 ns, 41.8260 ms/op
+Main

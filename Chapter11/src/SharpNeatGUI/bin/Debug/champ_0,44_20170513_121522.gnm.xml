@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <ActivationFunctions>
+    <Fn id="0" name="Linear" prob="0.25" />
+    <Fn id="1" name="BipolarSigmoid" prob="0.25" />
+    <Fn id="2" name="Gaussian" prob="0.25" />
+    <Fn id="3" name="Sine" prob="0.25" />
+  </ActivationFunctions>
+  <Networks>
+    <Network id="6865" birthGen="3" fitness="0.43585645291097758">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="out" id="7" />
+        <Node type="out" id="8" />
+      </Nodes>
+      <Connections>
+        <Con id="9" src="0" tgt="7" wght="-3.4528727573342621" />
+        <Con id="10" src="0" tgt="8" wght="-3.88480281143371" />
+        <Con id="12" src="1" tgt="8" wght="-0.074354126118123531" />
+        <Con id="13" src="2" tgt="7" wght="4.92368092527613" />
+        <Con id="14" src="2" tgt="8" wght="-4.0626940852962434" />
+        <Con id="17" src="4" tgt="7" wght="-2.3005634313449264" />
+        <Con id="21" src="6" tgt="7" wght="-4.8387521138241452" />
+      </Connections>
+    </Network>
+  </Networks>
+</Root>
