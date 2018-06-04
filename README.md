@@ -23,8 +23,8 @@ WitnessSawUberDriver?.Table?.AddLine(0.20, true, false);
 network.Validate();
 ```
 
-You should be familiar with basic development of C# and .NET
-You should have a passion for machine learning and open source projects
+*You should be familiar with basic development of C# and .NET
+*You should have a passion for machine learning and open source projects
 
 ## Related Products
 * [Hands-on Machine Learning with TensorFlow [Video]](https://www.packtpub.com/big-data-and-business-intelligence/hands-machine-learning-tensorflow-video?utm_source=github&utm_medium=repository&utm_campaign=9781789136999)
