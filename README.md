@@ -10,8 +10,8 @@ By the end of this book, you will have developed a machine learning mindset and 
 ## Instructions and Navigation
 All of the code is organized into folders. Each folder starts with a number followed by the application name. For example, Chapter02.
 
-* While doing the code testing on this title please refer the software hardware list
-* For chapter 02 log file, please refer the code bundle from the Packt website
+* While doing the code testing on this title please refer the software hardware list from Packt website
+* The complete code bundle, including Chapter02 log file can be downloaded from the Packt website
 
 
 
@@ -35,5 +35,4 @@ network.Validate();
 
 * [Machine Learning with C++ : Choosing the Right Algorithm [Video]](https://www.packtpub.com/big-data-and-business-intelligence/machine-learning-c-choosing-right-algorithm-video?utm_source=github&utm_medium=repository&utm_campaign=9781788390859)
 
-### Suggestions and Feedback
-[Click here](https://docs.google.com/forms/d/e/1FAIpQLSe5qwunkGf6PUvzPirPDtuy1Du5Rlzew23UBp2S-P3wB-GcwQ/viewform) if you have any feedback or suggestions.
+
