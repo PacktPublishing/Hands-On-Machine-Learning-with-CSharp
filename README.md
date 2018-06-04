@@ -10,7 +10,9 @@ By the end of this book, you will have developed a machine learning mindset and 
 ## Instructions and Navigation
 All of the code is organized into folders. Each folder starts with a number followed by the application name. For example, Chapter02.
 
-While doing the code testing on this title please refer to the software hardware list.
+* While doing the code testing on this title please refer to the software hardware list
+* For chapter 02 log file, please refer the code bundle from the Packt website
+
 
 
 
