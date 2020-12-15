@@ -1,3 +1,8 @@
+## $5 Tech Unlocked 2021!
+[Buy and download this product for only $5 on PacktPub.com](https://www.packtpub.com/)
+-----
+*The $5 campaign         runs from __December 15th 2020__ to __January 13th 2021.__*
+
 # Hands-On Machine Learning with C#
 This is the code repository for [Hands-On Machine Learning with C#](https://www.packtpub.com/big-data-and-business-intelligence/hands-machine-learning-c?utm_source=github&utm_medium=repository&utm_campaign=9781788994941), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the book from start to finish.
 ## About the Book
